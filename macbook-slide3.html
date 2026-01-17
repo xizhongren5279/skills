@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F5F5F7; font-family: Arial, sans-serif;
+  display: flex;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70pt;
+  background: #1D1D1F;
+  display: flex;
+  align-items: center;
+  padding-left: 40pt;
+}
+.header h1 {
+  color: #FFFFFF;
+  font-size: 36pt;
+  margin: 0;
+}
+.content {
+  margin-top: 90pt;
+  margin-left: 40pt;
+  margin-right: 40pt;
+  flex: 1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background: #0071E3;
+  color: #FFFFFF;
+  padding: 12pt;
+  text-align: left;
+  font-size: 16pt;
+  font-weight: bold;
+}
+td {
+  padding: 12pt;
+  border-bottom: 1pt solid #E5E5E5;
+  color: #1D1D1F;
+  font-size: 14pt;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+.highlight {
+  color: #0071E3;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>MacBook 系列对比</h1>
+</div>
+<div class="content">
+  <table>
+    <thead>
+      <tr>
+        <th>型号</th>
+        <th>屏幕尺寸</th>
+        <th>芯片</th>
+        <th>适合人群</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="highlight">MacBook Air</td>
+        <td>13.6" / 15.3"</td>
+        <td>M2 / M3</td>
+        <td>学生、日常办公</td>
+      </tr>
+      <tr>
+        <td class="highlight">MacBook Pro 14"</td>
+        <td>14.2"</td>
+        <td>M3 / M3 Pro / M3 Max</td>
+        <td>专业创作者、开发者</td>
+      </tr>
+      <tr>
+        <td class="highlight">MacBook Pro 16"</td>
+        <td>16.2"</td>
+        <td>M3 Pro / M3 Max</td>
+        <td>高端专业人士</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
