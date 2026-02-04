@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "9bd5a8b02b574904",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "腾讯 尽调分析"
+    },
+    {
+      "id": "c4dab5d2e44a434a",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 20 条\n\n1. Top 10 Asia Pac Ideas Quarterly: Introducing the T...\n2. Is China still under - consuming? Myth vs. truth...\n3. Tencent Holdings Addressing key investor inbounds ...\n4. Tencent (0700): Solid fundamentals and strong LT p...\n5. Tencent Q3: Fly, phoenix, fly...\n\n... 还有 15 条"
+    },
+    {
+      "id": "525057eeaf8b401a",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 15 条\n\n1. 腾讯控股(0700.HK)海外云与游戏双轮驱动，AI赋能构筑新增长引擎...\n2. Top 10 Asia Pac Ideas Quarterly: Introducing the T...\n3. Quick Note - Tencent Holdings (700 HK) (Buy) - Tak...\n4. Tencent Holdings Ltd.: Business Sharing Takeaways...\n5. First Read: Tencent Holdings \"GCC 2026: AI potenti...\n\n... 还有 10 条"
+    },
+    {
+      "id": "7bc9daecc7d74635",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 20 条\n\n1. 博主解包泄密，腾讯获赔900万；反派撞名被起诉，米哈游反诉商业诋毁 | 一周说法...\n2. Tencent Music Entertainment Group2024年报...\n3. 腾讯音乐-SW:2024年报...\n4. TEN Holdings, Inc.季度报告...\n5. TEN Holdings, Inc.季度报告...\n\n... 还有 15 条"
+    },
+    {
+      "id": "1383e652fd2c4160",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 15 条\n\n1. 腾讯控股(0700.HK)4Q25预测更新：增速持续跑赢市场...\n2. 腾讯控股(0700.HK)首次覆盖：守正创新，基业长青...\n3. Initiate coverage at Buy with TP of INR230: We exp...\n4. 腾讯控股(0700.HK)腾讯全球化深耕：前瞻布局游戏潜力赛道，云基建突围东南亚...\n5. 传媒行业：Soulgate招股书梳理：持续实现经调整口径盈利，打造AI+社交新引擎...\n\n... 还有 10 条"
+    },
+    {
+      "id": "12b872171f6f4dbd",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "4bda88ce2e404c8a",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "f2a8b7b38bc34940",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 20 条\n**BUSINESS**: 15 条\n**LEGAL**: 20 条\n**TEAM**: 15 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "a298bb6a24564cc6",
+      "fromNode": "c4dab5d2e44a434a",
+      "fromSide": "bottom",
+      "toNode": "12b872171f6f4dbd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b3f4947f38ac41b8",
+      "fromNode": "c4dab5d2e44a434a",
+      "fromSide": "bottom",
+      "toNode": "4bda88ce2e404c8a",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "915b824e7e2e4565",
+      "fromNode": "525057eeaf8b401a",
+      "fromSide": "bottom",
+      "toNode": "12b872171f6f4dbd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "bc81bce65fd54b9c",
+      "fromNode": "525057eeaf8b401a",
+      "fromSide": "bottom",
+      "toNode": "4bda88ce2e404c8a",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "6855843533034ce3",
+      "fromNode": "7bc9daecc7d74635",
+      "fromSide": "bottom",
+      "toNode": "12b872171f6f4dbd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b071f267429547d6",
+      "fromNode": "7bc9daecc7d74635",
+      "fromSide": "bottom",
+      "toNode": "4bda88ce2e404c8a",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "fd7232a6ca2c4f97",
+      "fromNode": "1383e652fd2c4160",
+      "fromSide": "bottom",
+      "toNode": "12b872171f6f4dbd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "787448c4401d43d4",
+      "fromNode": "1383e652fd2c4160",
+      "fromSide": "bottom",
+      "toNode": "4bda88ce2e404c8a",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}

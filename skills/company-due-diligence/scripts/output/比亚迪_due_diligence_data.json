@@ -1,0 +1,1970 @@
+{
+  "company_name": "比亚迪",
+  "query_date": "2026-01-21",
+  "data": [
+    {
+      "category": "financial",
+      "query": "比亚迪 财务数据 营收 净利润 现金流 资产负债表",
+      "results": [
+        {
+          "title": "BYD: An Underappreciated Global Battery Leader",
+          "file_id": 1,
+          "publish_date": "2026-01-13",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "                \nCASH FLOW STATEMENT\nProfit for the year\n17,713\n                  \n31,344\n                  \n41,588\n                  \n39,095\n                  \n56,355\n                  \n71,396\n                  \n76,743\n                  \nNet cash flows from/(used in) operating activities\n140,838\n               \n169,725\n               \n133,454\n               \n131,431\n               \n190,646\n               \n203,627\n               \n201,868\n               \nPurchases of PPE\n(97,457)\n                 \n(122,094)\n              \n(97,357)\n                 \n(94,531)\n                 \n(106,454)\n              \n(110,692)\n              \n(118,457)\n              \nOther cash flow relating to investing activities\n(23,139)\n                 \n(3,570)\n                   \n(31,723)\n                 \n(3,779)\n                   \n(4,157)\n                   \n(4,573)\n                   \n(5,030)\n                   \nNet cash flows generated from/(used in) investing activities\n(120,596)\n              \n(125,664)\n              \n(129,079)\n              \n(98,310)\n                \n(110,611)\n              \n(115,265)\n              \n(123,487)\n              \nProceeds/(Repayment) of bank loans\n(16,413)\n                 \n18,073\n                  \n(12,440)\n                 \n20,000\n                  \n20,000\n                  \n20,000\n                  \n20,000\n                  \nOther cash flow relating to financing activities\n(3,076)\n                   \n(5,256)\n                   \n2,172\n                    \n63,394\n                  \n17,618\n                  \n21,142\n                  \n25,370\n                  \nNet cash flows generated from/(used in) financing activities\n(19,489)\n                \n12,817\n                  \n(10,268)\n                \n83,394\n                  \n37,618\n                  \n41,142\n                  \n45,370\n                  \nCash and cash equivalents at beginning of the year\n49,820\n                  \n51,182\n                  \n108,512\n                \n102,263\n                \n218,777\n     "
+        },
+        {
+          "title": "Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens",
+          "file_id": 2,
+          "publish_date": "2025-11-14",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "Jefferies"
+          ],
+          "company_name": [
+            "比亚迪电子",
+            "鹏鼎控股"
+          ],
+          "section": "0.2)\n            \n(0.8)\n            \n(1.2)\n            \n0.6\n             \n0.4\n             \n(0.1)\n           \n(0.3)\n           \n(0.6)\n           \n(0.8)\n           \n(1.1)\n           \n(1.4)\n           \n Adj. EBITDA/net interest\n(468.3)\n        \n(145.5)\n        \n376.1\n         \n(109.2)\n        \n502.2\n         \n(132.2)\n        \n48.5\n           \n183.9\n         \n116.5\n         \n123.2\n         \n157.8\n         \n164.0\n         \n149.3\n         \n FCF yield\n3.4%\n-3.4%\n0.4%\n3.1%\n2.3%\n8.7%\n5.3%\n8.6%\n5.4%\n7.7%\n8.4%\n9.9%\n11.0%\n DPS (Rmb)\n0.2\n             \n0.2\n             \n0.1\n             \n0.2\n             \n0.1\n             \n0.2\n             \n0.5\n             \n0.5\n             \n0.7\n             \n0.9\n             \n1.0\n             \n1.1\n             \n1.2\n             \n Dividend yield\n0.7%\n0.6%\n0.2%\n0.7%\n0.3%\n0.5%\n1.7%\n1.7%\n2.2%\n2.7%\n3.1%\n3.5%\n3.8%\nSource: Company data, FactSet, Jefferies estimates\n \nChart 165 - BYDE DCF Summary\n.\n(Rmb m)\n2020A\n2021A\n2022A\n2023A\n2024A\n2025E\n2026E\n2027E\n2028E\n2029E\n2030E\nNet Income\n5,441\n        \n2,310\n        \n1,858\n        \n4,041\n        \n4,266\n        \n4,301\n        \n5,524\n        \n6,882\n        \n8,085\n        \n9,032\n        \n9,770\n        \nPlus\nAfter-tax interest expense\n3\n               \n(2)\n              \n0\n               \n(7)\n              \n21\n             \n6\n               \n11\n             \n12\n             \n10\n             \n10\n             \n12\n             \nD&A\n2,042\n        \n2,557\n        \n2,917\n        \n3,160\n        \n6,398\n        \n5,827\n        \n5,331\n        \n5,243\n        \n5,071\n        \n5,066\n        \n5,162\n        \nLess\nChange in working capital\n5,509\n        \n(5,053)\n       \n(2,568)\n       \n6,098\n        \n3,450\n        \n429\n           \n2,383\n        \n2,306\n        \n2,321\n        \n1,821\n        \n1,524\n        \nCapex\n2,910\n        \n4,045\n        \n4,248\n        \n3,919\n        \n2,855\n        \n3,411\n        \n4,553\n        \n4,199\n        \n4,674\n        \n5,047\n        \n5,360\n        \nUnlevered free cash flow\n(932)\n          \n5,873\n        \n3"
+        },
+        {
+          "title": "3Q results: a slow move off the bottom",
+          "file_id": 3,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Macquarie"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "rt Term Debt\n12.1\n20.7\n22.1\n20.0\nLong Term Debt\n18.1\n17.0\n13.9\n7.9\nOther Liabilities\n310.4\n334.7\n362.3\n392.1\nTotal Liabilities\n584.7\n597.5\n662.6\n715.5\nShareholders' Funds\n185.3\n261.1\n276.0\n294.3\nMinority Interests\n13.4\n13.7\n16.0\n18.8\nOther\n0.0\n0.0\n0.0\n0.0\nTotal S/H Equity\n198.7\n274.8\n292.0\n313.0\nTotal Liab & S/H Funds\n783.4\n872.3\n954.6\n1,029\nNet Debt / Equity (%)\n(36.5)\n(9.0)\n2.2\n(3.0)\nInterest Cover (x)\nNM\nNM\nNM\nNM\nROE (%)\n24.8\n17.4\n19.9\n23.0\nROA (%)\n6.9\n5.8\n7.2\n8.1\nROIC (%)\n52.5\n32.4\n22.3\n23.0\nRatio\n2024A\n2025E\n2026E\n2027E\nRevenue Growth (%)\n29.0\n7.6\n18.9\n12.4\n-\n-\nEBITDA Growth (%)\n42.0\n(9.3)\n35.0\n20.4\n-\n-\nEBIT Growth (%)\n32.5\n(4.6)\n36.3\n22.7\n-\n-\nEPS Growth (adj) (%)\n34.0\n(16.6)\n52.6\n22.8\n-\n-\nGross Profit Margin (%)\n19.4\n18.1\n19.2\n19.6\n-\n-\nEBITDA Margin (%)\n14.9\n12.5\n14.2\n15.2\n-\n-\nEBIT Margin (%)\n6.5\n5.8\n6.6\n7.2\n-\n-\nNet Profit Margin (%)\n5.2\n4.7\n5.4\n5.9\n-\n-\nPayout Ratio (%)\n28.7\n33.3\n72.2\n72.2\n-\n-\nPE (rep) (x)\n22.5\n35.9\n17.7\n14.4\n-\n-\nPE (adj) (x)\n22.5\n26.9\n17.7\n14.4\n-\n-\nEV/EBITDA (x)\n7.6\n8.7\n6.5\n5.4\n-\n-\nEV/EBIT (x)\n17.3\n19.0\n13.9\n11.4\n-\n-\nPrice/Book (x)\n4.9\n3.6\n3.4\n3.2\n-\n-\nTotal Div Yield (%)\n1.3\n1.2\n4.1\n5.0\n-\n-\nCash Flow Analysis\n2024A\n2025E\n2026E\n2027E\nEBITDA\n115.6\n104.8\n141.5\n170.4\nTax Paid\n(8.1)\n(7.3)\n(9.9)\n(12.1)\nChgs in Working Cap\n9.6\n(30.4)\n27.0\n20.4\nOther\n16.4\n9.1\n(13.3)\n(16.2)\nOperating Cashflow\n133.5\n76.2\n145.4\n162.5\nAcquisitions\n(0.1)\n0.0\n0.0\n0.0\nCapex\n(97.4)\n(155.4)\n(140.5)\n(102.0)\nOther\n(31.6)\n(13.5)\n(3.6)\n(4.1)\nInvesting Cashflow\n(129.1)\n(168.9)\n(144.1)\n(106.1)\nDividend (Ordinary)\n(10.1)\n(13.4)\n(38.6)\n(47.4)\nEquity Raised\n14.9\n40.2\n0.0\n0.0\nDebt Movements\n(9.5)\n40.6\n(1.6)\n(8.2)\nOther\n(5.6)\n(17.0)\n6.2\n6.7\nFinancing Cashflow\n(10.3)\n50.4\n(34.0)\n(48.8)\nNet Chg in Cash/Debt\n(6.3)\n(42.0)\n(32.8)\n7.6\nFree Cashflow\n36.1\n(79.2)\n4.9\n60.5\nSource: Company data, Macquarie Research Oct 2025\n31 October 2025\n2\nMacquarie Equity Research\nBYD\nFigure 3 - BYD 3Q25 earnings vs. BBg/MQ estimates\n(mn RMB)\n3Q25\nBBG Cons\nDiff.\nMQe\nDiff.\n2Q25\nQoQ\n3Q24\nYoY\nBBG cons. \nImplied 4Q2"
+        },
+        {
+          "title": "BYD (1211 HK/002594 CH)",
+          "file_id": 4,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "HSBC"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "\n-65,079 \n-66,568 \n-68,835 \n-70,571 \nOperating profit/EBIT \n40,379 \n30,548 \n50,977 \n70,701 \nNet interest \n-1,216 \n3,339 \n3,047 \n4,594 \nPBT \n49,681 \n49,147 \n66,409 \n81,819 \nHSBC PBT \n49,681 \n49,147 \n66,409 \n81,819 \nTaxation \n-8,093 \n-7,183 \n-9,754 \n-12,044 \nNet profit \n40,254 \n40,407 \n54,625 \n67,220 \nHSBC net profit \n40,254 \n40,407 \n54,625 \n67,220 \nCash flow summary (CNYm) \n \n \n \n \nCash flow from operations \n133,454 \n139,630 \n162,579 \n177,855 \nCapex \n-97,360 \n-86,692 \n-84,961 \n-81,972 \nCash flow from investment \n-129,082 \n-86,692 \n-84,961 \n-81,972 \nDividends \n-9,014 \n-9,046 \n-12,230 \n-15,049 \nChange in net debt \n-3,582 \n-84,759 \n-67,939 \n-82,858 \nFCF equity \n37,162 \n52,938 \n77,618 \n95,883 \nBalance sheet summary (CNYm) \n \n \n \nIntangible fixed assets \n42,851 \n58,496 \n71,893 \n82,763 \nTangible fixed assets \n282,242 \n286,720 \n289,450 \n289,980 \nCurrent assets \n370,572 \n468,023 \n560,787 \n659,302 \nCash & others \n102,739 \n187,498 \n255,437 \n338,296 \nTotal assets \n783,356 \n903,981 \n1,018,500 \n1,132,648 \nOperating liabilities \n564,307 \n611,182 \n681,907 \n742,124 \nGross debt \n20,361 \n20,361 \n20,361 \n20,361 \nNet debt \n-82,378 \n-167,137 \n-235,076 \n-317,935 \nShareholders' funds \n185,251 \n257,929 \n300,325 \n352,495 \nInvested capital \n28,620 \n14,560 \n-15,214 \n-48,375 \n \n \nRatio, growth and per share analysis \nYear to \n12/2024a \n12/2025e \n12/2026e \n12/2027e \nY-o-y % change \n \n \n \n \nRevenue \n29.0 \n6.2 \n14.3 \n8.5 \nEBITDA \n38.0 \n-7.9 \n23.4 \n17.9 \nOperating profit \n21.8 \n-24.3 \n66.9 \n38.7 \nPBT \n33.3 \n-1.1 \n35.1 \n23.2 \nHSBC EPS \n34.1 \n-68.0 \n35.2 \n23.1 \nRatios (%) \n \n \n \n \nRevenue/IC (x) \n51.5 \n38.2 \n-2885.8 \n-32.2 \nROIC \n254.8 \n144.7 \n-15340.0 \n-215.4 \nROE \n24.8 \n18.2 \n19.6 \n20.6 \nROA \n6.1 \n4.9 \n6.0 \n6.6 \nEBITDA margin \n13.6 \n11.8 \n12.7 \n13.8 \nOperating profit margin \n5.2 \n3.7 \n5.4 \n6.9 \nEBITDA/net interest (x) \n86.7 \n  \n  \n  \nNet debt/equity \n-41.5 \n-61.3 \n-74.3 \n-85.9 \nNet debt/EBITDA (x) \n-0.8 \n-1.7 \n-2.0 \n-2.3 \nCF from operations/net debt \n  \n  \n  \n  \nPer share data (CNY) \n \n \n \n \nEPS re"
+        },
+        {
+          "title": "BYD (H): 3Q25 miss on lower GPM; net profit per car improved QoQ; new PO HKD137; Buy",
+          "file_id": 5,
+          "publish_date": "2025-10-30",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Bank of America"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "ense \n(38,673) \n(42,730) \n(45,851) \n(51,042) \n(55,260) \nOperating Profit \n33,159 \n40,379 \n23,605 \n40,343 \n48,894 \nNet Interest & Other Income \n4,109 \n9,302 \n18,420 \n16,282 \n15,242 \nAssociates \nNA \nNA \nNA \nNA \nNA \nPretax Income \n37,269 \n49,681 \n42,025 \n56,624 \n64,136 \nTax (expense) / Benefit \n(5,925) \n(8,093) \n(6,304) \n(8,494) \n(9,620) \nNet Income (Adjusted) \n30,041 \n40,254 \n34,068 \n46,034 \n52,081 \nAverage Fully Diluted Shares Outstanding \n8,733 \n8,728 \n9,117 \n9,117 \n9,117 \nKey Cash Flow Statement Data \n \n \n \n \n \nNet Income \n30,041 \n40,254 \n34,068 \n46,034 \n52,081 \nDepreciation & Amortization \n43,553 \n66,906 \n54,444 \n62,381 \n69,245 \nChange in Working Capital \n41,332 \n13,117 \n(8,245) \n18,925 \n(8,320) \nDeferred Taxation Charge \nNA \nNA \nNA \nNA \nNA \nOther Adjustments, Net \n54,799 \n13,177 \n0 \n0 \n0 \nCash Flow from Operations \n169,725 \n133,454 \n80,267 \n127,340 \n113,007 \nCapital Expenditure \n(122,094) \n(97,360) \n(75,000) \n(65,000) \n(50,000) \n(Acquisition) / Disposal of Investments \n(4,041) \n(32,791) \n0 \n0 \n0 \nOther Cash Inflow / (Outflow) \n471 \n1,068 \n0 \n0 \n0 \nCash Flow from Investing \n(125,664) \n(129,082) \n(75,000) \n(65,000) \n(50,000) \nShares Issue / (Repurchase) \n98 \n14,992 \n40,346 \n0 \n0 \nCost of Dividends Paid \n(4,102) \n(10,051) \n(11,737) \n(15,302) \n(17,091) \nCash Flow from Financing \n12,817 \n(10,268) \n28,109 \n(15,802) \n(17,591) \nFree Cash Flow \n47,632 \n36,094 \n5,267 \n62,340 \n63,007 \nNet Debt \n(71,056) \n(72,155) \n(106,031) \n(153,069) \n(198,985) \nChange in Net Debt \n(38,502) \n(1,200) \n(33,876) \n(47,038) \n(45,916) \nKey Balance Sheet Data \n \n \n \n \n \nProperty, Plant & Equipment \n265,630 \n282,242 \n311,607 \n324,798 \n318,238 \nOther Non-Current Assets \n111,796 \n130,542 \n121,732 \n111,161 \n98,475 \nTrade Receivables \n67,431 \n72,749 \n67,774 \n91,356 \n83,945 \nCash & Equivalents \n109,094 \n102,739 \n136,114 \n182,653 \n228,068 \nOther Current Assets \n125,596 \n195,085 \n172,313 \n220,976 \n195,985 \nTotal Assets \n679,548 \n783,356 \n809,541 \n930,944 \n924,711 \nLong-Term Debt \n11,975 \n8,258 \n8,258 \n8,"
+        },
+        {
+          "title": "BYD Company Limited - H: HK Stock Connect Scheme announcement",
+          "file_id": 6,
+          "publish_date": "2025-09-17",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "J.P.Morgan"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "CFF\n25,107\n66,385\n83,664\n100,945\n106,166\n102,770\n94,961\n87,685\n80,913\n74,618\n \nWACC\n15%\nLong-term Growth \nRate\n2%\nPV of FCFFs\n823,215\nPV of Terminal \nValue\n163,163\nEnterprise Value\n986,378\n \nNet Debt\n(102,672)\nEquity Value\n1,089,050\n \nNo. of shares (mn)\n8,724\nImplied value/share \n(Rmb)\n125\nImplied \nvalue/share (HK$)\n136\nSource: J.P. Morgan estimates.\nRisks to Rating and Price Target\nDownside risks to our rating and price target include worse-than-expected sales and \nindustry competition from Chinese and foreign mass-market brands, such as \nVolkswagen, Geely and Great Wall Motor. \n5\nAsia Pacific Equity Research\n17 September 2025\nNick Lai\n(65) 6801-3176\nnick.yc.lai@jpmorgan.com\n     \n     \n     \n     \nBYD Company Limited - H: Summary of Financials\nIncome Statement\nFY23A\nFY24A\nFY25E\nFY26E\nFY27E  Cash Flow Statement\nFY23A\nFY24A\nFY25E\nFY26E\nFY27E\nRevenue\n602,315\n777,102\n850,735\n955,937 1,001,691  Cash flow from operating activities\n169,725\n133,454 147,185 100,873 157,794\nCOGS\n(480,558) (626,047) (693,655) (765,774) (802,795)  \no/w Depreciation & amortization\n43,283\n66,906\n64,860\n67,147\n68,055\nGross profit\n121,757\n151,056\n157,080\n190,163\n198,896  \no/w Changes in working capital\n141,351\n(272)\n42,884 (23,020)\n23,070\nSG&A\n(38,673)\n(42,730)\n(49,996)\n(56,411)\n(56,406)   \n \n \n \n \n \nAdj. EBITDA\n79,076\n116,587\n111,736\n134,747\n147,460  Cash flow from investing activities\n(125,664) (129,082) (82,000) (72,000) (72,000)\nD&A\n(43,283)\n(66,906)\n(64,860)\n(67,147)\n(68,055)  \no/w Capital expenditure\n(122,094)\n(97,360) (82,000) (72,000) (72,000)\nAdj. EBIT\n35,794\n49,681\n46,877\n67,600\n79,405  \nas % of sales\n20.3%\n12.5%\n9.6%\n7.5%\n7.2%\nNet Interest\n0\n0\n0\n0\n0   \n \n \n \n \n \nAdj. PBT\n37,340\n51,738\n46,877\n67,600\n79,405  Cash flow from financing activities\n12,817\n(10,268) (34,668) (32,543) (47,082)\nTax\n(5,925)\n(8,093)\n(7,535)\n(10,954)\n(12,835)  \no/w Dividends paid\n(3,321)\n(27,009) (34,668) (32,543) (47,082)\nMinority Interest\n(1,303)\n(1,334)\n(1,554)\n(1,979)\n(2,398)  \no/w Shares issued/(repurchased)\n98"
+        },
+        {
+          "title": "BYD (1211 HK/002594 CH)",
+          "file_id": 7,
+          "publish_date": "2025-09-17",
+          "type_full_name": "公司研究:模型更新",
+          "institution_name": [
+            "HSBC"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "08 \n82,473 \nHSBC PBT \n49,681 \n51,507 \n66,408 \n82,473 \nTaxation \n-8,093 \n-7,496 \n-9,708 \n-12,093 \nNet profit \n40,254 \n42,407 \n54,571 \n67,534 \nHSBC net profit \n40,254 \n42,407 \n54,571 \n67,534 \nCash flow summary (CNYm) \n \n \n \n \nCash flow from operations \n133,454 \n143,138 \n172,065 \n190,479 \nCapex \n-97,360 \n-88,282 \n-86,440 \n-83,324 \nCash flow from investment \n-129,082 \n-88,764 \n-89,163 \n-86,226 \nDividends \n-9,014 \n-9,494 \n-12,217 \n-15,120 \nChange in net debt \n-3,582 \n-86,904 \n-72,745 \n-91,149 \nFCF equity \n37,162 \n54,856 \n85,625 \n107,155 \nBalance sheet summary (CNYm) \n \n \n \nIntangible fixed assets \n42,851 \n36,823 \n30,795 \n24,767 \nTangible fixed assets \n282,242 \n309,722 \n331,154 \n346,464 \nCurrent assets \n370,572 \n471,694 \n569,756 \n678,360 \nCash & others \n102,739 \n189,643 \n262,388 \n353,537 \nTotal assets \n783,356 \n907,462 \n1,022,613 \n1,142,354 \nOperating liabilities \n564,307 \n612,355 \n683,686 \n749,052 \nGross debt \n20,361 \n20,361 \n20,361 \n20,361 \nNet debt \n-82,378 \n-169,282 \n-242,026 \n-333,176 \nShareholders' funds \n185,251 \n260,205 \n302,558 \n354,973 \nInvested capital \n28,620 \n16,242 \n-14,369 \n-52,997 \n \n \nRatio, growth and per share analysis \nYear to \n12/2024a \n12/2025e \n12/2026e \n12/2027e \nY-o-y % change \n \n \n \n \nRevenue \n29.0 \n8.2 \n14.2 \n8.4 \nEBITDA \n38.0 \n-0.8 \n22.9 \n13.4 \nOperating profit \n21.8 \n-6.3 \n52.3 \n24.7 \nPBT \n33.3 \n3.7 \n28.9 \n24.2 \nHSBC EPS \n34.1 \n-66.4 \n28.7 \n23.8 \nRatios (%) \n \n \n \n \nRevenue/IC (x) \n51.5 \n37.5 \n1025.4 \n-30.9 \nROIC \n254.8 \n167.1 \n5802.2 \n-197.3 \nROE \n24.8 \n19.0 \n19.4 \n20.5 \nROA \n6.1 \n5.0 \n6.0 \n6.6 \nEBITDA margin \n13.6 \n12.4 \n13.4 \n14.0 \nOperating profit margin \n5.2 \n4.5 \n6.0 \n6.9 \nEBITDA/net interest (x) \n86.7 \n  \n  \n  \nNet debt/equity \n-41.5 \n-61.6 \n-76.0 \n-89.3 \nNet debt/EBITDA (x) \n-0.8 \n-1.6 \n-1.9 \n-2.3 \nCF from operations/net debt \n  \n  \n  \n  \nPer share data (CNY) \n \n \n \n \nEPS reported (diluted) \n13.84 \n4.65 \n5.99 \n7.41 \nHSBC EPS (diluted) \n13.84 \n4.65 \n5.99 \n7.41 \nDPS \n3.10 \n1.04 \n1.34 \n1.66 \nBook value \n63.68 \n28.54 \n33.19 \n38.93 \n \n \n \nV"
+        },
+        {
+          "title": "Boyd Group (BYD.TO): Comparing store-level performance between Joe Hudson‘s Collision Center and Boyd‘s existing platform",
+          "file_id": 8,
+          "publish_date": "2025-12-08",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "BOYD GROUP SERVICES"
+          ],
+          "section": "0.6\n15.1\nEBIT growth\n(41.8)\n14.4\n55.6\n31.8\nEPS growth\n(65.5)\n19.5\n101.2\n40.6\nGross margin\n45.5\n46.5\n46.7\n46.8\nEBIT margin\n3.2\n3.6\n5.1\n6.0\nIndustry metrics\nSame store sales growth (%)\n--\n--\n--\n--\nNumber of stores\n--\n--\n--\n--\nSales per avg. store ($ mn)\n--\n--\n--\n--\nSquare footage growth (%)\n--\n--\n--\n--\nSales per avg. sq. foot ($ mn)\n--\n--\n--\n--\nBYD.TO (C$)\nS&P/TSX Composite Index\nJan-25\nApr-25\nJul-25\nOct-25\n180\n200\n220\n240\n260\n280\n22,000\n24,000\n26,000\n28,000\n30,000\n32,000\n3m\n6m\n12m\nAbsolute\n0.4%\n19.7%\n10.8%\nRel. to the S&P/TSX Composite Index\n(6.9)%\n0.7%\n(9.1)%\n8 December 2025\n  2\nGoldman Sachs\nIncome Statement ($ mn)  ___________________________________ \n \nBalance Sheet ($ mn)  _______________________________________ \n \nCash Flow ($ mn)  ___________________________________________ \n \nSource: Company data, Goldman Sachs Research estimates.\n12/24\n12/25E\n12/26E\n12/27E\nTotal revenue\n3,070.3\n3,155.1\n3,456.4\n3,868.8\nCost of goods sold\n(1,673.8)\n(1,689.2)\n(1,842.8)\n(2,058.8)\nSG&A\n(1,061.7)\n(1,090.1)\n(1,173.6)\n(1,302.0)\nR&D\n--\n--\n--\n--\nOther operating inc./(exp.)\n(9.9)\n(18.4)\n(9.1)\n(12.1)\nEBITDA\n325.9\n357.5\n431.0\n495.9\nDepreciation & amortization\n(225.3)\n(243.4)\n(253.7)\n(262.3)\nEBIT\n99.6\n11"
+        },
+        {
+          "title": "BYD's SSS Inflects in 3Q25, With Joe Hudson M&A Poised to Provide 2026 Upside",
+          "file_id": 9,
+          "publish_date": "2025-11-13",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "BMO Capital Markets"
+          ],
+          "company_name": [
+            "BOYD GROUP SERVICES"
+          ],
+          "section": "aluation\n2024A\n2025E\n2026E\n2027E\nEV/EBITDA\n13.6x\n13.2x\n11.3x\nQTR. Adj. EPS\nQ1\nQ2\nQ3\nQ4\n2024A\n$0.44\n$0.56\n$0.15\n$0.29\n2025E\n$0.10a\n$0.50a\n$0.62a\n$0.59\n2026E\n$0.47\n$0.76\n$0.93\n$1.09\n2027E\n$0.74\n$1.05\n$1.24\n$1.47\nEPS (Consensus)Adjusted earnings per unit outstanding (basic).\nNotes: Share price in CAD. Financial statement figures in USD.\nOur Thesis\nWe believe industry fundamentals will recover, with \nindustry claims volumes normalizing at some point. BYD \ncontinues to take market share in a very fragmented \nindustry, and we think increased scanning & calibration \ninternalization, as well as Project 360 positioned the \ncompany well for outsized earnings growth when the \nindustry stabilizes.\nFor disclosure statements, including the Analyst Certification, please refer to page(s) 6 to 10.\n \nBoyd Group Services - Block Summary Model\nIncome Statement\n2024A\n2025E\n2026E\n2027E\nRevenue\n$3,070\n$3,169\n$3,504\n$3,883\nGross Profit\n1,397\n1,467\n1,624\n1,803\nOperating Expenses\n1,062\n1,093\n1,189\n1,320\nAdj. EBITDA\n335\n375\n436\n483\nAdjusted Net Earnings\n31\n43\n91\n125\nAdjusted EPS\n$1.44\n$1.85\n$3.25\n$4.50\nCash Flow Statement\n2024A\n2025E\n2026E\n2027E\nCash Flow From Operations\n313\n341\n338\n375\nCapex\n(77)\n(61)\n(80)\n(80)\nFinancing Cash Flow\n(107)\n66\n70\n82\nFree Cash Flow\n106\n139\n121\n159\nBalance Sheet\n2024A\n2025E\n2026E\n2027E\nTotal Assets\n2,464\n2,668\n2,853\n3,102\nTotal Debt\n507\n585\n585\n585\nTotal Liabilities\n1,633\n1,806\n1,908\n2,039\nRetained Earnings\n181\n200\n284\n402\nTotal Shareholders' Equity\n831\n861\n945\n1,063\nSource: BMO Capital Markets, Company Reports\nValuation\nOur $280 target price is based on a projected EV that is ~10x \nour new 2027E EBITDA estimate of $483 million.\nUpside Scenario\n$376.00\nSSS returns to positive territory sooner than anticipated. \nCost reductions and increased S&C benefit margins more \nthan expected. Store count expansion comes in ahead of \nforecasts. 2026E EBITDA is 20% higher than our forecast. \nMultiple of 12x.\nDownside Scenario\n$125.00\nThe cyclical headwind is worse than our fore"
+        },
+        {
+          "title": "Tokyo Mobility Show: Implications for BYD and broader China auto market into 2026",
+          "file_id": 10,
+          "publish_date": "2025-11-05",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "J.P.Morgan"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "wth), growing profitability (to \nRmb8k per-unit profit vs. Rmb7k in 3Q25) and contained or lower capex. We \nproject that BYD will deliver ~5.3mn units in 2026, with domestic sales seeing \n~8-10% yoy growth, broadly in line with our projection of retail market growth \nof ~10-11% in the NEV space next year.\nTable  1: BYD’s cash flow and cash balance summary\nRmb mn \nQ1 2023\nQ2 2023\nQ3 2023\nQ4 2023\nQ1 2024\nQ2 2024\nQ3 2024\nQ4 \n2024\nQ1 \n2025\nQ2 2025\nQ3 \n2025\nNet income\n4,130\n6,824\n10,413\n8,674\n4,569\n9,062\n11,607\n15,016\n9,155\n6,356\n7,823\nTotal cash from operating \nactivities\n14,466\n67,505\n15,889\n71,865\n10,228\n3,950\n42,095\n77,181\n8,581\n23,253\n9,012\nTotal cash from investing \nactivities\n(22,697)\n(35,839)\n(35,867)\n(31,260)\n(27,270)\n(28,604)\n(30,776)\n(42,432)\n(32,740)\n(41,756)\n(53,076)\nTotal cash from financing \nactivities\n12,050\n(8,000)\n(3,794)\n12,561\n(5,184)\n(7,175)\n397\n1,694\n38,000\n11,657\n52,005\nNet change in cash\n3,709\n24,337\n(23,962)\n53,246\n(22,333)\n(31,952)\n11,583\n36,447\n13,962\n(6,502)\n7,749\nqoq%\n-61%\n556%\n-198%\n-322%\n-142%\n43%\n-136%\n215%\n-62%\n-147%\n-219%\n    \nCapital expenditures\n(32,358)\n(33,579)\n(35,030)\n(21,127)\n(26,094)\n(21,131)\n(22,292)\n(27,842)\n(37,276)\n(43,248)\n(34,409)\nFree cash flow\n(17,996)\n33,331\n(19,373)\n51,212\n(15,984)\n(17,045)\n20,057\n48,913\n(28,573)\n(20,035)\n(26,090)\nqoq%\n-209%\n-285%\n-158%\n-364%\n-131%\n-7%\n-218%\n144%\n-158%\n30%\n-30%\nCash and ST investments\n66,715\n79,613\n66,372\n118,513\n96,182\n71,837\n91,936\n143,439\n153,471\n146,794\n175,249\nqoq%\n30%\n19%\n-17%\n79%\n-19%\n-25%\n28%\n56%\n7%\n-4%\n19%\nNet debt\n(46,762)\n(28,270)\n(48,336)\n(33,834)\n(47,889)\n(30,807)\n(39,599)\n(100,595)\n(110,453)\n(95,134)\n(76,042)\nqoq%\n350%\n-40%\n71%\n-30%\n42%\n-36%\n29%\n154%\n10%\n-14%\n-20%\nSource: Bloomberg Finance L.P., Company data.\n7\nAsia Pacific  Equity Research\n05 November 2025\nNick Lai\n(65) 6801-3176\nnick.yc.lai@jpmorgan.com\n \n \n \n \nPhotos taken at the Tokyo Motor Show and additional \nanalysis of the K-car market \nAnalysis of K-car market \nK-cars, also called Kei-cars, are capped at L 3.40m ×"
+        },
+        {
+          "title": "BYD Electronic 3Q missed; iPhone biz may recover in 2026-27, while auto/server see uncertainty: Reiterate Rating: NEUTRAL | PO: 40.00 HKD | Price: 37.42 HKD",
+          "file_id": 11,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Bank of America"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": ") \n(4,187) \nOperating Profit \n3,705 \n3,927 \n3,892 \n5,642 \n7,303 \nNet Interest & Other Income \n976 \n813 \n1,055 \n1,080 \n1,080 \nAssociates \nNA \nNA \nNA \nNA \nNA \nPretax Income \n4,681 \n4,740 \n4,946 \n6,722 \n8,383 \nTax (expense) / Benefit \n(640) \n(475) \n(502) \n(754) \n(933) \nNet Income (Adjusted) \n4,041 \n4,266 \n4,444 \n5,967 \n7,450 \nAverage Fully Diluted Shares Outstanding \n2,253 \n2,253 \n2,253 \n2,253 \n2,253 \nKey Cash Flow Statement Data \n \n \n \n \n \nNet Income \n4,041 \n4,266 \n4,444 \n5,967 \n7,450 \nDepreciation & Amortization \n2,791 \n5,808 \n6,930 \n8,212 \n8,047 \nChange in Working Capital \n(6,098) \n(3,450) \n7,263 \n(1,424) \n(758) \nDeferred Taxation Charge \nNA \nNA \nNA \nNA \nNA \nOther Adjustments, Net \n9,508 \n90 \n329 \n0 \n0 \nCash Flow from Operations \n10,243 \n6,714 \n18,966 \n12,756 \n14,739 \nCapital Expenditure \n(3,851) \n(2,848) \n(3,800) \n(3,500) \n(3,500) \n(Acquisition) / Disposal of Investments \n0 \n0 \n0 \n0 \n0 \nOther Cash Inflow / (Outflow) \n(13,884) \n193 \n(108) \n0 \n0 \nCash Flow from Investing \n(17,735) \n(2,655) \n(3,908) \n(3,500) \n(3,500) \nShares Issue / (Repurchase) \nNA \nNA \nNA \nNA \nNA \nCost of Dividends Paid \n(372) \n(1,212) \n(1,280) \n(1,333) \n(1,790) \nCash Flow from Financing \n11,823 \n(7,582) \n(3,029) \n"
+        },
+        {
+          "title": "China Auto Industry: First read on BYD and SAIC results and read-through for the market",
+          "file_id": 12,
+          "publish_date": "2025-10-30",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "J.P.Morgan"
+          ],
+          "company_name": [],
+          "section": "Research\n31 October 2025\nNick Lai\n(65) 6801-3176\nnick.yc.lai@jpmorgan.com\n \n \n \n \nBYD's LT PT assessment based on DCF analysis\nRmb mn\n2025E\n2026E\n2027E\n2028E\n2029E\n2030E\n2031E\n2032E\n2033E\n2034E\n2035E\nOperating cash flow\n147,185\n100,873\n157,794\n197,243\n246,554\n283,537\n297,714\n312,599\n328,229\n344,641\n361,873\nLess: Capex\n(82,000)\n(72,000)\n(70,000)\n(70,000)\n(70,000)\n(70,000)\n(60,000)\n(60,000)\n(60,000)\n(60,000)\n(60,000)\nFCFF\n65,185\n28,873\n87,794\n127,243\n176,554\n213,537\n237,714\n252,599\n268,229\n284,641\n301,873\nPV of FCFF\n25,107\n66,385\n83,664\n100,945\n106,166\n102,770\n94,961\n87,685\n80,913\n74,618\n \nWACC\n15%\nLong-Term Growth Rate\n2%\nPV of FCFFs\n823,215\nPV of Terminal Value\n163,163\nEnterprise Value\n986,378\n \nNet Debt\n(102,672)\nEquity Value\n1,089,050\n \nNo. of shares (mn)\n8,724\nImplied Value / Share \n(Chinese Rmb)\n125\nImplied Value / Share \n(HK$)\n136\nSource: J.P. Morgan estimates.\nRisks to Rating and Price Target\nDownside risks to our rating and price target include worse-than-expected sales and \nindustry competition from Chinese and foreign mass-market brands, such as \nVolkswagen, Geely and Great Wall Motor.\n13\nAsia Pacific Equity Research\n31 October 2025\nNick Lai\n(65) 6801-3176\nnick.yc.lai@jpmorgan.com\n \n \n \n \n \nBYD Company Limited - A: Summary of Financials\nIncome Statement\nFY23A\nFY24A\nFY25E\nFY26E\nFY27E  Cash Flow Statement\nFY23A\nFY24A\nFY25E\nFY26E\nFY27E\nRevenue\n602,315\n777,102\n833,989\n937,192 1,032,369  Cash flow from operating activities\n169,725\n133,454\n144,203\n89,942 154,387\nCOGS\n(480,558) (626,047) (680,299) (754,171) (826,650)  \no/w Depreciation & amortization\n43,283\n66,906\n64,860\n67,147\n68,055\nGross profit\n121,757\n151,056\n153,691\n183,021\n205,719  \no/w Changes in working capital\n141,351\n(272)\n43,527 (27,298)\n25,979\nSG&A\n(38,673)\n(42,730)\n(51,662)\n(57,992)\n(62,097)   \n \n \n \n \n \nAdj. EBITDA\n79,076\n116,587\n107,358\n126,718\n139,845  Cash flow from investing activities\n(125,664) (129,082) (82,000) (72,000) (72,000)\nD&A\n(43,283)\n(66,906)\n(64,860)\n(67,147)\n(68,055)  \no/w Capital ex"
+        },
+        {
+          "title": "比亚迪(002594.SZ)公司点评报告：全年销量收官迎2026，提质增效蓄势待发",
+          "file_id": 13,
+          "publish_date": "2026-01-09",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "方正证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": ".44 \n18.71 \n19.17 \n19.49 \n \n \n \n \n  净利率 \n5.35 \n4.23 \n4.78 \n5.14 \n现金流量表 \n2024A 2025E 2026E 2027E  ROE \n21.73 \n13.83 \n15.49 \n16.32 \n经营活动现金流 \n133454 \n156444 \n171348 \n192846  ROIC \n17.49 \n9.81 \n11.45 \n12.16 \n净利润 \n41588 \n37998 \n47613 \n56603  偿债能力 \n \n \n \n \n折旧摊销 \n66906 \n74240 \n84045 \n93847  资产负债率(%) \n74.64 \n72.00 \n71.57 \n70.85 \n财务费用 \n1908 \n2493 \n4125 \n4479  净负债比率(%) \n-31.35 \n-50.10 \n-57.63 \n-68.97 \n投资损失 \n-2299 \n-1796 \n-1993 \n-2203  流动比率 \n0.75 \n0.99 \n1.05 \n1.13 \n营运资金变动 \n21878 \n41559 \n30996 \n32998  速动比率 "
+        },
+        {
+          "title": "China Autos & Shared Mobility: Second Act, First Priority",
+          "file_id": 14,
+          "publish_date": "2025-10-12",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Morgan Stanley"
+          ],
+          "company_name": [],
+          "section": "    \n-Net Debt\n(140,959)\n     \nEquity NPV\n1,114,101\n    \nNOSH\n9,117\n           \nNPV per share\n122.20\n         \nExchange rate\n1.06\n             \nH-share base case (HK$)\n129\n              \nA-share base case (Rmb)\n128\n              \nSource: Company data, Morgan Stanley Research (E) estimates\nM\n Idea\nMorgan Stanley Research\n37\nFinancial Summary \nExhibit 26: BYD: Financial Summary \nIncome Statement\nBalance Sheet\n(Rmb m)\n2023\n2024\n2025E\n2026E\n2027E\n(Rmb m)\n2023\n2024\n2025E\n2026E\n2027E\nAuto Sales Volume\n3,024,417\n   \n4,272,145\n   \n4,705,044\n   \n5,354,146\n   \n5,960,662\n   \nCash and Cash Equivalents\n109,094\n   \n102,739\n   \n120,381\n   \n135,968\n    \n161,753\n      \nRevenue\n602,315\n      \n777,102\n      \n839,322\n      \n952,183\n      \n1,054,412\n   \nFinancial Asset Held for Trading\n9,563\n       \n40,939\n     \n40,939\n     \n40,939\n      \n40,939\n        \nCOGS\n(490,399)\n     \n(626,047)\n     \n(683,189)\n     \n(771,303)\n     \n(850,377)\n     \nTrade Receivables\n61,866\n     \n62,299\n     \n67,287\n     \n76,335\n      \n84,530\n        \nGross Profit\n111,916\n      \n151,056\n      \n156,133\n      \n180,880\n      \n204,035\n      \nPrepayments and Other Receivables\n10,538\n     \n18,040\n     \n19,484\n     \n22,104\n      \n24,478\n"
+        },
+        {
+          "title": "Second Act, First Priority",
+          "file_id": 15,
+          "publish_date": "2025-10-12",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Morgan Stanley"
+          ],
+          "company_name": [],
+          "section": "         \n(7,360)\n          \n(9,742)\n           \n(12,389)\n         \n(21,790)\n       \n(24,179)\n         \n(26,580)\n        \n(29,080)\n        \n(31,663)\n        \n(34,309)\n        \n-Capital Expenditure\n(124,178)\n       \n(101,026)\n     \n(120,382)\n      \n(130,382)\n       \n(140,382)\n       \n(133,363)\n     \n(126,695)\n       \n(120,360)\n      \n(114,342)\n      \n(108,625)\n      \n(103,194)\n      \n+Change in Working Capital\n91,370\n          \n18,699\n         \n144\n              \n23,490\n          \n17,842\n          \n20,701\n        \n23,801\n          \n27,115\n         \n30,749\n         \n34,708\n         \n38,994\n         \nFree Cash Flow\n40,848\n          \n27,366\n         \n(13,192)\n        \n26,596\n          \n39,750\n          \n59,734\n        \n86,837\n          \n113,651\n       \n140,976\n       \n168,700\n       \n196,690\n       \nDiscount factor\n1.00\n              \n1.00\n             \n1.14\n             \n1.29\n              \n1.47\n              \n1.66\n            \n1.89\n              \n2.15\n             \n2.44\n             \n2.77\n             \n3.15\n             \nPV\n40,848\n          \n27,366\n         \n(11,615)\n        \n20,616\n          \n27,127\n          \n35,890\n        \n45,935\n          \n52,930\n         \n57,805\n         \n60,901\n         \n62,514\n         \nTerminal Value\nCorporate NPV\n987,926\n       \n-Minorities\n14,784\n         \n-Net Debt\n(140,959)\n     \nEquity NPV\n1,114,101\n    \nNOSH\n9,117\n           \nNPV per share\n122.20\n         \nExchange rate\n1.06\n             \nH-share base case (HK$)\n129\n              \nA-share base case (Rmb)\n128\n              \nSource: Company data, Morgan Stanley Research (E) estimates\nM\n Idea\nMorgan Stanley Research\n37\nFinancial Summary \nExhibit 26: BYD: Financial Summary \nIncome Statement\nBalance Sheet\n(Rmb m)\n2023\n2024\n2025E\n2026E\n2027E\n(Rmb m)\n2023\n2024\n2025E\n2026E\n2027E\nAuto Sales Volume\n3,024,417\n   \n4,272,145\n   \n4,705,044\n   \n5,354,146\n   \n5,960,662\n   \nCash and Cash Equivalents\n109,094\n   \n102,739\n   \n120,381\n   \n135,968\n    \n161,753\n      \nRevenue\n602,315\n      \n777,102\n      \n839"
+        }
+      ],
+      "timestamp": "2026-01-21T14:07:28.788040",
+      "result_count": 15
+    },
+    {
+      "category": "financial",
+      "query": "比亚迪 业绩预测 机构评级 目标价 盈利预期",
+      "results": [
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "           \n8.4\n                \n9.6\n                \n2025E\n2026E\n2027E\n来源: 公司数据、瑞银证券估算\n我们的2025-27年收入预测较一致预期高1-16%，主要源于我们预计基于公\n司出口管线扩张、持续的技术创新以及消费者心智份额的提升，公司出口销\n量占比持续提升，带动产品结构逐步改善。因此，我们预计2025年利润率\n将暂时下滑，但对2026-27年销量提升和产品结构改善持更乐观态度，导致\n我们的净利润预测区间为较一致预期低1%到高13%。\n价格目标推导\n我们采用分部加总法（对各业务采用不同的企业价值/销售（EV/S）估值倍\n数）对公司进行估值，并考虑8%的A/H估值溢价，得到修正后的目标\n价125.00元(之前为147元）。我们维持公司电动车业务1.0倍的 2026E EV/\nS ，即理想/蔚来/小鹏汽车当前市场一致预期EV/S均值。我们将动力电池业\n务估值倍数从1.0倍的2026E EV/S 提升至1.3倍的2026E EV/S，为宁德时\n代2026E EV/sales均值的50%。我们维持对电池业务继续采用5"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "元 乐观情景\n5.8\n1.8\n20.5%\n9.5\n125元 基准情景\n5.5\n1.6\n19.5%\n8.4\n60元 悲观情景\n5.0\n1.2\n18.5%\n7.0\n来源: 瑞银证券估算\n当前股价面临的风险偏于上档（1.5:1）\n比亚迪的当前股价为95.53元（截至2025年12月15日）\n乐观情景 (150元): 在乐观情景下，我们假设比亚迪2026年国内市场份额提\n升和出口销量增长速度快于预期，总交付量达580万辆。腾势、仰望和方程\n豹成功提升整体价格带，且势头强劲。凭借销量快速增长、产品结构持续改\n善和成本控制执行良好，我们预计2026年汽车毛利率将达20.5%，单车净利\n为9500元，超出市场预期。在乐观情景下，我们得到每股估值150元（基\n于25倍的2026E PE）。\n基准情景 (125元): 在基准情景下，我们预计新车型发布和出口销量加速增长\n将支撑2026年总销量达550万辆。我们预计比亚迪的销量回升、全球技术认\n可度以及出口占比提升将支撑2026年汽车业务毛利率提升至19.5%和单车净\n利为8400元。我们的SOTP目标价为125元，隐含21倍的2026E PE。\n悲观情景"
+        },
+        {
+          "title": "比亚迪(002594.SZ)海外销量增长迅猛，盈利能力开始改善",
+          "file_id": 18,
+          "publish_date": "2025-11-05",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "浦银国际"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "调整比亚迪2025 年\n和2026 年的销量和盈利预测。 \n \n估值：采用分部加总法估值，分别给予比亚迪2025 年新能源汽车、手\n机等电子业务和其他业务32.0x、20.7x 和10.0x 市盈率，得到港股/A 股\n目标价为114.3 港元/人民币117.0 元，分别对应2025 年27.5x/30.9x 目\n标市盈率，潜在升幅18%/20%。 \n \n投资风险：国内和海外新能源汽车行业需求增长不及预期。行业竞争\n持续加剧，降价压力不断提升。公司高端产品和出口的销量不及预期。\n成本下降较慢拖累公司毛利率表现。自动驾驶落地速度较慢，或用户\n体验提升不明显，或受到政策监管等影响。公司研发等费用增长较快\n拖累利润增长。 \n图表 1：盈利预测和财务指标（2023-2027E） \n \n人民币百万元 \n2023 \n2024 \n2025E \n2026E \n2027E \n营收 \n602,315 \n777,102 \n804,538 \n876,166 \n974,622 \n营收同比增速 \n42% \n29% \n4% \n9% \n11% \n毛利率 \n20.2% \n19.4% \n17.9% \n18.6% \n18"
+        },
+        {
+          "title": "比亚迪(002594.SZ)关注核心技术升级与海外需求共振",
+          "file_id": 19,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华泰证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "）60%溢价（前值40%），对\n应26 年25 倍PE（前值25E 27x）；手机部件及组装业务可比公司26 年\n平均PE 31x，给予公司26 年31xPE（前值25E 31x），对应总市值12484\n亿元，调整目标价为136.93 元（前值142.01 元），维持“买入”评级。 \n \n风险提示：全球贸易政策风险；行业竞争加剧；上游原材料大幅涨价。 \n \n \n(13)\n(2)\n10\n22\n33\nOct-24\nFeb-25\nJun-25\nOct-25\n(%)\n比亚迪\n沪深300\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n免责声明和披露以及分析师声明是报告的一部分，请务必一起阅读。 \n2 \n比亚迪 (002594 CH) \n估值：调整目标价为136.93 元 \n采用分部估值法为其估值。以2026 年归母净利润预测为基础。 \n \n汽车业务我们选取长城汽车、理想汽车、赛力斯作为可比公司，可比公司 26 年平均预期\nPE 为15.5x，考虑到比亚迪稳居龙头地位，持续布局高端化和出海业务，且率先实现智驾\n平权。公司在核心技术、产品战略、渠道布局具备比较"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025Q3单车盈利环比提升，期待量利持续修复",
+          "file_id": 20,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "国投证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "性更好，有望贡献业绩增量。 \n 投资建议：考虑公司前三季度业绩表现及市场竞争环境变化，我们调整\n公司2025-2027 年归母净利润预期至360.3、430.5、517.4 亿元，对应EPS\n-13%\n-3%\n7%\n17%\n27%\n2024-10\n2025-02\n2025-06\n2025-10\n比亚迪\n沪深300\n998948009\n \n \n \n \n本报告版权属于国投证券股份有限公司，各项声明请参见报告尾页。                                                      2 \n公司快报/比亚迪 \n \n分别为3.95/4.72/5.67 元。维持6 个月目标价135.70 元/股，对应2026\n年29xPE，维持“买入-A”评级。 \n 风险提示：新能源汽车行业竞争加剧；新品推进力度不及预期等。 \n \n  \n可期 \n \n \n \n[Table_Finance1] \n \n \n \n \n \n \n（亿元） \n \n2023A \n2024A \n2025E \n2026E \n2027E \n主营收入 \n6,023.2 \n7,771.0 \n8,148.2 \n9,784"
+        },
+        {
+          "title": "比亚迪(002594.SZ)公司动态研究：海外出口表现亮眼，高端化+新车型蓄势待发",
+          "file_id": 21,
+          "publish_date": "2026-01-17",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "国海证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "比增速为-11%、40%、25%；EPS 为3.9、5.5、\n6.9 元，对应当前股价的PE 估值分别为24、17、14 倍，考虑2026\n年新一轮产品周期，以及出海继续高增，维持“买入”评级。\n\n风险提示\n汽车（新能源汽车）销量增速不及预期；新能源汽车\n行业竞争加剧风险；新车开发进程不及预期；细分市场竞争加剧风\n证券研究报告\n请务必阅读正文后免责条款部分\n2\n乘用车*戴畅》——2024-11-05\n《比亚迪（002594）公司点评：2024Q2 业绩环比\n大增，公司智能化+高端化加速（买入）*乘用车*\n戴畅》——2024-09-03\n险；智能化发展进度不及预期；应付账款天数较高，自由现金流较\n为紧张。\n[Table_Forcast1]\n预测指标\n2024A\n2025E\n2026E\n2027E\n营业收入（百万元）\n777102\n854931\n995897\n1111742\n增长率(%)\n29\n10\n16\n12\n归母净利润（百万元）\n40254\n35734\n50187\n62647\n增长率(%)\n34\n-11\n40\n25\n摊薄每股收益（元）\n4.42\n3.92\n5.50\n6.87\nROE("
+        },
+        {
+          "title": "BYD - A \"Highlighting overseas expansion & external battery sales;...\"",
+          "file_id": 22,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " UBS-S estimates\nOur 2025-27 revenue estimates are 1-16% above consensus, as we still expect gradual \nproduct mix improvement from a rising volume contribution from exports, based on the \ncompany's expanding export pipeline, continuing technological innovation and \nincreasing consumer mind share. As a result, we expect a temporary margin downturn in \nin 2025E, but are more upbeat on 2026-27E volume ramp-up and product mix \nupgrades, leading our net profit estimate range of 1% below to 13% above consensus.\nPrice target derivation\nWe derive our revised price target of Rmb125.00 (previously Rmb 147) from a SOTP-\nbased methodology with different EV/ sales multiples for each segment and A/H \npremium of 8% (YTD average). We maintain our 1.0x 2026E EV/sales for BYD's EV \nsegment, which is the average EV/sales multiples for Li Auto, Nio and XPeng. We lifted \nBYD's vehicle battery business value from 1.0x to 1.3x 2026E EV/sales, benchmarking \n50% of CATL' average 2026E EV/sales. The 50% conglomerate discount applied on the \nbattery segment is unchanged. Our valuation implies 7.6x 2026E EV/EBITDA.\nBYD - A 16 December 2025\nabc 13\nFigure 25: BYD SOTP Valuation\nBYD S\nOTP V\naluat\nion\nSource: UBS-S estimates\nBYD - A 16 December 2025\nabc 14\nBYD - A\nUBS-S Research\nUpside/Downside Spectrum\nUpside/Downside Spectrum\nPlea\nse r\nefer\n t\no \nth\ne n\narr\nati\nve \nof t\nhis \nrepo\nrt for \nan ex\nplanation\n of th\nis ima\nge/ch\nart\nValue drivers(2026E)\nAnnual unit sales \n(m units)\nExport volume (m \nunits)\nAuto GPM\nNet profit per car \n(Rmb k)\nRmb150 upside\n5.8\n1.8\n20.5%\n9.5\nRmb125 base\n5.5\n1.6\n19.5%\n8.4\nRmb60 downside\n5.0\n1.2\n18.5%\n7.0\nSource: UBS estimates\nRisk to the current share price is skewed (1.5:1) to the upside\nBYD is trading at Rmb95.53 (as of 15 Dec 2025).\nUPSIDE (Rmb150): In our upside scenario, we assume BYD records faster-than-expected \ndomestic market share gains and export volume, totalling 5.8m total unit deliveries in \n2026. The Denza, Yangwang and FCB brands successfully raise their"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年度销量点评：全年销量同比提升，持续推进高端化和出口",
+          "file_id": 23,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "东吴证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " 以上，26 年出货约80GWh。 \n◼ 盈利预测与投资评级：我们预计公司25-27 年归母净利350/509/664 亿\n元（维持原预测值），同比-13%/+45%/+30%，对应PE 为26/18/13x，给\n予26 年25x，目标价140 元，维持“买入”评级。 \n◼ 风险提示：原材料价格波动超市场预期，终端需求不及预期，行业竞争\n加剧。 \n \n-5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\n45%\n2025/1/6\n2025/5/7\n2025/9/5\n2026/1/4\n比亚迪\n沪深300\n \n请务必阅读正文之后的免责声明部分 \n公司点评报告 \n东吴证券研究所 \n \n 2 / 3 \n \n比亚迪三大财务预测表 \n \n[Table_Finance] \n \n \n \n   \n \n \n \n \n资产负债表（百万元） \n2024A \n2025E \n2026E \n2027E  利润表（百万元） \n2024A \n2025E \n2026E \n2027E \n流动资产 \n370,572 \n520,927 \n675,001 \n871,500  营业总收入 \n777,102 \n8"
+        },
+        {
+          "title": "比亚迪股份(1211.HK)25年Q3业绩回暖，11月海外销量超预期",
+          "file_id": 24,
+          "publish_date": "2025-12-15",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "第一上海"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "2 万辆。 \n➢ 目标价134.7 港元，买入评级： 2026 年伴随公司车型的高端化及海外销量\n占比增加预计将持续增厚单车净利润。预计2025-27 年公司综合净利润为\n374/468/589 亿元人民币。分布式估值，给予公司25 年汽车业务25 倍PE 及电\n子业务20 倍PE,综合估值1.1 万亿港元，调整公司2025 年目标价至134.7 港\n元，较目前价格有38%上涨空间，给予买入评级。 \n \n \n第一上海证券有限公司 \n2025 年12 月 \n- 2 -  \n本报告不可对加拿大、日本、美国地区及美国国籍人士发放 \n附录1：主要财务报表 \n人民币 百万元, 财务年度截至12月\n602,315 \n777,102 \n838,465 \n943,616 \n1,086,278 \n毛利\n121,757 \n151,056 \n157,201 \n186,516 \n227,899 \n毛利率 (%)\n20.2%\n19.4%\n18.7%\n19.8%\n21.0%\n税金及附加\nEBITDA 利率 (%)\n11.2%\n12.7%\n12.0%\n12.0%\n11.8%\n销售及管理费用\n净利率(%)\n5.0%\n"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年11月销量点评：11月销量环比提升，继续加快高端化和出口",
+          "file_id": 25,
+          "publish_date": "2025-12-02",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "东吴证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "\n净利350/509/664 亿元（原预测值为450/589/710 亿元），同增-\n13%/45%/30%，对应PE 为25/17/13x，给予26 年25x，目标价140 元，\n维持“买入”评级。 \n◼ 风险提示：原材料价格波动超市场预期，终端需求不及预期，行业竞争\n加剧。 \n \n-9%\n-4%\n1%\n6%\n11%\n16%\n21%\n26%\n31%\n36%\n41%\n2024/12/2\n2025/4/2\n2025/8/1\n2025/11/30\n比亚迪\n沪深300\n \n请务必阅读正文之后的免责声明部分 \n公司点评报告 \n东吴证券研究所 \n \n 2 / 3 \n \n比亚迪三大财务预测表 \n \n[Table_Finance] \n \n \n \n   \n \n \n \n \n资产负债表（百万元） \n2024A \n2025E \n2026E \n2027E  利润表（百万元） \n2024A \n2025E \n2026E \n2027E \n流动资产 \n370,572 \n520,927 \n675,001 \n871,500  营业总收入 \n777,102 \n839,362 \n962,019 1,107,275 \n货币资金"
+        },
+        {
+          "title": "比亚迪(002594.SZ)公司点评报告：全年销量收官迎2026，提质增效蓄势待发",
+          "file_id": 13,
+          "publish_date": "2026-01-09",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "方正证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "%，占比提升至\n22.7%。（3）纯电表现亮眼：全年纯电销量达225.7 万辆，占比近50%。 \n技术落地、出海加速兑现，2026 年蓄势待发。2026 年，技术端公司有望推\n动长续航混动、兆瓦闪充、智驾下沉等落地，强化车型竞争力；出海端，公\n司泰国、乌兹别克斯坦、巴西工厂已投产，匈牙利工厂即将运行，本土化产\n能释放、新兴市场上量有望支撑完成150 万辆出海目标，贡献显著利润增\n量。在经历持续回调后，我们建议关注公司股价筑底蓄势后的上行机会。 \n投资建议：预计2025-2027 年实现营收8981.5/9965.4/11012.9 亿元，同\n比+15.6%/+11.0%/+10.5%，实现归母净利润368.2/462.8/550.2 亿元，同比\n-8.5%/+25.7%/+18.9%，维持“推荐”评级。 \n风险提示：地缘政治冲突风险；行业竞争加剧风险；内部改革受挫风险。 \n    \n[Table_ProFitForecast] \n盈利预测 （人民币） \n单位/百万 \n2024A \n2025E \n2026E \n2027E \n营业总收入 \n777102 \n898147 \n996535 \n1"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：全年销量460万辆，方程豹与出口表现亮眼",
+          "file_id": 26,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华创证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "25-27 年核心预测：1）销量：460/527/585 万辆，\n同比+8%/+14%/+11%，原值466/523/572 万辆；2）营收：8,056/9,436/10,705 亿\n元，同比+4%/+17%/+14%，原值8,195/9,729/11,026 亿元；3）净利：352/470/600\n亿元，同比-13%/+34%/+28%，原值356/480/611 亿元；4）EPS：3.86/5.16/6.58\n元，原值3.91/5.26/6.70 元。给予2026 年1.1 倍PS，调整目标市值至1.04 万\n亿元，调整A 股目标价至113.8 元。考虑A/H 溢价1.1 倍，调整港股目标"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)手机、汽车、服务器业务将推动2026年成长",
+          "file_id": 27,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "浦银国际"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "浦银国际研究 \n \n \n \n公司研究 | 科技行业 \n本研究报告由浦银国际证券有限公司分析师编制，请仔细阅读本报告最后部分的分析师披露、商业关系披露及免责声明。 \n比亚迪电子（285.HK）：手机、汽车、\n服务器业务将推动2026 年成长 \n调整2025 年盈利预测，基本维持2026 年盈利预测。调整目标价至\n43.7 港元，潜在升幅17%，维持“买入”评级。 \n 重申比亚迪电子的“买入”评级：虽然比亚迪电子今年三季度的收\n入和利润同比有所下滑，但是我们预期公司四季度收入将保持季节\n性增长。展望2026 年，公司在消费电子、汽车、服务器三个业务板\n块将保持较强的成长动能。因此，我们对公司明年的基本面成长保持\n乐观的判断。比亚迪电子目前市盈率为11.5x，已充分消化悲观预期。 \n 比亚迪电子三季度业绩：今年三季度，比亚迪电子收入为人民币427\n亿元，同比环比均下降2%。公司毛利率为6.9%，同比下降1.6 个\n百分点，环比下降0.5 个百分点。其中，大客户零部件收入同比下\n降导致产品组合变化，因而毛利率有所下降。公司录得净利润14.07\n亿元，同比下降9%，环比增长27%。我们预计四"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年三季报点评：25Q3净利润环比提升，出海与细分赛道驱动成长",
+          "file_id": 28,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "国泰海通"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "点： \n \n[Table_Summary] \n \n 维持“增持”评级。考虑公司25Q3 业绩表现，我们调整公司2025-\n2027 年的EPS 预测值至3.80/5.99/7.69 元（原值为4.86/6.00/7.46\n元）。考虑到公司是全球新能源头部车企，看好出海业务、细分赛道\n驱动增长，我们给予公司2026 年21 倍PE，对应目标价125.79 元。 \n \n比亚迪发布2025 年三季报。公司25Q3 实现营收1950 亿元，同比-\n3%，环比-3%；归母净利润78 亿元，同比-33%，环比+23%。 \n \n费用率整体改善，归母净利润环比提升。根据公司三季报，公司销\n售/ 管理/ 研发费"
+        },
+        {
+          "title": "招财日报：每日投资策略",
+          "file_id": 29,
+          "publish_date": "2025-10-31",
+          "type_full_name": "晨会资讯:定期资讯",
+          "institution_name": [
+            "招银国际"
+          ],
+          "company_name": [],
+          "section": "FY25E P/EV 和1.2 倍\nFY25E P/B，重申“买入“评级。（链接） \n \n \n比亚迪（1211 HK/002594 CH，买入/买入，目标价：125 港元/125 元人民\n币）- 逐季复苏 \n3Q25 盈利不及预期：比亚迪3Q25 收入同比下降3%，符合预期，毛利率环\n比扩大0.7 个百分点、同比收窄2.5 个百分点至17.6%，低于我们预测；净\n利润环比上升23%、同比下降33%至78 亿元，对应单车净利润约7,000 元，\n相比2Q25 的5,600 元有所改善，但恢复速度慢于我们此前的预期。 \n \n4Q25 展望：比亚迪3Q25 继续削减经销商库存，4Q25 能够更好地轻装上阵。\n我们将全年的销量预测从490 万台下调至461 万台，对应4Q25 销量将环比\n提升21%至134 万台。虽然4Q 将面临年终奖和渠道返利的扰动，我们预计\n比亚迪4Q25 毛利率有望逐渐恢复至18.0%，对应4Q25 单车净利润有望升\n至约7,700 元。 \n \n2026-27 年展望：我们认为比亚迪自2Q25 以来盈利能力弱化可以看作是今\n年中国市场竞争进一步深化的体现。随着更多车企"
+        }
+      ],
+      "timestamp": "2026-01-21T14:07:43.517455",
+      "result_count": 15
+    },
+    {
+      "category": "financial",
+      "query": "比亚迪 财务风险 盈利压力 成本控制 债务",
+      "results": [
+        {
+          "title": "比亚迪(002594.SZ)海外销量增长迅猛，盈利能力开始改善",
+          "file_id": 18,
+          "publish_date": "2025-11-05",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "浦银国际"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "调整比亚迪2025 年\n和2026 年的销量和盈利预测。 \n \n估值：采用分部加总法估值，分别给予比亚迪2025 年新能源汽车、手\n机等电子业务和其他业务32.0x、20.7x 和10.0x 市盈率，得到港股/A 股\n目标价为114.3 港元/人民币117.0 元，分别对应2025 年27.5x/30.9x 目\n标市盈率，潜在升幅18%/20%。 \n \n投资风险：国内和海外新能源汽车行业需求增长不及预期。行业竞争\n持续加剧，降价压力不断提升。公司高端产品和出口的销量不及预期。\n成本下降较慢拖累公司毛利率表现。自动驾驶落地速度较慢，或用户\n体验提升不明显，或受到政策监管等影响。公司研发等费用增长较快\n拖累利润增长。 \n图表 1：盈利预测和财务指标（2023-2027E） \n \n人民币百万元 \n2023 \n2024 \n2025E \n2026E \n2027E \n营收 \n602,315 \n777,102 \n804,538 \n876,166 \n974,622 \n营收同比增速 \n42% \n29% \n4% \n9% \n11% \n毛利率 \n20.2% \n19.4% \n17.9% \n18.6% \n18"
+        },
+        {
+          "title": "比亚迪(A) (002594.SZ): 2025年三季度简要分析：销量下滑导致业绩低于预期，但降本带动利润率环比改善",
+          "file_id": 30,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "供\n业务部门明细，但我们认为部分原因在于三季度销量同比/季环比下降2%/3%，以及\n产品结构倾向于低价车型（例如元UP/海豹05/海豹06）；(2) 由于2025年三季度长期\n债务从二季度的人民币50亿元增至660亿元，利息支出高于预期，但在应付账款天数\n缩短的背景下，总资产负债率保持稳定；(3) 资产及信用减值损失高于预期。好于预期\n的方面：(1) 毛利率为17.6%，高于高盛预测的17.4%，较2025年二季度的16.3%环比\n改善，可能得益于物料清单(BOM)成本的持续削减；(2) 营业费用较高盛预测低3%，\n因为比亚迪在环境充满挑战之际仍成功实现控费，带动费用削减幅度高于收入降幅；\n(3) 得益于更严格的成本控制措施，营业利润率和净利润率双双季环比提高。 \n我们将于香港时间11月6日下午3:30主持比亚迪管理层与投资者之间的电话会议。请使\n用以下链接注册：\nhttps://goldmansachs.zoom.us/webinar/register/WN_wOdj8EkbT_WHf92Ra4Xg \nAA \n我们预计投资者的主要问题将集中于：(1) 2025年最后两个月及2026年"
+        },
+        {
+          "title": "比亚迪(002594.SZ)公司动态研究：海外出口表现亮眼，高端化+新车型蓄势待发",
+          "file_id": 21,
+          "publish_date": "2026-01-17",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "国海证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "比增速为-11%、40%、25%；EPS 为3.9、5.5、\n6.9 元，对应当前股价的PE 估值分别为24、17、14 倍，考虑2026\n年新一轮产品周期，以及出海继续高增，维持“买入”评级。\n\n风险提示\n汽车（新能源汽车）销量增速不及预期；新能源汽车\n行业竞争加剧风险；新车开发进程不及预期；细分市场竞争加剧风\n证券研究报告\n请务必阅读正文后免责条款部分\n2\n乘用车*戴畅》——2024-11-05\n《比亚迪（002594）公司点评：2024Q2 业绩环比\n大增，公司智能化+高端化加速（买入）*乘用车*\n戴畅》——2024-09-03\n险；智能化发展进度不及预期；应付账款天数较高，自由现金流较\n为紧张。\n[Table_Forcast1]\n预测指标\n2024A\n2025E\n2026E\n2027E\n营业收入（百万元）\n777102\n854931\n995897\n1111742\n增长率(%)\n29\n10\n16\n12\n归母净利润（百万元）\n40254\n35734\n50187\n62647\n增长率(%)\n34\n-11\n40\n25\n摊薄每股收益（元）\n4.42\n3.92\n5.50\n6.87\nROE("
+        },
+        {
+          "title": "比亚迪(002594.SZ)三季度业绩有喜有忧，研发加码与全球扩张驱动长期成长",
+          "file_id": 31,
+          "publish_date": "2025-11-02",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "海通国际"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " \n19.1% \nROE \n21.7% \n12.4% \n15.2% \n16.1% \nP/E \n23 \n28 \n21 \n17 \n \n资料来源：公司信息, HTI \n \n(Please see APPENDIX 1 for English summary) \n三季度业绩喜忧参半：盈利承压但长期成长动能犹存。比亚迪发\n布三季报，整体呈现“量增利降”特征。2025 年第三季度实现营业\n收入1949.9 亿元，同比下降3.1%；归母净利润78.2 亿元，同比下\n降32.6%，虽环比改善，但盈利承压。9 月新能源汽车销量39.63\n万辆，同比下降5.5%，为年内首次下滑，其中王朝、海洋系列\n35.6 万辆，方程豹、腾势、仰望合计约4.4 万辆，海外销量7.1 万\n辆。前三季度公司累计销量326 万辆，同比增长18.6%，营收\n5662.7 亿元，同比增长13%，净利润233.3 亿元，同比下降8%。\n经营现金流净额408.5 亿元，同比下降27.4%；存货余额达1529.7\n亿元，较年初增31.8%，反映产销节奏调整压力。研发投入持续高\n企，前三季度达437.5 亿元，同比增长31.3%，累计已超"
+        },
+        {
+          "title": "比亚迪(002594)：三季度利润韧性显现 环比展望向上可期",
+          "file_id": 32,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "方正证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "后续有望筑底向上。行业持续内卷下终端销售价格承\n压，2025Q3 比亚迪汽车单车ASP 为13.77 万元，较Q1/Q2 分别-0.70/-0.86\n万元，而Q3 单车归母净利润（扣除比电）为0.62 万元，较Q1/Q2 分别-\n0.26/+0.12 万元，变化幅度显著优于ASP 降幅，体现单车利润韧性。因此，\n我们认为，随着反内卷推动下行业端逐步筑底改善，后续伴随成本、规模、\n出海、技术创新，预计公司四季度及2026 年单车利润将维持上行趋势。 \n投资建议：预计2025-2027 年实现营收8981.5/9965.4/11012.9 亿元，同\n比+15.6%/+11.0%/+10.5%，实现归母净利润368.2/462.8/550.2 亿元，同比\n-8.5%/+25.7%/+18.9%，维持“推荐”评级。 \n风险提示：地缘政治冲突风险；行业竞争加剧风险；内部改革受挫风险。 \n    \n[Table_ProFitForecast] \n盈利预测 （人民币） \n单位/百万 \n2024A \n2025E \n2026E \n2027E \n营业总收入 \n777102 \n898147 \n996535 "
+        },
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " (60元): 在悲观情景下，竞争加剧导致国内外交付量低于预期。比\n亚迪未能扩大其价格带，高端品牌订单放缓，2026年出口销量占比不\n足14%。收入增速放缓导致短期利润率和自由现金流承压。在悲观情景下，\n我们得到每股估值60元（基于15倍的2026E PE）。\n比亚迪A 2025 年 12 月 16 日\nabc 15\n*UBS Evidence Lab 是一个卖方专家团队，工作范围覆盖众多细分领域，创建富于洞见\n的数据集。 专家们通过应用各种工具和技术来收集、清理和连接每月数十亿项数据，进\n而将其转化为可用于投资研究的论据。自2014年以来，瑞银全球研究分析师利用UBS \nEvidence Lab的专业支持，并基于后者对公司、行业及主题的数据集，撰写了数千篇特色\n鲜明的瑞银全球研究报告。UBS Evidence Lab不提供投资建议或意见，仅提供现成的数据\n集，供瑞银全球研究和客户进一步分析。所有已发布的UBS Evidence Lab内容均可通\n过UBS Neo获得。所提供内容的数量和类型可能有所不同。若您希望讨论访问权限，请与\n您的瑞银销售代表联系。\nGlobal Electric"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年度销量点评：全年销量同比提升，持续推进高端化和出口",
+          "file_id": 23,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "东吴证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "\n \n \n \n \n非流动负债 \n88,682 \n113,265 \n134,265 \n155,265  每股收益-最新股本摊薄(元) \n4.42 \n3.84 \n5.59 \n7.28 \n长期借款 \n8,258 \n28,258 \n48,258 \n68,258   \n \n \n \n \n应付债券 \n0 \n0 \n0 \n0  EBIT \n49,978 \n42,864 \n62,848 \n82,617 \n租赁负债 \n9,876 \n10,876 \n11,876 \n12,876  EBITDA \n116,884 \n129,800 \n155,634 \n180,303 \n其他非流动负债 \n70,549 \n74,131 \n74,131 \n74,131   \n \n \n \n \n负债合计 \n584,668 \n651,000 \n739,902 \n844,974  毛利率(%) \n19.44 \n17.92 \n18.97 \n19.41 \n归属母公司股东权益 \n185,251 \n266,384 \n302,033 \n348,508  归母净利率(%) \n5.18 \n4.17 \n5.29 \n6.00 \n少数股东权益 \n13,437 "
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "们预计比亚迪的销量回升、全球技术认\n可度以及出口占比提升将支撑2026年汽车业务毛利率提升至19.5%和单车净\n利为8400元。我们的SOTP目标价为125元，隐含21倍的2026E PE。\n悲观情景 (60元): 在悲观情景下，竞争加剧导致国内外交付量低于预期。比\n亚迪未能扩大其价格带，高端品牌订单放缓，2026年出口销量占比不\n足14%。收入增速放缓导致短期利润率和自由现金流承压。在悲观情景下，\n我们得到每股估值60元（基于15倍的2026E PE）。\n比亚迪A 2025 年 12 月 16 日\nabc 15\n*UBS Evidence Lab 是一个卖方专家团队，工作范围覆盖众多细分领域，创建富于洞见\n的数据集。 专家们通过应用各种工具和技术来收集、清理和连接每月数十亿项数据，进\n而将其转化为可用于投资研究的论据。自2014年以来，瑞银全球研究分析师利用UBS \nEvidence Lab的专业支持，并基于后者对公司、行业及主题的数据集，撰写了数千篇特色\n鲜明的瑞银全球研究报告。UBS Evidence Lab不提供投资建议或意见，仅提供现成的数据\n集，供瑞银全球研究和客户进一步分"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：全年销量460万辆，方程豹与出口表现亮眼",
+          "file_id": 26,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华创证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "\n主要财务比率 \n \n \n \n \n流动负债合计 \n495,985 \n459,129 \n501,688 \n524,437 \n \n2024A \n2025E \n2026E \n2027E \n长期借款 \n8,258 \n11,578 \n13,678 \n15,502 \n成长能力 \n \n \n \n \n应付债券 \n0 \n0 \n0 \n0 \n营业收入增长率 \n29.0% \n3.7% \n17.1% \n13.5% \n其他非流动负债 \n80,425 \n86,889 \n94,343 \n102,542 \nEBIT 增长率 \n42.2% \n-20.2% \n43.7% \n26.5% \n非流动负债合计 \n88,682 \n98,467 \n108,021 \n118,045 \n归母净利润增长率 \n34.0% \n-12.5% \n33.6% \n27.5% \n负债合计 \n584,668 \n557,596 \n609,709 \n642,482 \n获利能力 \n \n \n \n \n归属母公司所有者权益 \n185,251 \n260,113 \n296,591 \n342,457 \n毛利率 \n19.4% \n18.2% \n18.2% \n18.8% \n少数股东"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年11月销量点评报告：出口销量环比+57.2%，看好出海带动盈利能力修复",
+          "file_id": 33,
+          "publish_date": "2025-12-03",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华龙证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "3,812\n偿债能力\n折旧摊销\n42,162\n64,263\n44,598\n51,231\n60,025\n资产负债率(%)\n77.86\n74.64\n74.71\n74.36\n75.35\n财务费用\n-1,475\n1,216\n-3,479\n-3,195\n-3,064\n净负债比率(%)\n-13.56\n-2.21\n-42.33\n-41.37\n-73.02\n投资损失\n-1,635\n-2,291\n-2,259\n-2,602\n-3,060\n流动比率\n0.67\n0.75\n0.83\n0.85\n0.88\n营运资金变动\n92,494\n21,471\n58,785\n-4,301\n87,709\n速动比率\n0.42\n0.45\n0.57\n0.55\n0.62\n其他经营现金流\n6,835\n7,208\n2,864\n2,364\n2,865\n营运能力\n投资活动现金流\n-125,664\n-129,082\n-41,980\n-59,407\n-78,372\n总资产周转率\n1.03\n1.06\n1.04\n1.09\n1.15\n资本支出\n122,094\n97,360\n41,632\n59,045\n78,244\n应收账款周转率\n11.96\n12.52\n"
+        }
+      ],
+      "timestamp": "2026-01-21T14:08:04.630924",
+      "result_count": 10
+    },
+    {
+      "category": "business",
+      "query": "比亚迪 业务模式 市场份额 主要客户 供应商",
+      "results": [
+        {
+          "title": "BYD Company Limited \"Highlighting overseas expansion & external battery...\"",
+          "file_id": 34,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "for 2026, which could bring in an additional Rmb15bn in net profit vs. 2025E. Its large \nbattery external revenue should expand to 1/3 of total revenue in 2025E from 1/5 in 2024, driven by \nboth external EV and ESS supply. At 6x 2026E EV/EBITDA, we believe the stock is undervalued in the \nstrong ESS growth environment. We reiterate our Buy rating. \n1)  Management targets 1.6m unit overseas sales in 2026, representing a c700k increase in unit sales \nvs. 2025E. BYD  has market share of 1-2% in Europe vs. Toyota's 7-8% and Hyundai's 8-9%. 2) BYD's \nregional managing director for Europe, Maria Grazia Davino, announced that by the end of 2025, \nBYD will reach 1,000 POS in Europe and 2,000 by 2026. 3) In 9M25, BYD supplied 24GWh of EV \nbatteries to carmakers including Xiaomi, XPeng Mona, FAW Toyota, Nio Onvo and Stellantis, almost \ndoubling the 13GWh in 2024, according to GGII. 4) According to ICCSINO, BYD produced 46GWh of \nESS batteries in 10M25, 91% higher YoY due to ESS demand and accelerating order intake. This was \nc40% of CATL's production of 119GWh in 10M25. \nBYD's battery business volume is around half of CATL's volume and about twice of LGES’s, while \nBYD's market cap is now around 46% of CATL-H and less than 2x of  LGES’s. If the battery businesses \nare valued on the same scale, this would imply BYD's EV, electronics and semiconductors businesses \nare at marginal implied value, suggesting investors have largely overlooked BYD's battery business. \nOur price target of HK$130.00 is based on SOTP, applying 1.0x 2026E EV/sales for BYD's EV segment \nand 1.3x 2026E EV/sales for the vehicle battery business, benchmarking to industry peers and \napplying a 50% conglomerate discount. Please refer to the narrative of this report for an explanation of this image/chart\nValue drivers \n(2026E)\nAnnual unit sales (m \nunits)\nExport volume (m \nunits)\nAuto GPM (%)\nNet profit per car \n(Rmb k)\nHK$160.00 upside\n5.8\n1.8\n20.5%\n9.5\nHK$130.00 base\n5.5\n1.6\n19.5%\n8.4\nHK$60.00 downside\n5.0\n1"
+        },
+        {
+          "title": "BYD - A \"Highlighting overseas expansion & external battery sales;...\"",
+          "file_id": 22,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "ent targets 1.6m overseas \nEV unit sales for 2026, which could bring in an additional Rmb15bn in net profit vs. 2025E. Its large \nbattery external revenue should expand to 1/3 of total revenue in 2025E from 1/5 in 2024, driven by \nboth external EV and ESS supply. At 6x 2026E EV/EBITDA, we believe the stock is undervalued in the \nstrong ESS growth environment. We reiterate our Buy rating.\n1) Management targets 1.6m unit overseas sales in 2026, representing a c700k increase in unit sales \nvs. 2025E. BYD has market share of 1-2% in Europe vs. Toyota's 7-8% and Hyundai's 8-9%. 2) BYD's \nregional managing director for Europe, Maria Grazia Davino, announced that by the end of 2025, \nBYD will reach 1,000 POS in Europe and 2,000 by 2026. 3) In 9M25, BYD supplied 24GWh of EV \nbatteries to carmakers including Xiaomi, XPeng Mona, FAW Toyota, Nio Onvo and Stellantis, almost \ndoubling the 13GWh in 2024, according to GGII. 4) According to ICCSINO, BYD produced 46GWh of \nESS batteries in 10M25, 91% higher YoY due to ESS demand and accelerating order intake. This was \nc40% of CATL's production of 119GWh in 10M25.\nBYD's battery business volume is around half of CATL's volume and about twice of LGES’s, while \nBYD's market cap is now around 50% of CATL-A and c2x of LGES’s. If the battery businesses are \nvalued on the same scale, this would imply BYD's EV, electronics and semiconductors businesses are \nat marginal implied value, suggesting investors have largely overlooked BYD's battery business. Our \nprice target of Rmb125.00 is based on SOTP, applying A/H premium of 8%, 1.0x 2026E EV/sales for \nBYD's EV segment and 1.3x 2026E EV/sales for the vehicle battery business, benchmarking to \nindustry peers and applying a 50% conglomerate discount.\nPlea\nse r\nefer\n t\no \nth\ne n\narr\nati\nve \nof t\nhis \nrepo\nrt for \nan ex\nplanation\n of th\nis ima\nge/ch\nart\nValue drivers \n(2026E)\nAnnual unit sales (m \nunits)\nExport volume (m \nunits)\nAuto GPM\nNet profit per car \n(Rmb k)\nRmb150 upside\n5.8\n1.8\n20.5%\n9."
+        },
+        {
+          "title": "BYD Company Limited: Highlighting overseas expansion & external battery sales; reiterate Buy",
+          "file_id": 35,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "for 2026, which could bring in an additional Rmb15bn in net profit vs. 2025E. Its large \nbattery external revenue should expand to 1/3 of total revenue in 2025E from 1/5 in 2024, driven by \nboth external EV and ESS supply. At 6x 2026E EV/EBITDA, we believe the stock is undervalued in the \nstrong ESS growth environment. We reiterate our Buy rating. \n1)  Management targets 1.6m unit overseas sales in 2026, representing a c700k increase in unit sales \nvs. 2025E. BYD  has market share of 1-2% in Europe vs. Toyota's 7-8% and Hyundai's 8-9%. 2) BYD's \nregional managing director for Europe, Maria Grazia Davino, announced that by the end of 2025, \nBYD will reach 1,000 POS in Europe and 2,000 by 2026. 3) In 9M25, BYD supplied 24GWh of EV \nbatteries to carmakers including Xiaomi, XPeng Mona, FAW Toyota, Nio Onvo and Stellantis, almost \ndoubling the 13GWh in 2024, according to GGII. 4) According to ICCSINO, BYD produced 46GWh of \nESS batteries in 10M25, 91% higher YoY due to ESS demand and accelerating order intake. This was \nc40% of CATL's production of 119GWh in 10M25. \nBYD's battery business volume is around half of CATL's volume and about twice of LGES’s, while \nBYD's market cap is now around 46% of CATL-H and less than 2x of  LGES’s. If the battery businesses \nare valued on the same scale, this would imply BYD's EV, electronics and semiconductors businesses \nare at marginal implied value, suggesting investors have largely overlooked BYD's battery business. \nOur price target of HK$130.00 is based on SOTP, applying 1.0x 2026E EV/sales for BYD's EV segment \nand 1.3x 2026E EV/sales for the vehicle battery business, benchmarking to industry peers and \napplying a 50% conglomerate discount. \nValue drivers \n(2026E)\nAnnual unit sales (m \nunits)\nExport volume (m \nunits)\nAuto GPM (%)\nNet profit per car \n(Rmb k)\nHK$160.00 upside\n5.8\n1.8\n20.5%\n9.5\nHK$130.00 base\n5.5\n1.6\n19.5%\n8.4\nHK$60.00 downside\n5.0\n1.2\n18.5%\n7.0\nSource: UBS estimates\nAlong with its subsidiaries, BYD is engaged in t"
+        },
+        {
+          "title": "BYD - A: Highlighting overseas expansion & external battery sales; reiterate Buy",
+          "file_id": 36,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " volume. This is \nunderstandable given 90% of BYD's EV batteries were supplied internally in 2024, with \nlimited external EV sales and ESS battery supply amid capacity constraints.\nHowever, we believe the competitiveness of BYD's EV and ESS battery businesses are \nincreasingly recognized by external EV and ESS clients, but this has been largely \noverlooked by investors. In 9M25, BYD supplied 24GWh of EV batteries to carmakers, \nalmost double the 13GWh in 2024, according to GGII. This contributed over 20% of \nBYD's total battery sales in 9M25 from 10% in 2024.\nBYD - A 16 December 2025\nabc 7\nFigure 9: External battery sales contributed 21% of total battery sales in 2025\nXPeng, 3\nXPeng, 8\nFAW Toyota, 3\nXiaomi, 5\nNio, 3\nOthers, 7\nOthers, 8\n0\n5\n10\n15\n20\n25\n2024\n9M25\nBYD's external battery sales by installation \n(GWh)\nXPeng\nFAW Toyota\nXiaomi\nNio\nOthers\nSource: Company data, GGII\nIn addition, we note that BYD's external EV battery supply has expanded to multiple \npassenger & commercial vehicle makers, including Xiaomi, XPeng Mona, FAW Toyota, \nNio Onvo and Stellantis. The broader client base supports a gradual shift from internal \nconsumption to third-party battery supplies, and suggests improving external \nrecognition for BYD's battery solutions, in our view.\nFigure 10: Multiple PV and CV customers have adopted BYD's batteries\nKey customer\nModel supplied\nNote\nFAW PV /  FAW Toyota / FAW Audi\nToyota bZ3, Hongqi E-QM5, Q6L e-tron\nFAW used to be the largest OEM customer for BYD's battery\nTesla\nModel Y standard range\nSupplying Berlin factory MY standard range varient\nNio\nOnvo L60\nJun 2024 MIIT announcement\nXiaomi\nSU7\nStandard range varient, LFP\nXPeng\nMONA M03\nLong range varient\nCA Ford\nFord Escape PHEV\nNCM\nFord\nMustang Mach-E\nNCM, designated for China market\nBJ Hyundai\nElexio\nLFP\nMercedes\nGLC 350eL PHEV, CLA\nLFP\nStellantis\nCitroen ë-C3\nLFP\nFoton / XCMG\nCommercial vehicles\nCompany announcement\nWeichai\nCommercial vehicles\nAnnounced in 2023\nSource: Media reports, company data\nAmi"
+        },
+        {
+          "title": "Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens",
+          "file_id": 2,
+          "publish_date": "2025-11-14",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "Jefferies"
+          ],
+          "company_name": [
+            "比亚迪电子",
+            "鹏鼎控股"
+          ],
+          "section": "electronics business consists of\nassembly and components, which cover a range of structural parts including metal, glass, ceramic\nand plastic. According to Frost & Sullivan, consumer electronics precision structural part is a >US\n$60bn market which is expected to grow further to >US$80bn in 2028. BYDE has been supplying\nto Apple for more than a decade, starting from some basic components to more comprehensive\nmaterials such as metal, glass, ceramics and sapphire, as well as FATP. Currently, BYDE is the No.1\niPad assembler, taking up ~50% of market share, and it has also become the 2nd largest supplier\nof iPhone metal casing since acquiring Jabil's related facilities in 2023. In addition to Apple, BYDE\nalso cooperates with a wide range of Android customers, taking up ~30% of its overall consumer\nelectronics' revenue. It has long been a leading metal casing supplier for Android high-end models,\nand its key assembly customers include Xiaomi/Honor smartphones and various IoT products. We\nexpect the company to leverage its competitive advantages from its partnership experience with\nApple on EMS and structural components to expand its customer base in the consumer electronics\nmarket.\n \nC"
+        },
+        {
+          "title": "比亚迪(002594.SZ)需求东风拂面，深耕业务多面开花",
+          "file_id": 37,
+          "publish_date": "2025-11-12",
+          "type_full_name": "公司研究:首次覆盖",
+          "institution_name": [
+            "西南证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "的“技术鱼池”，与管理者早期在各业务链条采取垂直整合，以及后期对各业务\n线条实行市场化经营密不可分。 \n（1）1995-2002 年，起步于手机电池业务。成为摩托罗拉和诺基亚首位中国供应商，\n并于港股主板上市。（2）2003-2009 年，围绕汽车主业布局电池、电子及芯片领域。收购\n“西安秦川”切入汽车市场；建设SVB 工厂（储能及汽车电池工厂）布局动力电池的研发；\n将内部手机制造业务注入比亚迪电子完成港股上市；收购半导体制造企业“宁波中纬”切入\n汽车芯片领域。（3）2010-2012 年，调整期内公司继续深耕技术研发。发布TID 技术（涡\n轮增压直喷发动机+双离合变速器），开发出双模二代技术、双向逆变技术。（4）2013-2016\n年，聚焦新能源汽车布局产品线。启动“7+4”全市场战略布局，发布“云轨”进军城市轨\n交领域。（5）2017 年-至今，开放供销体系，各业务线条全面开花。汽车领域发布e 3.0 平\n台和DM5.0 混动技术；电池领域发布刀片电池，成立弗迪电池。 \n图1：比亚迪历史发展 \n \n数据来源：公司官网，西南证券整理 \n现阶段公司主要经营专注于纯电动和插电式混合动力的"
+        },
+        {
+          "title": "BYDE (0285.HK): Mgmt. visits: Foldable phones to bring dollar content increase; AI servers brings potential upside",
+          "file_id": 38,
+          "publish_date": "2026-01-19",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "nch, where BYDE offers higher dollar content compared to \nprevious models, driving BYDE’s revenue growth ahead. On AI servers, BYDE serves \nlocal customers, along with expansion to global-tier customers with components \n(e.g. liquid cooling, power supply, etc.), riding on the growing AI infrastructure cycle. \nFor automotive business, management expects suspension system ramp up and the \ntrend of ADAS system penetrating into budget models to continue. \nPrice Target Risks and Methodology - BYDE \nValuation methodology: We are Buy rated on BYDE with a 12-month TP of \nHK$53.08. We apply a 17.1x target P/E multiple to our 2026E EPS estimate, and \nconvert it to HKD. Our target P/E is derived from BYDE’s historical avg. +1stv. forward \nP/E. Our target P/E to forward year net income growth and OPM (PEG & M) of 0.5x, is \nalso in line with the company’s peers of 0.5x-0.9x. \nDownside risks: (1) Customer concentration in the company’s automotive business; \nthe assembly business for Android smartphones is mainly Xiaomi and Honor; (2) \nslower-than-expected ramp up of automotive products; (3) slower-than-expected \nmarket share gain in Apple products; and (4) fiercer-than-expected competition. \n \n \nGoldman Sachs does and seeks to do business with companies covered in its research reports. As a result, investors \nshould be aware that the firm may have a conflict of interest that could affect the objectivity of this report. \nInvestors should consider this report as only a single factor in making their investment decision. For Reg AC \ncertification and other important disclosures, see the Disclosure Appendix, or go to \nwww.gs.com/research/hedge.html. Analysts employed by non-US affiliates are not registered/qualified as research \nanalysts with FINRA in the U.S. \nEquity Research\n.SG\n407b807cc90e11dcbf7a0014c23fbb6a\n \n \nSource: Company data, Goldman Sachs Research estimates, FactSet. Price as of 19 Jan 2026 close.\n0285.HK\n12m Price Target: HK$53.08\nPrice: HK$34.40\nUpside: 54.3%\n \nBuy  \n "
+        },
+        {
+          "title": "美德乐(920119)深耕智能物流装备，乘新能源东风有望加速成长",
+          "file_id": 39,
+          "publish_date": "2026-01-20",
+          "type_full_name": "策略研究:新股研究/新三板",
+          "institution_name": [
+            "华源证券"
+          ],
+          "company_name": [],
+          "section": "书、华源证券研究所\n2.2.模式：销售模式主要为直销，2025H1 最大客户是比亚迪，\n销售额达22452 万元\n公司产品销售主要采用直销模式，销售区域以境内为主。公司销售人员通过市场营销、\n参与投标、参加行业展会、业内介绍等方式获取客户及业务。在获取业务信息后，公司根据\n客户项目需求优选设备及组件组合形成项目方案，并结合公司产品价格体系、项目预估成本\n和市场竞争情况确定报价，经与客户协商谈判后形成最终交易价格并签署业务合同。在部分\n境外国家和地区，公司亦会与当地经销商合作开拓市场。2022-2025H1 公司向前五名客户的\n合计销售收入占营业收入的比例分别为59.34%、51.29%、47.50%和62.75%。公司在2025H1\n的前五大客户分别是：比亚迪、先导智能、烽禾升、信质集团、博众精工。\n图表11：2025 年1-6 月公司最大客户比亚迪的销售额为22452 万元\n年份\n序号\n客户\n销售金额/万元\n年度销售额占比(%)\n2025 年1-6 月\n1\n比亚迪\n22451.61\n31.55\n2\n先导智能\n18091.97\n25.42\n3\n烽禾升\n1702.78\n2.39\n4\n信质"
+        },
+        {
+          "title": "BYD: An Underappreciated Global Battery Leader",
+          "file_id": 1,
+          "publish_date": "2026-01-13",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "SIAN AUTOS\n5\nEunice Lee, CFA    +852 2123 2606  eunice.lee@bernsteinsg.com\n13 January 2026\nEXHIBIT 5: BYD supplies EV batteries for both passenger and commercial vehicles; top EV battery customers\ninclude Xiaomi, XPeng, XCMG, Sinotruk, and Toyota, etc.\n -\n 500\n 1,000\n 1,500\n 2,000\n 2,500\n 3,000\n 3,500\n 4,000\n 4,500\n 5,000\nBattery installed (MWh)\n2024 - 2025: BYD external EV battery sales - Top OEM customers (by MWh)\nXiaomi\nXPeng\nXCMG\nSinotruk\nToyota\nMahindra\nPeugeot\nOpel\nDongfeng Honda\nSDAC\nOthers\nSource: SNE Research and Bernstein analysis\nEXHIBIT 6: In the first three quarters of 2025, BYD ranked #4 in the shipment of global energy storage cells, and #3\nin global energy storage system (ESS) integration\n2025 Q1 - Q3: Global Shipment Ranking Top 5\nEnergy Storage Cell\nEnergy Storage Integration\n1\nCATL\nTesla\n2\nHithium\nSungrow\n3\nEVE Energy\nBYD\n4\nBYD\nCRRC Zhuzhou Institute\n5\nCALB\nHuawei\nSource: InfoLink and Bernstein analysis\nASIAN AUTOS\n6\nEunice Lee, CFA    +852 2123 2606  eunice.lee@bernsteinsg.com\n13 January 2026\nEXHIBIT 7: ESS experienced robust demand growth in\n2025, with +85% yoy growth, and is projected to sustain\nstrong momentum in 2026 with +50% yoy\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n -\n 100\n 200\n 300\n 400\n 500\n 600\n 700\n 800\n 900\n2023\n2024\n2025E\n2026E\nGrowth yoy (%)\nEnergy storage cell shipment (GWh)\n2023 - 2026E: Global energy storage cell \nshipment\nEnergy storage cell shipment (GWh)\n% yoy growth\nBernstein’s Global Energy Storage team forecasts ESS growth for 2026 to reach\n+50%\nSource: InfoLink, Bernstein estimates and analysis\nEXHIBIT 8: BYD saw faster than industry growth; BYD’s\nenergy storage cell shipment market share grew from\n8.6% in 2024 to 9.2% in 2025 1H\n0%\n2%\n4%\n6%\n8%\n10%\n12%\n14%\n -\n 5\n 10\n 15\n 20\n 25\n 30\n2023\n2024\n2025 1H\nBYD market share (%)\nEnergy storage cell shipment (GWh)\n2023 - 2025 1H: BYD energy storage cell \nshipment\nBYD energy storage cell shipment (GWh)\nBYD market share (%)\nSource: InfoLink and Bernstein analysis\nEXHIBIT 9: BYD’s Nex"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)全球领先的智能制造平台 消费电子&汽车电子&AIDC业务多元驱动",
+          "file_id": 40,
+          "publish_date": "2025-12-01",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "中信建投"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "，而结构件自供率提升保障了整体盈\n利能力，叠加全球化的产能布局，公司在北美大客户中的供应地位有望持续提升。 \n公司与苹果合作历史悠久，逐步切入多个产品品类。比亚迪电子与苹果的合作始于 2009 年，从加工\n零部件起步；2015 年公司切入Magic Keyboard 和充电器组装业务；2017 年公司成为 Apple Watch 陶瓷背\n盖供应商；2018 年底公司开始切入 AirPods 塑胶机壳以及 iPod touch 组装项目。2020 年，比亚迪正式切\n \n \n \n5 \nA 股公司深度报告 \n比亚迪电子 \n \n请务必阅读正文之后的免责条款和声明。 \n \n入iPad 组装业务；2022 年底，公司成为iPhone 玻璃后盖的供应商之一，2023 年公司收购捷普成都、无锡\n工厂，深化苹果金属中框业务合作。 \n图10:公司在苹果产品导入历程 \n \n数据来源：苹果官网、公司财报、中信建投证券 \n \n公司在iPad 组装份额持续提升。过去iPad 组装业务长期由富士康、仁宝等台系厂商主导，但伴随苹\n果成本管控强化，台厂管理体系僵化和投资动能不足的短板凸显，比亚迪电子于2019 年切入i"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "，我们注意到比亚迪的外部电动车电池供应已拓展至多家乘用车和商用\n车制造商，包括小米、小鹏Mona、一汽丰田、蔚来乐道和斯泰兰蒂斯。我\n们认为客户群拓展将支撑公司从内部电池供应商逐步转型成为第三方电池供\n应商，这表明比亚迪电池解决方案的外部认可度持续提升。\n图表10: 多家光伏和商用车客户已采用比亚迪电池\nPlease refer\n to the narrat\nive \nof this report for an explanati\non of this image/chart\n来源: 媒体报道，公司数据\n在E S S 需求超预期的背景下，年初至今中国电池制造商股价已上\n涨27-116%。然而，比亚迪股价表现不及其他电池同行，年初至今仅上\n涨5%，尽管比亚迪是全球第四大储能电池供应商，仅次于宁德时代、海辰\n储能和亿纬锂能。\nICCSINO数据显示，10M25比亚迪储能电池产量达46GWh，同比增\n长9 1 % ，得益于E S S 需求和订单加速。这是1 0 M 2 5 宁德时代产量\n（119GWh ）的约40%。截至2024年底，比亚迪储能业务已覆盖110个国\n家和地区，为360多个国内"
+        },
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "多忽视了这一点。我们估计外部电动车和ESS销售将占其2025年300GWh电池产\n能的三分之一，高于2024年的五分之一。\n尽管投资者对比亚迪国内电动车市场份额的流失仍持谨慎态度，我们认为海外和电池外部销售\n是2026年盈利增长的主要驱动力。管理层目标2026年海外电动车销量160万辆，净利润或\n较2025年增厚150亿元。其大型电池外部收入占比预计从2024年的1/5增加至2025年的1/3，这主\n要得益于外部电动车和ESS供应。公司当前股价对应6倍的2026E EV/EBITDA，在储能业务强劲增\n长的背景下，我们认为其当前股价被低估  。我们重申买入评级。\n1）管理层2026年海外销量目标为160万辆，较2025年增加约70万辆。比亚迪欧洲市场份额\n为1-2%，丰田为7-8%，现代为8-9%。2）比亚迪欧洲区董事总经理Maria Grazia Davino宣布，\n到2025年底，比亚迪欧洲销售网点将增至1000个，2026年将增至2000个。3）高工产业研究院\n（GGII）数据显示，9M25比亚迪向包括小米、小鹏Mona、一汽丰田、蔚来乐道和斯泰兰蒂斯在\n内的车企供应24GWh的"
+        }
+      ],
+      "timestamp": "2026-01-21T14:08:34.194561",
+      "result_count": 12
+    },
+    {
+      "category": "business",
+      "query": "比亚迪 产品 技术优势 竞争地位 核心竞争力",
+      "results": [
+        {
+          "title": "BYD: An Underappreciated Global Battery Leader",
+          "file_id": 1,
+          "publish_date": "2026-01-13",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "breaks, but Europe sales strong\n6 Jan 2026 - Chinese Autos: 2026 Outlook — Cautious on domestic headwinds, Promising export prospects\n18 Nov 2025 - BYD vs. Toyota: Can BYD become the next Toyota?\n19 Mar 2025 - BYD: Charging ahead — Top 6 questions on the latest 10C ultra fast-charging technology\n17 Jan 2025 - BYD: Ready, steady, ship — Rising above the domestic competition and thriving overseas; Reiterate Outperform\nASIAN AUTOS\n2\nEunice Lee, CFA    +852 2123 2606  eunice.lee@bernsteinsg.com\n13 January 2026\n29 May 2024 - Electric Vehicles: The Revival of Plug-in Hybrids — BYD to take on with 2,100-km drive.\n16 May 2024 - BYD: A Deep Dive into BYD's Cost Advantage and Sustainability\n4 Mar 2024 - TSLA & BYD: Launching a new product for Tesla appears to take forever... BYD seems to do it effortlessly. Why?\n5 Sep 2023 - Initiating on BYD: The virtuous cycle of cost and scale; Outperform - PT HK$359\nBYD’S SUBSTANTIAL SCALE ADVANTAGE CONTRIBUTES TO NOTABLE COST BENEFITS, FURTHER\nSUPPORTING ITS STRONG MARKET POSITION\nIn 2025, BYD solidified its position as the world’s largest electric vehicle manufacturer by delivering 4.60 mn vehicles—nearly\ntriple the volume of its closest competitors, including Geely and Tesla. This figure encompasses both BEVs and PHEVs. Focusing\nsolely on BEVs, BYD also led the market, delivering 2.26 mn units compared to Tesla’s 1.64 mn. Moreover, BYD ranked as the\nworld’s second-largest battery manufacturer in terms of EV battery installations in 2025, with battery shipment 70% greater\nthan the third-largest player. (Exhibit 2 - Exhibit 3)\nThese achievements highlight BYD’s substantial scale advantage, which translates into cost benefits through operating\nleverage and enhanced research and development efficiency. The company’s ability to spread R&D investments over a larger\nproduction base drives innovation outcomes, that reinforces its dominant scale position. Additionally, BYD’s vertical integration\nstrategy of producing batteries and key automotiv"
+        },
+        {
+          "title": "比亚迪(002594.SZ)需求东风拂面，深耕业务多面开花",
+          "file_id": 37,
+          "publish_date": "2025-11-12",
+          "type_full_name": "公司研究:首次覆盖",
+          "institution_name": [
+            "西南证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "Etermination，汽车软件过程\n改进及能力评定）2 级能力评估认可。此次，比亚迪顺利通过2 级评估，标志着其软件开发\n能力和软件质量管理能力达到国际领先水平，为比亚迪在全球汽车市场的竞争力增添了重要\n砝码。基于比亚迪e3.0 的历史表现以及e4.0 的高技术水准，预计新平台将继续赋能对应新\n车周期，刺激销量实现进一步增长。 \n \n公司研究报告 / 比亚迪（002594） \n请务必阅读正文后的重要声明部分 \n \n15 \n3.1.3 产品供给丰富，产能端改善明显 \n公司多个产品月销量过万。在DM-i 技术、e 平台3.0、刀片电池等技术的加持下，公司\n旗下的汉、宋Plus 新能源、秦PLUS、元PLUS 等车型受到市场广泛认可。2024 年公司打\n出“电比油低，荣耀出击”的口号推出秦PLUS、元PLUS、宋Pro、汉系列荣耀版，其中，\n秦PLUS 价格下探至7.98 万元，供给端发力刺激效果明显，当前，25H1 公司累计销量214.6\n万辆，同比增长33.0%，月均销量35.8 万辆，同比+33.0%。产量端来看，相比2021 年公\n司新能源汽车月产量仅5 万辆，现阶段公司新能源汽"
+        },
+        {
+          "title": "BYD (1211 HK/002594 CH)",
+          "file_id": 4,
+          "publish_date": "2025-10-31",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "HSBC"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "dels to be launched in 2025 and 2026. Green names are the models with the fifth-generation DM hybrid technology \n  \n \n \n \n5 \nEquities ● Automobiles \n31 October 2025 \nExhibit 7. BYD leading technology is well rounded and positioned for value additions of the upcoming product cycles \nCategory \nTechnology \nHighlights \nModel example \nIntegrated platform e4 Platform \nFour-motor drivetrain and independent control \nYangwang U8, U9, U7 \n \n \nExtreme safety features, including emergency floating in water(应急浮水), \ndriving safety at high speed when tire blowout(高速爆胎稳定行驶) \n \n \n \nExtreme outdoor driving scenarios adaptability, including desert summit dry \nclimbing (沙漠干拔冲顶)and safe high-speed driving on ice and snow(冰\n雪高速行驶) \n \n \n \nFlexible steering function, including high-traction U-turn(原地掉头) \n \n \ne3 Platform \nThree-motor drivetrain and independent control \nDenza N9, Z9/Z9GT \n \n \nExtreme outdoor safety features, including driving safety at high speed when \ntire blowout(高速爆胎稳定行驶) and stabilization system in low-adhesion \nroad surface(低附路面增稳系统) \n \n \n \nEnhanced Manoeuvrability, including crabwalk(智能蟹行), parallel parking(\n易三方泊车)，U-turn around single wheel(圆规掉头) \n \nHybrid system \n(5th Generation) DM-i \nFuel consumption as low as 2.9L/100km, and a combined range of 2100km. \nOTA update could further improve fuel efficiency (after October China OTA, \nsome models could be updated to fuel consumption to 2.6L/100km, NEDC) \nQin L Dmi, Seal 06 Dmi, Han Dmi, Tang \nDmi \n \n(5th Generation) DM-p \nHigher performance and more fuel consumption than DM-i, 0-100km/h less \nthan 5s \nDenza D9, Tang L, Han L \n \n(5th Generation) DMO \nAll-round performance and focus more on off-road capability \nFangchengbao \nChassis \nDiSus C \nCDC intelligent damping adjustment(智能阻尼调节), intelligent chassis \npre-aiming technology(预瞄系统) \nHan series, Tang series,  Denza D9, Tai 3, \nTai 7, Qin L(2025), Sealion 06(2025)  \n \nDiSus A \nAir suspension(空气车身控制) + CDC + height adjustment \nDenza N9L, Denza N9, Denza N7, Denza \nZ9/Z9GT \n"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)V智驾产品等持续增长 1H25利润略超预期",
+          "file_id": 41,
+          "publish_date": "2025-09-15",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "财通证券"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "\n图8： 智能座舱 \n \n图9： 智能驾驶 \n \n \n \n数据来源：公司官网，财通证券研究所 \n \n数据来源：公司官网，财通证券研究所 \n \n图10： 传感器和控制器 \n \n图11： 智能悬架 \n \n \n \n数据来源：公司财报，财通证券研究所 \n \n数据来源：公司财报，财通证券研究所 \n \n \n谨请参阅尾页重要声明及财通证券股票和行业评级标准 \n8 \n \n公司深度研究报告/证券研究报告 \n母公司新能源汽车销量激增叠加新产品线导入推动业务增长：公司21、22 年新\n能源汽车业务同比增长107.5%、145.7%，主要得益于母公司新能源汽车销量的\n爆发式增长以及持续导入新产品线。 \n比亚迪24 年再次巩固了新能源汽车行业龙头地位，销量市占率达33.2%。25 年\n全年销量目标是550 万辆，对应30%左右的增速，其中海外销量目标80 万辆。\n比亚迪核心竞争力：1）对新能源战略长期坚持，坚持插混+纯电齐头并进；2）长\n期坚持技术创新，在11 年-24 年的14 年间，有13 年的研发投入超过当年净利\n润；3）拥有垂直整合战略优势，全球唯一掌握电池、电机、电控及车规级半导体\n等全产业链核心技术"
+        },
+        {
+          "title": "汽车行业系列深度十：自主冲击豪华市场高端定义增量空间",
+          "file_id": 42,
+          "publish_date": "2025-09-02",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "民生证券"
+          ],
+          "company_name": [
+            "吉利汽车",
+            "长城汽车",
+            "北汽蓝谷",
+            "赛力斯",
+            "速腾聚创",
+            "理想汽车-W",
+            "比亚迪",
+            "上汽集团",
+            "小米集团-W",
+            "长安汽车"
+          ],
+          "section": "辆；LHS）\n同比（%；RHS）\n0\n5,000\n10,000\n15,000\n20,000\n25,000\n2024Q1\n2024Q2\n2024Q3\n2024Q4\n2025Q1\n2025Q2\n高山\n蓝山\n摩卡\n拿铁\n行业深度研究/汽车 \n本公司具备证券投资咨询业务资格，请务必阅读最后一页免责声明 \n证券研究报告 \n33 \n \n \n \n4.6 比亚迪：技术赋能高端 强化营销打造品牌 \n电动化领航者，技术赋能高端品牌。燃油车时代，豪华品牌通过发动机、底盘\n技术构筑技术领先性、产品力，且历史悠久的汽车品牌积累了良好的口碑和忠诚度，\n消费者对这些品牌有较高的信任度和认同感，构筑品牌溢价。新能源时代，公司通\n过不断研发在电动化技术方面取得突破，在电动化方面具有Dm-i 5.0、e4.0 平台、\n刀片电池等技术，应用于全品牌车型；并针对高端市场形成云辇技术、易四方技术、\n易三方技术、Dm-o（面向越野的混动平台）等底盘、智能化控制技术，通过技术\n赋能高端品牌，构筑品牌溢价。 \n \n图20：比亚迪高端技术及应用车型 \n技术类别 \n技术名称 \n核心技术细节 \n应用车型 \n动力与电驱 \n易四方平台 \n四电"
+        },
+        {
+          "title": "比亚迪(002594.SZ)三季度业绩有喜有忧，研发加码与全球扩张驱动长期成长",
+          "file_id": 31,
+          "publish_date": "2025-11-02",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "海通国际"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "完成全年目标约71%，继续稳居全球\n新能源车销量冠军。智能化车型渗透率快速提升，“天神之眼”辅\n助驾驶系统累计装车超170 万辆，带动品牌形象与产品溢价提\n升。海外市场成为业绩新引擎，1–9 月海外销量达70.16 万辆，同\n比激增132%，提前完成全年翻倍目标；产品已覆盖117 个国家和\n地区。公司强化供应链生态协同，应付账款与票据明显下降，付\n款周期缩短至60 天内，行业口碑改善。综合来看，比亚迪在规\n模、技术、全球化三方面形成正循环，仍具长期成长确定性。 \n加速布局兆瓦闪充与储能体系，坚持磷酸铁锂确保电池安全。比\n亚迪在2025 东京车展期间再次展示其在电动化技术与安全领域的\n领先布局。品牌公关总经理李云飞表示，公司计划至2026 年加快\n兆瓦闪充桩与储能站的建设进度，未来将建设超4000 座兆瓦闪充\n站，其中首批约500 座已随汉L 与唐L 上市同步启用。该系统采用\n全域千伏高压架构（1000V/1000A），充电功率达1MW，实现“闪\n充5 分钟，续航400 公里”，并搭载自主研发的1500V 耐压碳化硅\n功率芯片、专用高功率电池及冷媒直冷技术，大幅提升散热与安\n全性能。公司"
+        },
+        {
+          "title": "BYD: Overseas sales surprised on the upside in Nov.; up 57% MoM to new record high",
+          "file_id": 43,
+          "publish_date": "2025-12-01",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Deutsche Bank"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "oY).\nAll eyes on the new \"revolutionary\" technology / platform in 1Q 2026\nBYD plans to launch a revolutionary technology / platform in Q1 2026, expected to \nsignificantly enhance its product competitiveness. While details are confidential, \nwe anticipate it could range from high-performance batteries to lower-priced \nBin Wang\nResearch Analyst\n+852-220-35496\nWei Huang\nResearch Associate\n+852-2203-7057\nDeutsche Bank AG/Hong Kong\nIMPORTANT RESEARCH DISCLOSURES AND ANALYST CERTIFICATIONS LOCATED IN APPENDIX 1. Deutsche Bank does \nand seeks to do business with companies covered in its research reports. Thus, investors should be aware that the firm may \nhave a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single \nfactor in making their investment decision.  \nPrice at 1 Dec 2025 (HKD)\n97.95\nPrice target - 12mth (HKD)\n144.00\n52-week range (HKD)\n155.07 - 83.07\nHANG SENG INDEX\n25,859\n Valuation & Risks \nReuters\nBloomberg\nExchange\nTicker\n1211.HK\n1211 HK\nHSI\n1211\nADR\nISIN\nBYDDY\nUS05606L1008\nOverseas sales surprised on the upside in \nNov.; up 57% MoM to new record high\n2 December 2025\nAutos & Auto Technology\nBYD\nPage 2\nDeutsche Bank AG/Hong Kong\nvehicle models, such as: (a) ultra-fast charging Super E-platform technology, (b) \nlow-temperature battery cell technology, (c) God-eye B urban autonomous driving \ntechnology, (d) Cloud Chariot vehicle body control technology, and (e) next-\ngeneration DM-i PHEV technology. The Super E-platform, a new-generation pure-\nelectric vehicle technology, could notably differentiate BYD through superior fast-\ncharging ability. It integrates new ultra-fast-charging (flash-charge) batteries, high-\nperformance electric motors, and silicon carbide (SiC) power chips. These flash-\ncharge batteries are impressive, offering a 400-kilometer range with just five \nminutes of charging at a 10C rate, implying a theoretical full charge in six minutes. \nWe anticipate BYD will extend this te"
+        },
+        {
+          "title": "Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens",
+          "file_id": 2,
+          "publish_date": "2025-11-14",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "Jefferies"
+          ],
+          "company_name": [
+            "比亚迪电子",
+            "鹏鼎控股"
+          ],
+          "section": "hipment growth in China/ overseas markets and BYDE's\npenetration into more high-end components.\n• Gaining market share on liquid cooling/power supply components from\nAIDC clients including NVIDIA and US CSPs.\nRisk/Reward - 12 Month View\n65\n60\n55\n50\n45\n40\n35\n30\n25\n20\n2025\n2024\n+12 mo.\n(+19%)\n42.00\n(+38%)\n48.72\n(-16%)\n29.75\n:\nUpside Downside\n:\n2.42 1\n \nBase Case,\nHK$42, +19%\n• iPad assembly shipment increases from 28m\nin 2024 to 30m/30m in 2027E/2030E.\n• iPhone casing shipment increases from 49m\nin 2024 to 51m/55m in 2027E/2030E.\n• BYD EV component shipment increases from\n4.3m in 2024 to 6.1m/7.9m in 2027E/2030E.\n• Server component shipment increases from\n0k in 2024 to 1.4k/2.1k in 2027E/2030E.\n• PT of HK$42.00 based on end-2026E DCF with\n11.2% WACC and 4.0% terminal growth rate\n(2030E).\nUpside Scenario,\nHK$48.72, +38%\n• iPad assembly shipment increases from 28m\nin 2024 to 30m/30m in 2027E/2030E.\n• iPhone casing shipment increases from 49m\nin 2024 to 59m/63m in 2027E/2030E.\n• BYD EV component shipment increases from\n4.3m in 2024 to 7.1m/8.9m in 2027E/2030E.\n• Server component shipment increases from\n0k in 2024 to 1.9k/3.1k in 2027E/2030E.\n• PT of HK$48.72 based on end-2026E DCF with\n11.2% WACC and 5.0% terminal growth rate\n(2030E).\nDownside Scenario,\nHK$29.75, -16%\n• iPad assembly shipment increases from 28m\nin 2024 to 30m/30m in 2027E/2030E.\n• iPhone casing shipment decreases from 49m\nin 2024 to 43m/47m in 2027E/2030E.\n• BYD EV component shipment increases from\n4.3m in 2024 to 5.1m/6.9m in 2027E/2030E.\n• Server component shipment increases from\n0k in 2024 to 0.4k/1.1k in 2027E/2030E.\n• PT of HK$29.75 based on end-2026E DCF with\n11.2% WACC and 0.5% terminal growth rate\n(2030E).\n \nSustainability Matters\nTop Material Issues:\n• Product and service quality: BYDE prioritizes quality and consistently strives for high product\nquality to enhance its competitive advantage.\n• Exploration and accessibility of technology: BYDE actively establishes close partnerships with\nexternal"
+        },
+        {
+          "title": "BYD: Mixed Oct. sales; 2026 growth driven by high-end expansion & disruptive tech.",
+          "file_id": 44,
+          "publish_date": "2025-11-03",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Deutsche Bank"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "HK\nHSI\n1211\nADR\nISIN\nBYDDY\nUS05606L1008\n3 November 2025\nAutos & Auto Technology\nBYD\nPage 2\nDeutsche Bank AG/Hong Kong\nAll eyes on the new \"revolutionary\" technology / platform in 1Q 2026\nBYD plans to launch a revolutionary technology/platform in Q1 2026, which is \nexpected to significantly enhance its product competitiveness. While details \nremain highly confidential, we anticipate that this could involve bringing its ultra-\nfast charging \"Super E-platform\" technology to lower-priced models. This \"Super \nE-platform\" is a new-generation pure-electric-vehicle technology that could \nmarkedly differentiate BYD through superior fast-charging capabilities. It \nintegrates new generations of ultra-fast-charging (\"flash-charge\") batteries, high-\nperformance electric motors, and silicon carbide (SiC) power chips. The \"flash-\ncharge batteries\" are particularly impressive, capable of delivering a 400-kilometer \nrange with just five minutes of charging, operating at a 10C rate—meaning a \ntheoretical full charge in only six minutes. We anticipate BYD will extend this \ntechnology to its plug-in hybrid electric vehicles in the future, in addition to pure-\nelectric models.\nValuation and risk\nOur target price is derived via a DCF analysis. Despite the shortcomings of the DCF \nvaluation method, we think that DCF is the most appropriate method for valuing \ngrowing companies on a long-term basis that captures the transformational \ndevelopments in the top line. Meanwhile, DCF also considers the net cash position \nas well as minority interest, which provides a better picture of balance sheet \ninformation. We choose a six-year forecast horizon for our DCF that captures the full \nmaturation of the two mega trends of China's auto industry – electrification and \nintelligentization. We apply an 8.4% WACC with key assumptions: 4.3% cost of \ndebt, a 3.5% risk-free rate, a 5.0% market risk premium, beta of 1.07, a 15.0% \nincome tax rate, a 90.1% equity/equity + debt ratio, and a 0.5% terminal gro"
+        },
+        {
+          "title": "Chinese Autos: 2026 Outlook – Cautious on domestic headwinds, Promising export prospects",
+          "file_id": 45,
+          "publish_date": "2026-01-06",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [],
+          "section": "ed from 30% at the start of the year to 25% in November. However, its overall passenger vehicle market share remains\nresilient at approximately 15%. This market share erosion is mainly due to a relatively subdued product cycle, aggressive\nlaunches by competitors such as Geely Galaxy, LeapMotor, and XPeng’s MONA 03, and the challenge of sustaining growth from\nan already high base. BYD’s strategy to “democratize intelligent driving” by introducing L2+ ADAS technology (i.e. “God Eye”)\nat sub-RMB 100k price points aimed to boost sales but faced strong pricing competition from peers. This, combined with the\nrelative immaturity of the technology, pressured profitability. Net profit per vehicle dropped from RMB 8.8k in Q1 to RMB 4.8k\nand RMB 6.2k in Q2 and Q3, respectively, contributing to stock underperformance.\nDespite these challenges, BYD’s vertical integration of its powertrain provides a significant cost advantage. The company’s R&D\nstrength is evident from innovations such as the industry-first 10C fast charging capability to become commercially available.\nA major upgrade to BYD’s electric vehicle platform technology, scheduled for early 2026 alongside product facelifts,\nis expected to rejuvenate its product cycle. While specifics remain undisclosed, industry speculation suggests a broader\nrollout of fast-charging technology to address BEV range anxiety and enhance BEV adoption. Specifically, these technology\nenhancements are projected to improve cold temperature performance, fuel efficiency, vehicle range, and charging speed,\nreinforcing BYD’s competitive edge. This technology push aligns with a renewed focus on vehicle design, exemplified by the\nsuccessful launch of the Fang Cheng Bao Tai 7, which delivered 23.5k units in November alone.\nBYD’s overseas expansion is poised to become a critical earnings driver, with export volumes reached 1.05 mn units in\n2025. Key markets include Brazil, the UK, Indonesia, Australia, and Turkey, accounting for nearly half of total "
+        },
+        {
+          "title": "比亚迪(002594.SZ)系列点评三十七：批发环比提升，出口表现亮眼",
+          "file_id": 46,
+          "publish_date": "2025-12-04",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "国联民生证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "325.9%，环比+57.2%，1-11 月累计出口91.3 万辆，同比+153.6%。总体看，\n受益海外车型上量及区域拓展，今年出海稳步增长。一方面海外需求逐步提升，\n受益土耳其、巴西、欧洲等地销量快速增长；一方面是受益滚装船投入，自建运\n力提升带动销量提升。公司加大海外市场投入，比亚迪巴西乘用车工厂落成投产，\n后续积极布局乌兹别克、匈牙利、土耳其、印尼布局工厂，我们预计出海有望在\n欧洲、东南亚、澳新迎来快速发展，提振盈利。 \n \n技术平权加速，高端化稳步突破。2026 年，低温快充电池、天神之眼B 激光雷\n达、云辇-C 智能底盘这些原本属于汉唐旗舰车型的技术，我们预计有望下放到走\n量车型，进一步构筑“技术护城河”。高端化方面，此前公司高端化品牌做出众多\n调整，旨在强化品牌体系化建设，突破高端化瓶颈。展望2026 年，比亚迪在高\n端化领域将会进入一个更系统、更精细化的“体系化升维”阶段。其核心将是从\n技术领先、品牌塑造和生态构建三个维度，通过深度的品牌文化和极致的用户体\n验，将技术优势转化为牢固的用户忠诚度，巩固并扩大其在高端市场的地位。 \n \n投资建议：我们看好公司技术驱动产品力与"
+        },
+        {
+          "title": "The overseas EV opportunities & the risks that may ensue",
+          "file_id": 47,
+          "publish_date": "2026-01-20",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [],
+          "section": " 2.0 model to adapt to \ndiverse driving scenarios (pilot users in Dec 2025, VLA 2.0 to launch on Ultra model in \n2026, Super LCC for global customer in 2026), (2) robotaxi trial operation with three \nmodels to launch in 2H26 and L4 enabled passenger vehicles, (3) humanoid robots to \nstart volume production in 2026 (hardware and software integration in Apr 2026, \nvolume production of advanced humanoid robots in 2026), and (4) land aircraft carrier \nfor commercial use in tourism in 2026 (volume production of land aircraft carrier in \n2026, with 7k orders on hand).  \nWhile revenue contributions from these emerging businesses are still limited in 2026, we \nbelieve the start of volume production would be an important step into real-world \napplications to further drive technology advancement. We see XPeng’s competitive \nadvantages in (1) large data sets from its NEV fleet feeding into the autonomous driving \nmodel for L4 and robotaxi; (2) in-house vehicle design and production capability leading \nto time-to-market with cost advantage; (3) technology and cost synergies across \ndifferent businesses.  \n \nExhibit 32: XPeng X9 EREV product comps table \n \n \nSource: CPCA, Dongchedi, data compiled by Goldman Sachs Global Investment Research\n20 January 2026\n  19\nGoldman Sachs\nChina Automobiles\n.SG\n407b807cc90e11dcbf7a0014c23fbb6a\n \n \n \nExhibit 33: Four key areas in XPeng’s 2025 AI Day (Nov 5-6, 2025) \n \n \nSource: Company data\n \nExhibit 34: XPeng financial summary \n \n \nSource: Company data, Goldman Sachs Global Investment Research\n20 January 2026\n  20\nGoldman Sachs\nChina Automobiles\n.SG\n407b807cc90e11dcbf7a0014c23fbb6a\nInvestment Thesis  \n \n \nBYD \nBYD is a leading NEV maker both in China and globally. We believe the company is \nwell-positioned both at home and abroad, capturing the largest mass-market demand \nand building up premium brands in the domestic market. At the same time, BYD has \ntapped into the overseas market with compelling (highly competitive, innovative) \nproducts, w"
+        }
+      ],
+      "timestamp": "2026-01-21T14:08:50.447007",
+      "result_count": 12
+    },
+    {
+      "category": "business",
+      "query": "比亚迪 海外业务 战略规划 新业务 业务扩张",
+      "results": [
+        {
+          "title": "比亚迪(002594.SZ)公司动态研究：海外出口表现亮眼，高端化+新车型蓄势待发",
+          "file_id": 21,
+          "publish_date": "2026-01-17",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "国海证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "新能\n源车市场销量冠军。海外业务是比亚迪重要增长引擎，公司在2026\n年海外市场，销量有望继续实现高增。并凭借规模优势强化零部件\n采购能力，进一步提升价格竞争力，巩固全球市场地位。\n\n开年后推动插混大电池革新，引领新能源技术高质量发展。2026 年\n比亚迪正式开启“大电池混插”时代，推出2026 款秦PLUS DM-i、\n2026 款海豹05DM-i、2026 款秦L DM-i 和海豹06DM-i 超享版。产\n品的纯电续航翻倍，大电池混插将成为比亚迪未来产品布局的核心\n发展方向。公司有望凭此进一步巩固市场份额、提升品牌影响力。\n\n盈利预测和投资评级\n基于公司最新销量情况，我们将公司\n202"
+        },
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "公司数据、瑞银证券\n比亚迪在海外市场已与当地经销商、充电公司及租赁合作伙伴建立合作关\n系，提升门店在当地消费者中的曝光度。比亚迪欧洲区董事总经理Maria \nGrazia Davino宣布，到2025年底，比亚迪欧洲销售网点将达1000个，2026\n年将达2000个。9月，比亚迪宣布已在英国开设第100家特许经营店，门店\n数量约为英国最畅销纯电动车品牌福特的一半。值得注意的是，福特\n于1910年在英国开设了第一家经销网点。\n比亚迪A 2025 年 12 月 16 日\nabc 5\n图表7: H125比亚迪海外ASP和单车成本分别较国内市场\n高35%和19%\n0\n50,000\n100,000\n150,000\n200,000\n250,000\nDomestic\nOverseas\nDomestic\nOverseas\nDomestic\nOverseas\nVehicle ASP\nCOGS per car\nGP per car\nBYD ASP and COGS per car - domestic & overseas\n2024\n1H25\n来源: 公司数据、瑞银证券\n图表8: 比亚迪海外毛利率较国内市"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "据、乘联会\n图表2: 9M25欧洲/亚洲/拉美对比亚迪海外销量贡献\n为49%/27%/14%\nPlease refer \nto \nthe na\nrra\ntive of this \nrep\nort for\n a\nn explanation \nof thi\ns \nimage/chart\n来源: 乘联会、中国海关\n比亚迪目标2026年实现海外销量160万辆，较2025年同期增长约70万辆。\n我们预计消费者认可度提升，产能本土化进程加速和零售渠道扩张，将助力\n比亚迪在2026年实现160万辆销量目标，加速其在主要海外市场的份额提\n升。\n我们认为比亚迪在海外市场拥有独特的优势。作为全球最大的电动车制造\n商，公司受到媒体广泛关注，且竞争力受到广泛仍可，这有助于提升品牌知\n名度，并以较低的边际成本吸引客户到店。在门店方面，比亚迪尝试通过高\n性价比车型，将门店客流量转化订单（见图表40）。2025年UBS Evidence \n比亚迪A 2025 年 12 月 16 日\nabc 4\nLab 电动车消费者调查显示，在考虑购买纯电动车的全球消费者中比亚迪\n跃升至第四电动车品牌，主要得益于中国以外市场的强劲势"
+        },
+        {
+          "title": "BYD - A \"Highlighting overseas expansion & external battery sales;...\"",
+          "file_id": 22,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "ectrum\nCompany Description\nBYD - A 16 December 2025\nabc 3\nBYD - A\nUBS-S Research\nPivotal Questions\nPivotal Questions\nQ: Can BYD achieve 2026E overseas sales of 1.6m \nunits?\nUBS-S VIEW\nYes. We expect increasing consumer acceptance, accelerating capacity localization \nand retail channel expansion to help BYD achieve sales of 1.6m units in 2026E, \naccelerating market share gains in key overseas markets. We estimate 500k/700k \nadditional overseas unit sales could contribute Rmb10bn/15bn in net profit in \n2026. Consensus forecasts 1.4m unit sales in 2026.\nEVIDENCE\n1) In 11M25, BYD achieved export sales of 882k units, more than completing its \nfull-year target of 800k unit sales overseas. BYD targets achieving 1.6m unit \noverseas sales in 2026, representing c700k unit increase vs. 2025E.\n2) In July 2025, BYD began production at its Brazil factory, and management \nexpects it to reach annual capacity of 150k units by Dec 2026. By 26Q2, the \ncompany plans to start production at the Hungarian plant, which would add 150k \nunits of capacity per annum overseas.\n3) BYD's regional managing director for Europe, Maria Grazia Davino, announced \nthat by the end of 2025, BYD will reach 1,000 POS in Europe and 2,000 by 2026.\nWHAT´S PRICED IN?\nInvestors are debating the sustainability of BYD's overseas expansion with key \nconcerns being geopolitical tensions and protectionism, overseas brand \nrecognition and intensifying competition.\nIn 11M25, BYD achieved export sales of 882k units, more than completing its full-year \ntarget of 800k unit sales overseas. Monthly run rate reached over 130k units in Nov, \ntopping Chinese brands' EV exports and approximately twice that of runner-up Chery's \n48k units. By region, Europe made up over 49% of overseas sales in 9M25, followed by \nAsia ex China (27%) and Latin America (14%).\nFigure 1: BYD achieved fast export sales growth in 2025\nB\nYD ach\nieved \nfast e\nxport \nsales g\nrowth i\nn 2025\nSource: Company data, CPCA\nFigure 2: Europe/Asia/Latin America ac"
+        },
+        {
+          "title": "BYD Company Limited: Highlighting overseas expansion & external battery sales; reiterate Buy",
+          "file_id": 35,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "RICED IN?\nUpside/Downside \nSpectrum\nCompany Description\nBYD Company Limited 16 December 2025\nab 3\nBYD Company Limited\nUBS Research\nPivotal Questions\nPivotal Questions\nQ: Can BYD achieve 2026E overseas sales of 1.6m \nunits?\nUBS VIEW\nYes. We expect increasing consumer acceptance, accelerating capacity localization \nand retail channel expansion to help BYD achieve sales of 1.6m units in 2026E, \naccelerating market share gains in key overseas markets. We estimate 500k/700k \nadditional overseas unit sales could contribute Rmb10bn/15bn in net profit in \n2026. Consensus forecasts 1.4m unit sales in 2026.\nEVIDENCE\n1) In 11M25, BYD achieved export sales of 882k units, more than completing its \nfull-year target of 800k unit sales overseas. BYD targets achieving 1.6m unit \noverseas sales in 2026, representing c700k unit increase vs. 2025E. \n2)  In July 2025, BYD began production at its Brazil factory, and management  \nexpects it to reach  annual capacity of 150k units by Dec 2026. By 26Q2, the \ncompany plans to start production at the Hungarian plant, which would add 150k \nunits of capacity per annum overseas.\n3) BYD's regional managing director for Europe, Maria Grazia Davino, announced \nthat by the end of 2025, BYD will reach 1,000 POS in Europe and 2,000 by 2026.\nWHAT´S PRICED IN?\nInvestors are debating the sustainability of BYD's overseas expansion with key \nconcerns being geopolitical tensions and protectionism, overseas brand \nrecognition and intensifying competition. \nIn 11M25, BYD achieved export sales of 882k units, more than completing its full-year \ntarget of 800k unit sales overseas. Monthly run rate reached over 130k units in Nov, \ntopping  Chinese brands' EV exports and approximately twice that of runner-up Chery's \n48k units. By region, Europe made up over 49% of overseas sales in 9M25, followed by \nAsia ex China (27%) and Latin America (14%).\nFigure 1: BYD achieved fast export sales growth in 2025\n0\n20,000\n40,000\n60,000\n80,000\n100,000\n120,000\n140,000\nBYD export"
+        },
+        {
+          "title": "The overseas EV opportunities & the risks that may ensue",
+          "file_id": 47,
+          "publish_date": "2026-01-20",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [],
+          "section": "odels for Europe; Leapmotor established a JV (Leapmotor \nInternational B.V.) with Stellantis (51% Stellantis, 49% Leapmotor) to sell and distribute \nits affordable electric vehicles, leveraging Stellantis’ established sales network and \nproduction facilities (like in Poland and Spain) to expand rapidly outside China; Chery \npartnered with local companies (e.g. KGEN in Thailand, EV Motors in Spain, CAOA Group \nin Brazil) to set up local productions.  \nBy OEM, Chery has the largest overseas production footprint of 720k, followed by BYD \nat 510k, then SAIC/Great Wall at 250k/215k. \n \nExhibit 27: We estimate there would be 2.1mn localized production capacity established by \nmajor Chinese OEMs by end 2026, against 6.5mn overseas sales volume by these companies, \nor a 33% localization rate \n \n \nSource: Company data, Customs data, Data compiled by Goldman Sachs Global Investment Research\n20 January 2026\n  15\nGoldman Sachs\nChina Automobiles\n.SG\n407b807cc90e11dcbf7a0014c23fbb6a\nBuy BYD and XPeng for more favorable overseas and new business exposure \n \n \nAmong our coverage, we believe BYD (Buy) and XPeng (Buy) are relatively better \npositioned for the overseas exposure, with accelerating new export model pipelines and \nsales network expansion. BYD managed to rank top three in 6 out of the top 18 markets \nin terms of NEV volume (excl. US and China). Meanwhile, BYD/Xpeng should achieve \n510k/27k units oversea capacities by the end of 2026E, further supporting their 2026 \noverseas sales of 1.5mn/90k units per our estimates.  \nBYD (Buy) - Overseas markets to become a major growth driver \nWe expect the overseas market to become a key growth driver over the next decade for \nthe company and model BYD’s overseas (ex-US) sales volume at 1.5mn-3.5mn in \n2026E-2035E. We forecast a 30% earnings CAGR over 2025E-2028E, with overseas \nprofit contribution to increase from 21% in 2024 to 60% by 2028E, accounting for \nmore than half of our valuation. Key drivers of overseas growth: \nNEV penetr"
+        },
+        {
+          "title": "比亚迪股份(1211.HK)顺风胜过逆风",
+          "file_id": 48,
+          "publish_date": "2026-01-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "中信证券"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "于比亚迪高利润的海外业务或不可持续。尽管细则尚待明确，分析估计取消欧盟关税可使当地市场单车利润\n提升2-3 倍，并有效遏制海外市场的激烈价格战。\n新车型ASP 提升、电池扩容、功能优化\n比亚迪推出四款改款插电混动车型（PHEV），纯电续航延长，且终端折扣收窄后ASP 普遍高于2025 年水平，符合\n监管层遏制价格战的导向。除电池升级外，新车型精简多项低频配置，分析指出此举有助于维持国内业务利润率。\n展望：最坏时期已过 上行潜力可期\n分析指出，对比亚迪的出口能力保持信心，因为其计划在未来2 至3 年内将海外门店数量翻倍。研究指出最坏时期已\n过，强劲的上行潜力近在眼前。\n催化因素\n电池材料变更、新车型及新技术发布，促销活动及出口销量增长。\n投资风险\n经济放缓可能导致汽车等大宗消费品终端需求出现远超2009 年水平的萎缩，影响出货量预期并传导至电池需求预测。\n全球经济放缓或推迟电动汽车普及进程。分析关注到电动汽车行业政策支持变化、技术瓶颈、原材料成本上涨、基础\n设施不足及燃料电池汽车等替代技术的潜在风险。\n中信证券财富管理(香港)\n免责声明请参考封底\n公司概况\n比亚迪从事汽车、电池及手机部件"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：出海销量达13万辆再创新高，全年出海销量超100万辆",
+          "file_id": 49,
+          "publish_date": "2026-01-12",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "长江证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "5%/+50.3%。 \n \n出海和高端化持续发力，智能化持普及续推进。海外市场开拓、本地化生产加速助力全球\n电动化转型，目前形成泰国、乌兹别克斯坦、巴西、匈牙利四大海外工厂，新进入越南、\n巴基斯坦、突尼斯等国家。随着海外车型矩阵持续丰富，叠加插混车型海外上市，出口月\n销量有望持续提升。高端化上，随着Z9GT、Z9、豹8、N9 等密集车型投放，业绩有望\n得到进一步的释放。比亚迪平价智能化大战略开启，带领高速NOA 下探至10 万级别。\n智能化转型坚定，同时智驾升级助力高端市场拓展，同时有利于积累海量数据，反哺智驾\n水平提升。 \n \n技术与规模构建超越行业竞争力，智能化、出海与高端发力迈向新巅峰。智能化大战略\n下，智驾转型坚定。超级e 平台发布，纯电技术迎来重大革新，持续巩固电动化技术优\n势。腾势、仰望与方程豹车型储备丰富，加速布局高端市场。出海持续发力，海外渠道与\n车型矩阵将进一步完善。下半年旺季有望提升规模效应，随着出海与高端化放量，下半年\n开始盈利能力有望持续提升。预计 2025 年公司归母净利润350 亿元，对应PE 25X，维\n持“买入”评级。 \n \n风险提示 \n1、市场需求"
+        },
+        {
+          "title": "乘用车行业全球化策略：从全面扩张走向分市场／分主体的结构性出海",
+          "file_id": 50,
+          "publish_date": "2026-01-08",
+          "type_full_name": "行业研究:行业策略",
+          "institution_name": [
+            "东吴证券"
+          ],
+          "company_name": [],
+          "section": "，原合\n作方EVDirect/Eagers 转为零售执行方\n东南亚（泰国）\n独家总代\n战略股权绑定准直控\n低→中\n2024年7月比亚迪入股原总代Rever Automotive 20%，\n开始直接参与销售与定价决策\n拉美（巴西）\n独家总代\n厂商直控+ 经销商执行\n中→高\n比亚迪通过 BYD Brasil主导品牌、定价与产业谈判，销售\n与服务由本地伙伴执行，并同步推进制造本地化\n中东\n独家总代/本地集团\n总代+本地大型集团合作\n中（稳定）\n深度绑定资源型合作伙伴进行生态合作\n非洲及其他新兴\n市场\n项目型总代\n区域总代+项目合作并行\n低\n除乘用车销售外，公交、出租、政府项目驱动为主\n◆比亚迪海外产能更多承担市场进入与合规工具功能，不同国家在工厂类型、投产节奏与本地化深度上差异显著。\n在东南亚与欧洲等核心战略市场，已投产或规划建设具备完整工艺的整车工厂（泰国、匈牙利等）；在拉美、\n中亚等政策与关税敏感市场，以CKD/SKD等组装型工厂为主（巴西、乌兹别克斯坦），优先满足本地化与准\n入要求。截至2025年底，海外已投产年产能（包含KD厂）达35万（假设满产状态），从规划体量看，海外产\n能布局已"
+        },
+        {
+          "title": "Chinese Autos: 2026 Outlook – Cautious on domestic headwinds, Promising export prospects",
+          "file_id": 45,
+          "publish_date": "2026-01-06",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [],
+          "section": "d to rejuvenate its product cycle. While specifics remain undisclosed, industry speculation suggests a broader\nrollout of fast-charging technology to address BEV range anxiety and enhance BEV adoption. Specifically, these technology\nenhancements are projected to improve cold temperature performance, fuel efficiency, vehicle range, and charging speed,\nreinforcing BYD’s competitive edge. This technology push aligns with a renewed focus on vehicle design, exemplified by the\nsuccessful launch of the Fang Cheng Bao Tai 7, which delivered 23.5k units in November alone.\nBYD’s overseas expansion is poised to become a critical earnings driver, with export volumes reached 1.05 mn units in\n2025. Key markets include Brazil, the UK, Indonesia, Australia, and Turkey, accounting for nearly half of total overseas sales.\nThe current export mix is anchored by models such as the Seagull, Atto 3, and Song Plus. We expect sustained overseas\ngrowth in 2026 driven by deeper market penetration, expanded sales and service networks, and a diversified product portfolio\nemphasizing PHEV models. BYD’s overseas production facilities in Uzbekistan, Thailand, and Brazil contribute a combined\nannual capacity of 350k, mitigating geopolitical risks such as potential tariff hikes in Brazil. Furthermore, a new production\nfacility in Hungary is scheduled to commence operations in early 2026, adding 150k units of capacity to BYD’s global\nmanufacturing footprint.\nWe forecast BYD to deliver sales volume of 5.6mn/ 6.4mn units in 2026/ 2027, that assumes 19%/ 21% PV market share in\nChina and 1.5mn/ 1.8mn units overseas. We project EPS to reach RMB 4.91/ RMB 5.76/ RMB 7.51 per share for 2025/ 2026/\n2027. We have an Outperform rating on BYD with PT HK$ 130.00 (unchanged) based on SOTP method, which correlates to 18x\n2026 EPS (Unchanged).\nFor more:\n1. BYD: Ready, steady, ship — Rising above the domestic competition and thriving overseas; Reiterate Outperform\n2. BYD: Charging ahead — Top 6 questions on the lates"
+        }
+      ],
+      "timestamp": "2026-01-21T14:09:11.115994",
+      "result_count": 10
+    },
+    {
+      "category": "legal",
+      "query": "比亚迪 诉讼 法律纠纷 仲裁",
+      "results": [
+        {
+          "title": "比亚迪:H股公告(2025年中期报告)",
+          "file_id": 51,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "9\n \n \n \nNotes to Financial Statements\n財務報表附註\n30 June 2025\n二零二五年六月三十日\nRMB’000 人民幣千元\n96\nBYD Company Limited\n比亞迪股份有限公司\n12、 或有事項\n未決訴訟或仲裁形成的或有負債及其財務\n影響\n富士康訴訟案件\n於二零零七年六月十一日，富士康國際控股\n有限公司旗下一間下屬子公司及一間與其同\n受最終控股公司控制的公司（「原告」）向香港\n高等法院（「法院」）展開訴訟（「二零零七年六\n月訴訟」），指控本公司及本集團若干下屬子\n公司（「被告」）使用指稱自原告處非法獲得的\n機密資料。原告已於二零零七年十月五日停\n止二零零七年六月訴訟，針對被告的二零零\n七年六月訴訟被全面撤銷，同時該訴訟未判\n令被告承擔任何責任。同日，原告向香港高\n等法院提起新一輪的法律程序（「二零零七年\n十月訴訟」）。二零零七年十月訴訟的被告與\n二零零七年六月訴訟的被告相同，且原告在\n二零零七年十月訴訟中提出的申索均基於二\n零零七年六月訴訟中的相同事實及理由。原\n告在二零零七年十月訴訟中提出的補救方法\n包括強令禁止被告使用有關機密資"
+        },
+        {
+          "title": "比亚迪:2025年半年度报告",
+          "file_id": 52,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "，以及赔偿逾期付款损失\n人民币253,836.16 元。2014 年1 月22 日，香港爱佩仪向中院提交反诉状，请求法院判决惠州比亚迪向其支付物料\n货款人民币9,681,482.34 元，以及逾期付款违约金452,609.28 元，两项合计10,134,091.62 元。深圳中院于2014\n比亚迪股份有限公司2025 年半年度报告全文\n42\n年4 月受理了香港爱佩仪的反诉，并于2014 年5 月12 日开庭对本诉及反诉进了合并审理。深圳中院于2017 年5 月\n11 日下达了一审判决，支持了惠州比亚迪的诉请，要求香港爱佩仪在15 日内支付1,621,365.00 美元的货款，赔偿\n逾期付款损失，并承担所有诉讼费用。香港爱佩仪于2017 年6 月1 日向广东省高级人民法院（以下简称“广东高\n院”）提起上诉，要求改判由惠州比亚迪向香港爱佩仪支付物料货款人民币9,681,482.34 元以及逾期付款违约金。\n2018 年10 月18 日二审判决。2018 年11 月30 日，深圳中院受理比亚迪执行申请，目前该案仍在执行中。\n本案涉及的诉讼标的金额较小，该诉讼对本公司经营成果与财务状况不会产生"
+        },
+        {
+          "title": "比亚迪股份:2025年中期报告",
+          "file_id": 53,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "9\n \n \n \nNotes to Financial Statements\n財務報表附註\n30 June 2025\n二零二五年六月三十日\nRMB’000 人民幣千元\n96\nBYD Company Limited\n比亞迪股份有限公司\n12、 或有事項\n未決訴訟或仲裁形成的或有負債及其財務\n影響\n富士康訴訟案件\n於二零零七年六月十一日，富士康國際控股\n有限公司旗下一間下屬子公司及一間與其同\n受最終控股公司控制的公司（「原告」）向香港\n高等法院（「法院」）展開訴訟（「二零零七年六\n月訴訟」），指控本公司及本集團若干下屬子\n公司（「被告」）使用指稱自原告處非法獲得的\n機密資料。原告已於二零零七年十月五日停\n止二零零七年六月訴訟，針對被告的二零零\n七年六月訴訟被全面撤銷，同時該訴訟未判\n令被告承擔任何責任。同日，原告向香港高\n等法院提起新一輪的法律程序（「二零零七年\n十月訴訟」）。二零零七年十月訴訟的被告與\n二零零七年六月訴訟的被告相同，且原告在\n二零零七年十月訴訟中提出的申索均基於二\n零零七年六月訴訟中的相同事實及理由。原\n告在二零零七年十月訴訟中提出的補救方法\n包括強令禁止被告使用有關機密資"
+        },
+        {
+          "title": "比亚迪股份:二零二五年中期业绩公告",
+          "file_id": 54,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "及其他人員\n69,642\n \n \n \nTotal\n合計\n392,079\n \n \n \nNotes to Financial Statements\n財務報表附註\n30 June 2025\n二零二五年六月三十日\nRMB’000 人民幣千元\n96\nBYD Company Limited\n比亞迪股份有限公司\n12、 或有事項\n未決訴訟或仲裁形成的或有負債及其財務\n影響\n富士康訴訟案件\n於二零零七年六月十一日，富士康國際控股\n有限公司旗下一間下屬子公司及一間與其同\n受最終控股公司控制的公司（「原告」）向香港\n高等法院（「法院」）展開訴訟（「二零零七年六\n月訴訟」），指控本公司及本集團若干下屬子\n公司（「被告」）使用指稱自原告處非法獲得的\n機密資料。原告已於二零零七年十月五日停\n止二零零七年六月訴訟，針對被告的二零零\n七年六月訴訟被全面撤銷，同時該訴訟未判\n令被告承擔任何責任。同日，原告向香港高\n等法院提起新一輪的法律程序（「二零零七年\n十月訴訟」）。二零零七年十月訴訟的被告與\n二零零七年六月訴訟的被告相同，且原告在\n二零零七年十月訴訟中提出的申索均基於二\n零零七年六月訴訟中的相同事實及理由。原\n告"
+        },
+        {
+          "title": "比亚迪:2025年半年度财务报告",
+          "file_id": 55,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "制的公司(“原告”)向香港高等法院(“法院”)展开诉讼(“2007年6月诉讼”)，指控本公司及本集团若干下\n属子公司(“被告”)使用指称自原告处非法获得的机密资料。原告已于2007年10月5日停止2007年6\n月诉讼，针对被告的2007年6月诉讼被全面撤销，同时该诉讼未判令被告承担任何责任。同日，原\n告向香港高等法院提起新一轮的法律程序(“2007年10月诉讼”)。2007年10月诉讼的被告与2007年6\n月诉讼的被告相同，且原告在2007年10月诉讼中提出的申索均基于2007年6月诉讼中的相同事实\n及理由。原告在2007年10月诉讼中提出的补救方法包括强令禁止被告使用有关机密资料、强令被\n告交出因使用机密资料所获得的利润以及赔偿原告遭受的损失及支付惩罚性赔偿金。原告在2007\n年10月诉讼中主张的赔偿金总金额尚未确定。2009年10月2日，被告对富士康国际控股有限公司\n及其某些附属子公司提起反诉，对该等公司自2006年以来利用不合法手段干涉本公司及控股子公\n司的经营、共谋行为、书面及口头诽谤，导致经济损失的行为提出诉讼请求。\n截至本报告日，该案件仍在诉讼程序中。在代表本公司负责该案件"
+        },
+        {
+          "title": "比亚迪电子:二零二五年中期报告",
+          "file_id": 56,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "500股）普通股\n4,052,228\n4,052,228\n \n \n \n51\n比亞迪電子（國際）有限公司\n二零二五年中期報告\nNOTES TO INTERIM CONDENSED CONSOLIDATED FINANCIAL INFORMATION\n中期簡明合併財務資料附註\n30 JUNE 2025 二零二五年六月三十日\n13. 或然負債\n富士康訴訟案件\n於二零零七年六月十一日，富士康國際控\n股有限公司旗下一間附屬公司及一間聯屬\n公司（「原告」）向香港高等法院展開訴訟（「二\n零零七年六月訴訟」），指控本公司及本集\n團若干附屬公司（「被告」）使用指稱自原告\n處非法獲得的機密資料。隨著針對被告的\n二零零七年六月訴訟被全面撤銷以及該訴\n訟未判令被告承擔任何責任，原告已於二\n零零七年十月五日停止二零零七年六月訴\n訟。同日，原告向法院提起新一輪的法律\n程序（「二零零七年十月訴訟」）。二零零七年\n十月訴訟的被告與二零零七年六月訴訟的\n被告相同，且原告在二零零七年十月訴訟\n中提出的申索均基於二零零七年六月訴訟\n中的相同事實及理由。原告在二零零七年\n十月訴訟中提出的補救方法包括強令禁止\n被告使用有關機密"
+        },
+        {
+          "title": "比亚迪电子:二零二五年中期业绩公告",
+          "file_id": 57,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "零二五年\n六月三十日\n二零二四年\n十二月三十一日\nRMB’000\nRMB’000\n人民幣千元\n人民幣千元\n(Unaudited)\n(Audited)\n（未經審核）\n（經審核）\nIssued and fully paid 已發行及繳足\n2,253,204,500 (2024: 2,253,204,500) ordinary shares \n2,253,204,500股（二零二四年：2,253,204,500股）普通股\n4,052,228\n4,052,228\n \n \n \n51\n比亞迪電子（國際）有限公司\n二零二五年中期報告\nNOTES TO INTERIM CONDENSED CONSOLIDATED FINANCIAL INFORMATION\n中期簡明合併財務資料附註\n30 JUNE 2025 二零二五年六月三十日\n13. 或然負債\n富士康訴訟案件\n於二零零七年六月十一日，富士康國際控\n股有限公司旗下一間附屬公司及一間聯屬\n公司（「原告」）向香港高等法院展開訴訟（「二\n零零七年六月訴訟」），指控本公司及本集\n團若干附屬公司（「被告」）使用指稱自原告\n處非法獲得的機密資料。隨著針對被告的\n"
+        },
+        {
+          "title": "中信证券 | 比亚迪近况及观点更新（汽车&电池和能源管理）",
+          "file_id": 58,
+          "publish_date": "2026-01-13",
+          "type_full_name": "调研纪要:分析师纪要",
+          "institution_name": [
+            "中信证券"
+          ],
+          "company_name": [
+            "比亚迪股份",
+            "比亚迪"
+          ],
+          "section": "价的这样的销售。但是很快在反卷转的这样的一个风波下，其实在6月初，整个比亚迪对于市场的这种优惠行动基本上就收回了，而且从这个去年6月份往后，其实长达6~7个月的时间内。在20万以下最主力的这个王朝和海洋网的这两个系列里面，比亚迪其实一方面发生极少。第二，也是几乎没有特别主动的，针对于市场变化的这样一个营销策略的调整，也没有。积极地推出特别多的新车，传闻中的很多比较核心的这样的一些改款的新车，其实都有所推迟。当然据我们所知，很有可能是推迟到今年春节之后，去进行一个上市销售。那这个我觉得可以合理推断，其实是受到了监管层面上的一些这种压力的。那如果我们这个看当时监管对于整个反内卷政策执行的最后的这样的一个情况，其实应该说监管这一拳打下去，其实主要的压力是传导到像比亚迪这样的一个行业龙头的。企业上面，这种压力其实如果一直持续下去，其实对比亚迪来说，可能是持续是一个估值压制的这样的一个逻辑。在这个过程中，其实大家也看到了，二季度跟三季度由于这种市场策略，没有办法积极的去响应这个市场当前的这样的一个变化。所以，其实比亚迪无论是在份额还是盈利上，都受到了比较大的影响。去年二季度、三季度，应该说是连续"
+        },
+        {
+          "title": "Adding Long-Range Variants for Song Pro DMi; The Main Event Awaits",
+          "file_id": 59,
+          "publish_date": "2026-01-11",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Morgan Stanley"
+          ],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "M\n Update\nBYD Company Limited  | Asia Pacific\n  Adding Long-Range Variants for \nSong Pro DMi; The Main Event \nAwaits \nThe show has just begun: BYD will keep refreshing its plug-in hybrid lineup this \nyear with long-range (LR) versions to comply with stricter driving range \nrequirements, adding Song Pro/L DMi and Qin Plus/L DMi to the range, which made \nup 20% of BYD sales in '25. LR trims will feature larger 26.6 kWh Blade batteries for \nextended pure-electric ranges up to 220km. Standard configurations will include \nsmart features like DiLink and God's Eye (C). \nStagnant market post tax hike calls for more promotional discounts: BYD \nlaunched Song Pro DMi lineup at a limited-time offer, ranging from Rmb99.8-127.8k, \nand offered a Rmb3k subsidy to mitigate the recent purchase tax hike.\nThe ball is in opponents’ court: New model cycle is spearheaded by volume-seller \nmodels, i.e. Song Pro/L and Qin Plus/L, turning up the heat on peers' mass market \nmodels, like Geely Startship 7 EMi, that will soon match BYD's move with \ncompetitive long-range offerings.\nSeparately, BYD would extend the Rmb666/unit incentive to dealers to facilitate \nthe clearance of sub-100km range models. Reducing avg inventory level to below 2 \nmonths will bode well for major launches post-CNY.\nExhibit 1:\n2025/26 version of BYD Song Pro & Qin Plus\nBYD Song Pro\nBYD Qin Plus\n'26 version\n'25 version\n'26 version\n'25 version\nWheelbase (mm)\n2,712\n2,712\n2,718\n2,718\nPower\nPHEV\nPHEV\nPHEV\nPHEV\nBattery range (CLTC, km)\n133-220\n75-115\n128-210\n55-128\nNEDC (L/km)\n3.2\n3.8\n2.8-3.1\n2.9-3.1\nMSRP (Rmb k)\n102.8-130.8\n102.8-132.8\n79.8-99.8\n79.8-103.8\nSource: Yiche, Morgan Stanley Research\n \nMorgan Stanley Asia Limited+\nTim Hsiao\nEquity Analyst\n Tim.Hsiao@morganstanley.com  \n  +852 2848-1982 \nPeggy Wang\nResearch Associate\n Peggy.Pc.Wang@morganstanley.com  \n  +852 3963-3934 \nStanley Wang\nResearch Associate\n Stanley.Wang@morganstanley.com  \n  +852 2848-7382 \nShelley Wang, CFA\nEquity Analyst\n Shelley.Wang@morganstanley.co"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "亚迪的电动\n车、电子和半导体业务的隐含价值极低，表明投资者基本忽视了比亚迪的电池业务。我们的目标\n价125.00元，基于SOTP估值法，考虑8%的A/H股溢价，电动车业务1.0倍的2026E EV/S ，电池业\n务1.3倍的2026E EV/S，参考同业估值并给予多元化公司50%的估值折价。\nPlea\nse r\nefer\n t\no \nth\ne n\narr\nati\nve \nof t\nhis \nrepo\nrt for \nan ex\nplanation\n of th\nis ima\nge/ch\nart\n价值影响因素 \n(2026E)\n年销量  （百万辆）\n出口量（百万辆）\n汽车业务毛利率\n单车净利（千元）\n150元 乐观情景\n5.8\n1.8\n20.5%\n9.5\n125元 基准情景\n5.5\n1.6\n19.5%\n8.4\n60元 悲观情景\n5.0\n1.2\n18.5%\n7.0\n来源: 瑞银证券估算\n比亚迪股份有限公司及其子公司主要从事充电电池、汽车及相关产品、手机部件、LCD和其他电\n子产品的研发、生产与销售。  \n关键问题\n瑞银证券观点\n论据\n什么已反映在股价中？\n乐观/悲观情景分析\n公司背景\n比亚"
+        },
+        {
+          "title": "Beyond Meat, Inc.季度报告",
+          "file_id": 60,
+          "publish_date": "2025-11-12",
+          "type_full_name": "财务经营报告:季度报告",
+          "institution_name": [],
+          "company_name": [
+            "Beyond Meat, Inc."
+          ],
+          "section": "n its financial statements. \nAliments BVeggie, Inc. \nIn November 2023, Aliments BVeggie, Inc. (“BVeggie”) filed and served legal proceedings against the Company before the Superior Court of \nQuebec’s District of Montreal. BVeggie alleges, among other things that: (i) in 2019, the Company and BVeggie entered into a co-\nmanufacturing agreement, by which BVeggie would produce and deliver products for the benefit of the Company, in exchange for a tolling fee to \nbe paid per pound of product produced and delivered to the Company; (ii) the Company would have made false and misleading statements \nregarding the volume of purchase orders it would provide BVeggie; (iii) BVeggie invested significant sums to adapt its facilities for the intended \nproduction; (iv) the Company fell short of its undertakings and promises; and (v) in March 2023, the Company illegally terminated the business \nrelationship. BVeggie intends to claim damages in the total amount of 129,841,920 CAD, in compensation for its investments, lost profits and \nthe repairs needed to be made to its facility post-termination of the business relationship and removal of the Company’s equipment. The \nCompany intends to vigorously defend against these claims. On December 7, 2023, the Company filed a motion for declinatory exception to \nstay the proceedings pending before the Superior Court of Quebec, District of Montreal, and refer the dispute to arbitration in California. A \nhearing on the motion for declinatory exception occurred on April 25, 2024. By judgment dated May 9, 2024, the Superior Court of Quebec \ngranted the motion for declinatory exception filed by the Company and declared that the courts sitting in Los Angeles County, in the State of \nCalifornia, are in a better position to decide the dispute. BVeggie appealed the court’s decision on June 7, 2024, and the Company filed a \ncross-appeal on June 18, 2024. The appeals were heard on October 30, 2025 and the matter is now under advisement. The litigation in "
+        },
+        {
+          "title": "RxChange：关于 ROIV/MRNA 在 LNP 技术诉讼状态及下一步的讨论",
+          "file_id": 61,
+          "publish_date": "2025-12-01",
+          "type_full_name": "调研纪要:分析师纪要",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "Moderna, Inc."
+          ],
+          "section": "1年。\n当前诉讼状态：已完成Markman听证会，法官对专利权利要求的解释对Arbutus有利。Moderna援引美国法典第1498条，主张政府担责（需向联邦索赔法院起诉政府而非Moderna），此抗辩大概率不成立。审判时间从2025年9月推迟至2026年3月，可能再调整。待决程序有简易判决动议和Daubert动议（涉Arbutus专家证词与证据可采性，排除将削弱其案件）。受假期影响，进度近期放缓，预计2026年初恢复。\n关键时间节点：2022年2月，针对Moderna提起诉讼；同年，Moderna基于1498条的驳回动议被拒（需事实发现后再决）；2023年，政府提交利益声明，称1498条仅适用于“C101”合同；2025年8月，政府介入案件；11月提交Daubert动议（结果未决）；审判定于2026年3月9日。1498法规适用争议1498法规内容解析：1498法规最早于1910年颁布，后进行了修订。其颁布背景与一战时期的军事采购需求相关，旨在解决承包商因专利问题不敢生产武器的困境。法规核心规则包括：政府被允许实施专利侵权行为，但需支付合理赔偿，专利权人无法阻止政府侵权；损害赔偿范围有"
+        },
+        {
+          "title": "Zynex, Inc.季度报告",
+          "file_id": 62,
+          "publish_date": "2025-11-17",
+          "type_full_name": "财务经营报告:季度报告",
+          "institution_name": [],
+          "company_name": [
+            "Zynex, Inc."
+          ],
+          "section": " from this Agreement (“Excluded Claims”), Contractor and Zynex expressly intend and agree that: (a) class action and representative action procedures are hereby waived and shall not be asserted, nor will they apply, in any arbitration pursuant to this Agreement; (b) each will not assert class action or representative action claims against the other in arbitration, court, or any other forum; (c) each shall only submit their own, individual claims in arbitration and shall not bring claims against the other in any representative capacity on behalf of any other individual; and (d) any claims by Contractor will not be joined, consolidated, or heard together with claims of9655 Maroon Circle, Englewood, CO 80112 | Phone: (800) 495-6670 | Fax: (800) 495-6695 | Zynex.comany other person. To the extent that the Parties’ dispute involves both timely filed Excluded Claims and claims subject to this Agreement, the Parties agree to bifurcate and stay for the duration of the arbitration proceedings any such Excluded Claims.6.Waiver of Trial by Jury. Both Parties understand and fully agree that by entering into this Agreement, they are giving up certain rights otherwise afforded to them by civil court actions, including but not limited to, their constitutional right to have a trial by jury, and are giving up their normal rights of appeal following the rendering of a decision except as state law provides for judicial review of arbitration proceedings.The Parties anticipate that by entering into this Agreement, they will gain the benefits of a speedy and less expensive dispute resolution procedure.7.Claims Procedure. Either Party may initiate arbitration upon express written notice to the other Party. Written notice of Contractor’s claim must be mailed by certified or registered mail, return receipt requested, to Zynex’s General Counsel at 9655 Maroon Circle, Englewood, CO 80112, or to such other address as Zynex may later designate in writing (“Notice Address”). Written notice of Zy"
+        },
+        {
+          "title": "Cenntro Inc.季度报告",
+          "file_id": 63,
+          "publish_date": "2025-11-12",
+          "type_full_name": "财务经营报告:季度报告",
+          "institution_name": [],
+          "company_name": [
+            "Cenntro Inc."
+          ],
+          "section": " failure to properly implement the SAP S/4HANA globally as set forth in those contracts, and for breach of implied covenants of good faith and fair dealing, causing Cenntro to suffer significant damages; and demanded a jury trial on all issues which are triable. Under this claim, CEGL is seeking for a remittance of $512,226paid to date and a recission of the remaining contract with MHP. The litigation was removed to Federal Court on May 7, 2024 where it is pending. At the time of this report, discovery has been completed. Mediation is schedule on November 19, 2025.On March 28, 2025 BAL Freeway Associates, LLC filed an Unlawful Detainer against Cenntro Automotive Corporation alleging non-payment of rents for commercial leased property in San Bernadino County, Ontario, CA. At the time of this report negotiations between parties have been culminated in a partial settlement with possession begin restored to BAL Freeway Associates on May 31, 2025, and the issue of damages remains outstanding. On June 18, 2025, BAL Freeway filed a First Amended Complaint for Damages for Breach of Contract, seeking full damages resulting from the alleged breach of the Lease, claiming total losses no lower than $4,400,000. Negotiations are ongoing at this early stage of the reclassified Civil Matter.CAE has filed an action in court Landgericht Bochum against Delivrium s.r.o., a company in Louny, Czech Republic (“Delivrium”) for a claim arising from a purchase contract by and between Delivrium and CAE for a dispute of €956,760under which CAE is requesting payment and acceptance of vehicles previously ordered by Delivrium.On April 14, 2025, KW Infrastruktur GmbH filed a lawsuit against Cenntro Automotive Europe GmbH (“CAE”) at the District Court of Bochum, requesting repayment of the purchase price of EUR158,277.99plus9% interest over the base interest rate, against the return ofsixelectric commercial vehicles delivered by CAE on December 23, 2022. As of the date of this report, CAE is prepar"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：出海销量达13万辆再创新高，全年出海销量超100万辆",
+          "file_id": 49,
+          "publish_date": "2026-01-12",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "长江证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "earch.95579.com\n1\n \n请阅读最后评级说明和重要声明 \n \n \n \n更多研报请访问 \n长江研究小程序 \n丨证券研究报告丨 \n[Table_scodeMsg2] \n比亚迪（002594.SZ） \n \n \n \n \n \n \n[Table_Title2] \n比亚迪2025 年12 月销量点评：出海销量达13\n万辆再创新高，全年出海销量超100 万辆 \n \n公司研究丨点评报告 \n[Table_Rank] \n投资评级 \n买入丨维持 \n \n \n \n \n[Table_Summary2] \n事件描述 \n比亚迪发布12 月产销。公司12 月整体销量42.0 万辆，同比-18.3%，环比-12.5%，乘用车销\n量41.5 万辆，同比-18.6%，环比-12.7%。 \n事件评论 \n \n12 月出海销量再超13 万辆创新高，总销量环比有所回落。公司12 月整体销量42.0 万\n辆，同比-18.3%，环比-12.5%，乘用车销量41.5 万辆，同比-18.6%，环比-12.7%。分品\n牌来看，高端品牌整体表现较好，12 月海洋王朝/方程豹/腾势销量分别为34.4/5.1/1.8 万\n辆，同比分别"
+        }
+      ],
+      "timestamp": "2026-01-21T14:09:26.910495",
+      "result_count": 15
+    },
+    {
+      "category": "legal",
+      "query": "比亚迪 行政处罚 合规 监管 违规",
+      "results": [
+        {
+          "title": "天风汽车-长信基金（欧盟政策专家一对一）",
+          "file_id": 64,
+          "publish_date": "2026-01-15",
+          "type_full_name": "调研纪要:专家纪要",
+          "institution_name": [
+            "天风证券"
+          ],
+          "company_name": [
+            "ZEEKR Intelligent Technology Holding Limited",
+            "比亚迪",
+            "宁德时代",
+            "小米集团-W",
+            "奇瑞汽车"
+          ],
+          "section": "税)**，反补贴税率按车企单独裁定，不同车企税率差异显著，如比亚迪部分车型税率为**17%、8.8%**，上汽则达**39.3%**，直接导致同级别车型MIP价格存在差距。以比亚迪车型为例，海鸥CIF到岸价为**2.7-3.2万欧**，叠加税率后MIP价为**3-3.5万欧**；元PLUS CIF到岸价为**3.6-4.1万欧**，MIP价为**4-4.5万欧**。海鸥因未配合欧盟反补贴调查且属后进入市场的低端车型，未参与申报，税率较高；元PLUS等配合调查的车型税率相对合理。此外，欧盟禁止车企通过低开发票规避价格承诺，MIP实施后对发票管控严格，会核查企业纳税情况，车企定价灵活性被压缩，如比亚迪元PLUS在2025年售价为**3.9-4万欧**，MIP实施后价格升至**4.4-5万欧**，利润空间受挤压。每个车型及配置需单独申报MIP，合规成本较高，部分车企会逐步放弃低端、冷门且不走量的车型，集中资源保留中高端热销车型。\n违规处罚与落地时间表：MIP政策对违规行为设置梯度处罚机制，违规追责严格且追溯周期长。a.首次违规将给予警告，并要求补缴按原反补贴税率计算的差额税款；b.第二次违规"
+        },
+        {
+          "title": "中信证券 | 比亚迪近况及观点更新（汽车&电池和能源管理）",
+          "file_id": 58,
+          "publish_date": "2026-01-13",
+          "type_full_name": "调研纪要:分析师纪要",
+          "institution_name": [
+            "中信证券"
+          ],
+          "company_name": [
+            "比亚迪股份",
+            "比亚迪"
+          ],
+          "section": "其实都没有任何比亚迪新的负面新闻出来。我觉得合理的推断就是，不光比亚迪在过去半年多已经提前的去按照这个新的监管意见要求自己了，而且更重要的是大概率他目前已经在监管那边是过关的了。反内卷政策，接下来会变成一个行业性的，选所有的这个。汽车行业的这样的一些参与者，都需要共同遵守的这样的一个规则，而不是仅仅单独针对于比亚迪一家企业的这样的一个不公平的、带有针对性目的执法的这样一个政策。如果这个事情，或者说这个逻辑一旦讲得通的话，那大家可能会清晰地意识到目前这个阶段，反内卷最大的压力时间段应该已经过去了。可能从新的一年开始之后，比亚迪会更加积极的像一个正常的企业一样，去营销自己的新车，去积极的适应市场的变化，去调整自己的市场策略。而这些，其实都是在去年，过去7个月，比亚迪没有能够做到的事情。所以比亚迪已经从一个就是所谓打不还手，骂不还口的这样一个阶段，应该已经过去了。好，所以这是我觉得反内卷政策接近于尾声，接近于翻篇之后对比亚迪一个非常重要的新的意义。那另外一个可以就形成我们这样的一个推论的证据，在于在上周的时候，新闻联播也报道了国务院总理李强有前往深圳视察调研比亚迪，而且在新闻联播上其实长达一"
+        },
+        {
+          "title": "BYD deep-dived Call",
+          "file_id": 65,
+          "publish_date": "2025-11-20",
+          "type_full_name": null,
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "，目前是否存在持续影响或负面后果？事件起因是上半年比亚迪向经销商压货，叠加市场高库存，经销商为缓解压力将新车推至二手平台。7月初比亚迪召开经销商大会，明确禁止经销商进一步折扣及销售零公里二手车，违者将受处罚。目前事件已平息，未再出现类似情况。虽不违法但属异常行为，政府可能介入关注。小米汽车订单表现及市场反馈良好，其持续推动产品高端化的能力突出，比亚迪的品牌形象是否会受到影响，消费者是否会转向小米、华为等更高规格、更高质量的品牌，以及比亚迪历史上在低收入地区的渗透成功是否会成为结构性阻碍？低端市场消费者核心关注价格与性能，其中价格因素尤为重要，比亚迪只要保持低价策略及合理性能，仍能满足该市场需求；Alto、Cyrus等品牌的车型保持一定价格带，且配备相关配置，即便是吉利的最便宜车型也未配备该配置，市场结构未发生变化的情况下，消费者价格敏感特征仍将持续。比亚迪凭借规模优势、品牌影响力及渠道布局，能够维持大众市场领导地位；中高端市场方面，今年相关车型表现稳定，且通过推出仰望品牌展示技术实力。未来理想汽车将推出新车型，但中国大众市场可容纳多个品牌竞争，比亚迪大众市场地位仍将稳固。"
+        },
+        {
+          "title": "【中泰汽车】比亚迪经销商终端情况反馈（成都 | 西南区域）",
+          "file_id": 66,
+          "publish_date": "2025-09-10",
+          "type_full_name": null,
+          "institution_name": [
+            "中泰证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "显吐槽。相比此前宋PLUS EV和DMI主要面向中年群体，新车设计更年轻化，外观被认为比老款更美观，吸引了包括原选择06GT、海豹等车型的年轻消费者。此外，换代后产品力提升、价格合理，叠加受众群体向年轻市场拓展，部分消费者认为13-15万元价位性价比高且外观不丑，综合推动销量表现，换代设计较为成功。比亚迪对经销商终端优惠的管控自7月以来是否仍保持严格？目前比亚迪对王朝和海洋系列车型均执行终端管控政策，以海狮06为例，其EV和DMI版本均为严管车型，全系仅提供4年4次常规保养，无价格优惠。部分经销商存在私下优惠但不敢公开，管控严格，违规处罚标准为下定违规罚款30万元、交车违规罚款100万元，成都市已有两家经销商因此受罚。比亚迪对车型价格管控的放松时间是否有明确安排？根据上个月月底比亚迪参与的自律委员会会议传达的信息，大区反馈海思林车型价格将保持稳定至年底，但实际执行需结合总部销量完成进度及市场情况调整。其他车型价格管控可能松动，而海思06车型厂家不会推出新补贴折让，需严格管控价格。是否有明确的竞品对比亚迪进行举报？有，涉及的竞品包括吉利和长城，其中长城举报较多。国家对比亚迪的管控具体针对"
+        },
+        {
+          "title": "【中泰汽车】新能源B经销商终端情况反馈（深圳 | 华南区域）",
+          "file_id": 67,
+          "publish_date": "2025-10-23",
+          "type_full_name": null,
+          "institution_name": [
+            "中泰证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "SI 包括你的神秘客和什么扣分扣分扣完分以后。他按比例，那可能你扣完过以后，你只能拿80%，那就相当于打个八折。那就原定的拿1000的，你可能只能拿到800块钱一台车。那咱们这边，就是这个是提车，就厂家给到咱们这的补贴。就咱们去给消费者的这个优惠的钱，有变化吗？跟二季度或者三季度比。三季度以后，明显感觉到厂家对这个价格管控非常强势。然后就是我们家没有被罚，别的家有开票开低的，一旦被他发现。我知道东莞有一家罚了将近15万块钱。就是你，没有，从这个。七月份是开始，说是七月份开始，但没有正儿八经罚。其实的话还是从九月底开始严的。明白，那就是现在还是继续这个力度，对吧？就是如果有开票的需求，就继续发。对因为开票的数据他是能查得到的，因为他毕竟我们要拿这个抵扣。我们必须把发票上传给厂家那边去，因为他要给我们发票，我们要去做抵扣，进项和销项。所以这块来讲的话，这个数据包括上险，因为上险以数据为准，以那开票你的金额为准，所以说这个数据是能查得到的。所以说，就是因为6月份开始以后，当时不是卷的很厉害。就说比亚迪这边优惠确实当时价格应该是最，我所知道的，应该是全年，也不是全年，就我做比亚迪2，接近快20"
+        },
+        {
+          "title": "9点1氪：车评人陈震偷税被查，案件细节曝光；外卖新国标：骑手连续接单超4小时暂停派单20分钟；王传福回应比亚迪国内销量下滑",
+          "file_id": 68,
+          "publish_date": "2025-12-06",
+          "type_full_name": null,
+          "institution_name": [
+            "36氪"
+          ],
+          "company_name": [
+            "比亚迪股份",
+            "比亚迪"
+          ],
+          "section": "续接单超4小时暂停派单20分钟针对近年来外卖行业存在的“幽灵外卖”、非理性竞争以及外卖配送员权益保障不足等问题，近日，市场监管总局发布《外卖平台服务管理基本要求》推荐性国家标准。新国标对配送员工作时间作出明确限制：每天接单时长原则上不超过8小时，达到8小时后需经骑手确认方可继续接单；连续接单超4小时应发出疲劳提示，并暂停派单20分钟。平台不得以算法优化、冲单奖励等方式强制或变相强制骑手超时劳动。同时，标准要求平台优化调度算法，考虑路况、天气、商户出餐时间等多重因素，避免因算法不合理导致配送时间挤压。商户出餐超时，系统应对订单进行补时，并允许骑手免费转单或无责取消。配送时长计算需符合安全时速，电动自行车平均时速不得超过15公里。（新京报）比亚迪国内销量下滑，王传福最新回应12月5日，比亚迪在深圳坪山举行临时股东大会。会上，比亚迪董事长兼总裁王传福表示，今年比亚迪国内市场销量出现下滑，一方面由于比亚迪当前技术领先度不及前几年，技术成果的市场惊艳度有所下降，叠加行业同质化特征渐显，这一变化符合产品及技术发展的周期性规律。另一方面，低温充电速度慢等用户需求痛点，也亟待通过技术突破予以解决。“我"
+        },
+        {
+          "title": "China Autos Industry Expert Call | 3Q China Auto Sector Sales Recap & 2H 2025-2026 Outlook with CPCA's Dongshu Cui",
+          "file_id": 69,
+          "publish_date": "2025-10-15",
+          "type_full_name": null,
+          "institution_name": [],
+          "company_name": [
+            "小米集团-W",
+            "微博-SW",
+            "比亚迪"
+          ],
+          "section": " purpose而且我们认为目前来看，从反对，从前期的这个24年左右新能源发展来看。以这个比亚迪等企业大幅超越了上汽，实现了高增长。而对上汽这些国有企业来说，一汽、东风都带来巨大被边缘化的压力。所以在汽车行业是唯一一个民进国退的一个比较明显的行业，而在这个变化之下，民企，像比亚迪等一些不规范的做法，对行业来看带来更大的压力。所以国家反内卷的核心的目标就是反对比亚迪去降价，反对比亚迪去压榨供应商的利益，因为比亚迪的供应商账期可能在100多天的一个状态。所以这样话，通过管住比亚迪，使它无法发挥竞争力，这样话就给别的企业去缓冲，或者是跟进，超越比亚迪发展，起到一定贡献。所以九月份可以看到上汽，还有这个东风等这些企业。拼命的反击，而比亚迪在这就处于这种国内市场相对比较低调的状态。好的。OK, the background for this anti-innovation is that if you recall in the last past two years, BYD has been surpassed, Shanghai Auto became the largest auto m"
+        },
+        {
+          "title": "东财汽车 | 汽车风向标系列13 - 汽车两新政策解读",
+          "file_id": 70,
+          "publish_date": "2025-12-31",
+          "type_full_name": "调研纪要:分析师纪要",
+          "institution_name": [
+            "东方财富"
+          ],
+          "company_name": [
+            "赛力斯",
+            "小米集团-W",
+            "ZEEKR Intelligent Technology Holding Limited",
+            "比亚迪"
+          ],
+          "section": "的财务都知道，看到这些职业经理人。拿各种发票来抵税，这个是很头疼的一件事，不允许的，是违法的。对这一点应该是可以合规。如果经销商都不愿意亏本卖车，抖音想逼着经销商亏损卖车，这个逻辑是走不完的。就是以前甲方爸爸很强势，对，他可以在全国娶好几百个老婆。对，谁好就给谁资源，谁不好就把谁一直一直就直接就把他退出这个体系，这个时代过去了。这个时代过去了，所以现在的合资品牌，尤其是外资品牌，有央国企背景的，他们现在不那么强势了，对，肯定是要跟经销商去协商的。对于比亚迪每年会发起的这个价格竞争，至于吉利在25年，以，就很多新车低价格在进入市场。我看政府的政策走向走向这个高风险。法律风险的政策上写的很清楚。对于新车进入市场，低价格的进入市场，需要监管的。对，至于怎么监管，不知道，报不成本。还有一个是对于限售的新车，你的降价比例超过30%。就是如果你有10台，10条产品线，有三条产品线你在同一个时间内降价了降价的比例比较大，是要是要约谈的。对，那一天到晚被政府叫去北京谈谈心，那肯定是有压力。对，那是肯定是有压力的。那我说7月1号的反内卷，我记得比亚迪公司应该去北京去了好几次了。那7月1号之后，我们看到比"
+        },
+        {
+          "title": "欧盟汽车出海法规合规：功能、数据及运营应对策略",
+          "file_id": 71,
+          "publish_date": "2026-01-14",
+          "type_full_name": "专家库",
+          "institution_name": [],
+          "company_name": [
+            "美国电话电报",
+            "科大讯飞"
+          ],
+          "section": "不同地区法规特点对比欧盟强法规强执行特点：欧盟地区呈现强法规、强执行特点，涉及GDPR及2155/2156等法规，对车联网、OTA等功能要求严格。GDPR要求严格保护用户个人隐私（如ID账号、GCS位置信息等不能传），违规将面临**2000万欧**罚款，导致车联网功能需技术阉割，如车钥匙分享功能不能细分到车主以外的人（朋友无法远程开关锁）；OTA方面，2156法规要求信息数据可追溯，部分数据回传被禁止。欧盟法规本身严格且执行力度大。\n东南亚弱法规弱执行特点：东南亚（如泰国、马来西亚、新加坡）呈现弱法规、弱执行特点，法规虽抄欧盟GDPR及2155/2156，但整体与国内情况类似，执行宽松。国内车联网等功能可直接复用，无需严格调整，若出问题有其他灵活解决方式。GDPR合规的车端与运营策略车端功能裁切与逻辑调整：车联网功能采用**平台化设计**，销往海外时进行裁切与阉割，未单独设计两版，而是在最大化设计基础上裁切与GDPR冲突部分；具体需依据GDPR显性条款，从代码模块层面屏蔽或删除不准采集、传输的敏感数据，不留注释；裁切后因关键数据缺失或为空，需调整业务逻辑，如填空值、不填或砍掉功能，同时"
+        },
+        {
+          "title": "广饶一企业被行政处罚",
+          "file_id": 72,
+          "publish_date": "2025-12-25",
+          "type_full_name": null,
+          "institution_name": [
+            "轮胎商业"
+          ],
+          "company_name": [],
+          "section": "现了汽车等速驱动轴从原材料的锻造至成品的全过程加工。生产线从车加工到装配，基本实现自动化，关键工序80%以上实现100%自动全检。 公司导入MES系统，确保产品质量的可追溯，并利用MES系统对重要工装、检具和在线检测系统进行管理。公司将继续秉承“传承动力，驱动未来”的理念，积极开拓国内外知名汽车主机厂。誓将成为具有一流竞争力的汽车零部件企业。2012年底，企业开始进入国内和国际主机配套；通过近几年发展，同比亚迪汽车、理想汽车、郑州日产、吉利汽车、北京现代、凯翼汽车、零跑汽车、起亚、标致、PSA、江铃集团等建立配套体系，与长安、北汽、广汽、东风汽车、长城汽车达成初步合作意向。轮胎这行，被罚的事儿其实挺常见的，不少企业都栽过跟头。有的是生产时没把控好排污，被环保部门盯上处罚；有的是动了歪心思搞产品侵权，吃了官司又赔钱；还有的没办齐手续就贸然开工，属于典型的未批先建，自然逃不过监管；更有甚者，生产销售不合格的轮胎产品，既坑了消费者，也把自己推向了处罚的境地。眼下市场行情本就不景气，轮胎生意是一天比一天难做。这种时候，企业更得绷紧神经，不管是环保、知识产权、税务合规，还是宣传推广，每一个环节都"
+        },
+        {
+          "title": "汽车行业双周报：《汽车行业价格合规指南》公开征求意见，两款L3级车型获工信部准入许可",
+          "file_id": 73,
+          "publish_date": "2025-12-23",
+          "type_full_name": "行业研究:行业周报月报",
+          "institution_name": [
+            "银河证券"
+          ],
+          "company_name": [],
+          "section": "挤竞争对手或者独占市场为目的实施整车、零部件出厂价格低于其生产成\n本、采用高规格、高等级充当低规格、低等级等手段变相降低价格，使实际出厂价格低于其生产成\n本等价格行为，存在重大法律风险等。2025 年受价格战升温影响，汽车行业盈利能力继续承压，1-\n10 月我国汽车累计销量同比增长12.4%至2768.7 万辆，但汽车制造业营业收入同比增长7.9%至\n8.88 万亿元，利润总额同比增长4.4%至3894.6 亿元，利润增速低于收入增速，收入增速低于销量\n增速，行业“增收不增利”。展望2026 年，由于受到购置税免征政策退坡、以旧换新政策延续的不\n确定性等影响，汽车行业销量增长预计将承压，行业规模效应的提升受到压制，市场监管总局对汽\n车行业价格合规行为的指引有望规范行业竞争行为，目前已有比亚迪、北汽、小鹏、奇瑞、长城、\n赛力斯等十余家车企表示响应，行业价格战有望降温，对冲部分总量增长承压的影响，提振行业盈\n利水平，改善汽车产业链企业的经营状况，推动行业健康可持续发展能力的提升。 \n12 月15 日，工信部公布我国首批L3 级有条件自动驾驶车型准入许可，分别为长安牌\nSC7000AAARB"
+        },
+        {
+          "title": "BYDE (0285.HK): Mgmt. visits: Foldable phones to bring dollar content increase; AI servers brings potential upside",
+          "file_id": 38,
+          "publish_date": "2026-01-19",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": " redistributed to our clients or available to third-party aggregators, nor is Goldman Sachs responsible for the redistribution of our \nresearch by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related \nservices) that may be available to you, please contact your GS representative or go to https://research.gs.com. \nDisclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY \n10282. \n© 2026 Goldman Sachs.  \nYou are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use.  \nYou may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative \nworks or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, \nor otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. \nThis foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or \nfinetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any \nsuch system. \n19 January 2026\n  6\nGoldman Sachs\nBYDE (0285.HK)\n.SG\n407b807cc90e11dcbf7a0014c23fbb6a\n"
+        },
+        {
+          "title": "隐匿重要审计底稿、逃避财政部门检查、编制虚假底稿！财政部对北京亚泰国际行政处罚全文公布！",
+          "file_id": 74,
+          "publish_date": "2026-01-17",
+          "type_full_name": null,
+          "institution_name": [
+            "IPO上市号"
+          ],
+          "company_name": [],
+          "section": "，《中国注册会计师审计准则第1401号——对集团财务报表审计的特殊考虑》第四十七条，《中国注册会计师审计准则第1501号——对财务报表形成审计意见和出具审计报告》第十八条第（二）项，《中国注册会计师审计准则第1504号——在审计报告中沟通关键审计事项》第六条、第八条，《中国注册会计师职业道德守则第1号——职业道德基本原则》第七条第（一）（二）（四）项等规定。对上述违法行为，依据《中华人民共和国注册会计师法》第三十九条第一款和《会计师事务所执业许可和监督管理办法》第六十七条第一款、第六十九条的规定，财政部决定给予你所警告，没收紫天科技2023年度财务报表审计项目违法所得140万元、处以罚款701万元，没收湘投轻材2023年度财务报表审计项目违法所得25万元、处以罚款25万元，暂停经营业务1年的行政处罚。你所应在收到本处罚决定书之日起十五日内与财政部北京监管局联系，凭财政部北京监管局开具的电子《非税收入一般缴款书》，通过中央财政非税收入收缴代理银行，将罚款缴入中央国库，并将缴款凭证等相关材料书面报送财政部监督评价局。如不服本处罚决定，可以在接到本决定书之日起六十日内，依法向财政部申请行政复"
+        },
+        {
+          "title": "【国信宏观For国联基金】政策专家线上路演",
+          "file_id": 75,
+          "publish_date": "2025-12-11",
+          "type_full_name": "调研纪要:专家纪要",
+          "institution_name": [
+            "国信证券"
+          ],
+          "company_name": [
+            "上海钢联",
+            "比亚迪"
+          ],
+          "section": "材料能够证明。他的某一款车型的价格也比他的自己高于他自己的生产成本，这个我们也没法去处罚他。好，明明白，就是因为之前上一轮这个整治里面，就比亚迪它作为龙头，其实这个受到的舆论其实还蛮多的。但是那是不是就是刚才您的这个就是这个意思当中，就是可能后面他如果再去想针对，因为他成本很低，他如果想去做一些价格调整的话，可能就不会像之前那么严格了，就是严，特别严格的这个对他进行限制，对吧？是这样，就至少从我们以为政府要处罚一个这一个企业，肯定是要一个，首先要合规合法，你不能说我想罚你就罚你，那不能，不可能，这都我们市场经济建设这么多年了，我们要有要处罚，要有依据。这个依据就在哪里？就是在于接受处罚，要有一"
+        },
+        {
+          "title": "长江汽车高伊楠团队 | 汽车指楠第118期：乘用车近期终端需求跟踪及展望",
+          "file_id": 76,
+          "publish_date": "2025-12-29",
+          "type_full_name": "调研纪要:分析师纪要",
+          "institution_name": [
+            "长江证券"
+          ],
+          "company_name": [
+            "上汽集团",
+            "长安汽车",
+            "比亚迪",
+            "ZEEKR Intelligent Technology Holding Limited"
+          ],
+          "section": "价，降价幅度达到一定比例，就要约谈。如果超过，持续的超，持续的还在增加的话，就要考核了。可能就是要，就是那句话，有比较高的法律风险，就是违法。对，这个是对于制造单，这个是对于车企，大概有九九项，九项负面清单，对，这个应该是在7月份反倾销之后。这部位列车的负面清单还没跑过，应该是跑跑通过这些东西的吧。对，九项负面清单，包括你向上游去，向下游去。承诺也不可以，就是也，你不可以从上从下都有，都有帮你一一一起在下面做动作的同伙，这是不可以。制制造的，我觉得零售商比较简单，零售商是政府要求很简，很清楚，就是你的进进销量发票不能为0，不能为负数，这个是最简单不过的。对这些对经销商来说，就是从主机厂那端大概能只能拿到增值税发票吧。就是所谓的进项发票，那如果是补贴放在折扣池里的话。或者一些非商品车销售的补贴政策，比如说建店补贴、商务政策的达标率的返利、对用户满意度返利。或者是什么清库补贴、店店返利，对市场运行、市场运营的这个广告支持、费用、营销费用支持，这些可能会用红票、红红字发票去冲了。充的话，其实国税局也查得到，你充哪哪些车，单车会往下充多少钱。基本上上限都会给你封死，5千，最多一台车让你充5千。"
+        }
+      ],
+      "timestamp": "2026-01-21T14:09:43.359830",
+      "result_count": 15
+    },
+    {
+      "category": "legal",
+      "query": "比亚迪 知识产权 专利 商标",
+      "results": [
+        {
+          "title": "比亚迪申请注册新商标，科学仪器分类",
+          "file_id": 77,
+          "publish_date": "2026-01-09",
+          "type_full_name": null,
+          "institution_name": [
+            "仪器信息网"
+          ],
+          "company_name": [
+            "比亚迪股份",
+            "比亚迪"
+          ],
+          "section": "特别提示微信机制调整，点击顶部“仪器信息网” → 右上方“…” → 设为★星标，否则很可能无法看到我们的推送。天眼查知识产权信息显示，近日，比亚迪股份有限公司申请注册一枚“魔方全景声”商标，国际分类为科学仪器，当前商标状态为等待实质审查。比亚迪股份有限公司1995年2月，法定代表人为王传福，注册资本约91.2亿人民币。股东信息显示，该公司由香港中央结算（代理人）有限公司、王传福、吕向阳等共同持股。| 版权：本文部分素材源自网络，版权归原作者所有，观点代表作者本人，不代表本号立场| 转载：须本号授权，请联系主编| 来源：仪器信息网| 责编：安安| 视觉：长艳 柱子发文不易，请帮小编点下\"❤️\" ↓"
+        },
+        {
+          "title": "比亚迪:2024年度可持续发展报告",
+          "file_id": 78,
+          "publish_date": "2025-03-25",
+          "type_full_name": "财务经营报告:ESG公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "航\n精工品质，匠心铸魂\n才聚星河，智驱筑梦\n链合共荣，责任先行\n科技向善，守护明天\n鉴证声明\n开篇\n附录\n70\n2024       比亚迪可持续发展报告\n知识产权保护\n知识产权是比亚迪的核心竞争力，是创新发展的“刚需”。我们重视对知识产权的保护，遵循《中华人民共和国专利法》《中华人民共和国商标法》等运营地知识产权相关法律法规，在保护自主知识产权的同时，充分尊重他人\n的知识产权。我们通过培养保护意识、制定规章制度和创新管理模式，构建了一套高效的知识产权管理体系。本集团建立知识产权申请、管理、运用的长效机制，以确保知识产权工作的系统性和连贯性。\n我们制定了《比亚迪公司专利申请程序》《比亚迪公司专利分级办法》和《比亚迪公司专利布局管理规定》等一系列制度，从知识产权创造、保护、运用等方面全方位规范公司知识产权管理，实现知识产权全链条的布局和保\n护，通过创新积累知识产权，通过知识产权保护和促进创新。\n我们持续优化知识产权管理系统，针对专利、商标、版权等无形资产进行全生命周期的贯穿式管理，保障本集团无形资产的安全性和完整性。\n在经历专利数量原始积累、专利质量提升以及专利布局阶段之后，公司已进入高"
+        },
+        {
+          "title": "比亚迪:2025年半年度报告",
+          "file_id": 52,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "亚迪实业支付\n1,621,365 美元；\n2、香港爱佩仪向惠\n州比亚迪实业支付逾\n期利息损失人民币\n9,956,153.92 元；\n3、香港爱佩仪支付\n惠州比亚迪实业一审\n案\n件\n受\n理\n费\n83,086.99 元、财产\n保全费人民币5,000\n元\n正在执行\n不适用\n不适用\n注：1、深圳富泰宏精密工业有限公司等和本公司及部分下属子公司之间的侵权诉讼\n2007 年6 月11 日，深圳富泰宏精密工业有限公司、鸿富锦精密工业（深圳）有限公司作为原告向香港特别行\n政区高等法院（以下简称“高等法院”）起诉，指控本公司、比亚迪香港、金菱环球有限公司、比亚迪电子有限公司、\n领裕国际有限公司、天津比亚迪电子有"
+        },
+        {
+          "title": "BYD Q2: The price of market leadership",
+          "file_id": 79,
+          "publish_date": "2025-08-30",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "Bernstein"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " transmitted or otherwise made available without prior consent of the\nentities noted herein. Copyright Bernstein Institutional Services LLC Bernstein Autonomous LLP, BSG France S.A., Sanford C.\nBernstein (Hong Kong) Limited 盛博香港有限公司, Sanford C. Bernstein (Canada) Limited, Sanford C. Bernstein (India) Private\nLimited (SEBI registration no. INH000006378), Sanford C. Bernstein (Singapore) Private Limited and Sanford C. Bernstein Japan\nKK (サンフォード・C・バーンスタイン株式会社). All rights reserved. The trademarks and service marks contained herein are\nthe property of their respective owners. Any unauthorized use or disclosure is strictly prohibited. The entities noted herein may\npursue legal action if the unauthorized use results in any defamation and/or reputational risk to the entities noted herein and\nresearch published under the Bernstein and Autonomous brands.\nASIAN AUTOS\n18\n"
+        },
+        {
+          "title": "比亚迪股份:2024可持续发展报告",
+          "file_id": 80,
+          "publish_date": "2025-03-24",
+          "type_full_name": "财务经营报告:ESG公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "質量提升和高價值專利挖掘。通過引導研發部門進行深層次、多維度、全方面的技術創新，挖掘、佈局更完\n善、價值更高的專利組合，實現高價值專利的創造和運用。\n在4月26日「世界知識產權日」，比亞迪面向集團研發人員組織了「4.26創新向未來」知識產權保護宣傳活動，邀請\n研發人員共同學習與探討高價值專利工作的優秀思路與實踐案例，提高其知識產權保護意識和能力。本次活動共計\n吸引線下與線上300余位研發人員代表參加，實現了知識產權保護理念與實操知識的有效傳播和推廣。\n>   「4.26創新向未來」知識產權保護宣傳活動\n我們積極開展知識產權文化建設，通過開展培訓和組織交流活動等方式，提升全員的知識產權保護意識和\n能力。2024年，比亞迪開展了102場知識產權培訓，除了向員工傳遞專利技術交底書的撰寫和專利檢索等\n知識產權基礎知識，我們還將課程拓展到高價值專利培育、專利佈局策略等高階培訓，累計培訓時長167\n小時，覆蓋員工超5,100人次。\n截至報告期末\n全球累計申請專利\n59,691件\n46,201件\n累計申請中國專利\n13,490件\n累計申請境外專利\n全球累計授權專利\n35,837件\n30,299件\n中"
+        },
+        {
+          "title": "BYD Export MSRP & Discount Tracker (End-Nov)",
+          "file_id": 81,
+          "publish_date": "2025-12-09",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Citi"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "Citi and Arc Design \nare trademarks and service marks of Citigroup Inc. and its affiliates and are used and registered throughout the world. All rights \nreserved. The research data in this report are not intended to be used for the purpose of (a) determining the price of or amounts \ndue in respect of (or to value) one or more financial products or instruments and/or (b) measuring or comparing the \nperformance of, or defining the asset allocation of a financial product, a portfolio of financial instruments, or a collective \nBYD (1211.HK)\n09 December 2025\nCiti Research\n11\ninvestment undertaking, and any such use is strictly prohibited without the prior written consent of Citi Research. Any \nunauthorized use, duplication, redistribution or disclosure of this report (the “Product”), including, but not limited to, \nredistribution of the Product by electronic mail, posting of the Product on a website or page, and/or providing to a third party a \nlink to the Product, is prohibited by law and will result in prosecution. The information contained in the Product is intended \nsolely for the recipient and may not be further distributed by the recipient to any third party.\nADDITIONAL INFORMATION IS AVAILABLE UPON REQUEST\n"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)全球领先的智能制造平台 消费电子&汽车电子&AIDC业务多元驱动",
+          "file_id": 40,
+          "publish_date": "2025-12-01",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "中信建投"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "亚迪在新能源汽车市场的不断深耕，比亚迪电子逐步成为母公司汽车业务的\n重要支撑。 \n图1:比亚迪电子历史沿革 \n \n数据来源：比亚迪电子官网、中信建投证券 \n \n比亚迪电子凭借其全产业链的垂直整合能力，具备强劲的竞争优势。在研发实力方面，比亚迪电子拥有超\n过1000 项专利授权，在全系材料研发及检测、新材料及表面处理技术方面具有深厚实力。在制造方面，公司具\n备规模化的全球化智能化精密制造能力，以及近二十年的模具、设备、智能装备开发和智能制造信息化管理经\n验，同时，公司的自动化信息化生产能力，结合其专业的智能装备开发及IT 服务管理团队，能够提供从单机设\n备到智慧工厂的智能装备解决方案。 \n凭借多元化布局，公司成功构建起消费电子、新型智能产品和新能源汽车三大业务板块。2024 年公司消费\n电子/新能源汽车/新型智能产品业务占收入比例分别为79.7%/11.6%/8.8%。公司在消费电子领域提供零部件及组\n装业务，产品包括手机中框背板、转轴、摄像头装饰、塑胶前壳及整体组装等，新能源汽车板块的产品线覆盖\n智能座舱，智能驾驶，智能悬架，核心控制器和传感器等，新型智能产品板块逐步拓展至户用储能、智"
+        },
+        {
+          "title": "比亚迪终结特斯拉时代！全球纯电销冠易主，车市迎来“中国时刻”",
+          "file_id": 82,
+          "publish_date": "2026-01-07",
+          "type_full_name": null,
+          "institution_name": [
+            "车东西"
+          ],
+          "company_name": [
+            "比亚迪股份",
+            "比亚迪",
+            "Tesla, Inc."
+          ],
+          "section": "一场漂亮的翻身仗，赢得了更广阔的基本盘。02.出海销量占比突破20%比亚迪全球化大招拆解比亚迪这份销售年报所揭示的价值，远不止在纯电销量上的登顶。最具战略意义的信号之一，是比亚迪在海外市场销量的爆发式增长。2025年其海外新能源汽车销量突破100万辆大关，占比超20%，同比翻番，意味着比亚迪的全球化进入了“深水区”，这背后是长达数十年的本地化深耕。对其全球化战略进行简单拆解，这场胜利建立在三层基础上：其一，产品力获得全球认可。在欧洲，宋PLUS拿下德国2025年11月插混车型销冠，成为中国品牌首个在德国主流细分市场登顶的车型；海鸥入选美国《时代》杂志“年度最佳发明”。▲海鸥入选《时代》杂志“年度最佳发明”在日本，凭借海豹、海狮07EV等车型，比亚迪连续两年荣获日本NPO法人“汽车研究者与记者会议”（RJC）颁发的核心奖项。这均说明比亚迪车型成功经过了成熟市场的严苛检验，早已打破了海外对“中国车靠低价”的刻板印象，证明了在设计、安全、品质等维度，中国汽车品牌已具备全球顶尖水平。其二，产能与供应链深度本地化。当竞争进入深水区，单一的产品领先已不足以维持海外市场优势。比亚迪在全球范围内的产能"
+        },
+        {
+          "title": "兴发集团(600141.SH)与比亚迪就磷酸铁锂达成合作，看好磷酸铁锂盈利修复",
+          "file_id": 83,
+          "publish_date": "2025-12-05",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "国信证券"
+          ],
+          "company_name": [
+            "兴发集团"
+          ],
+          "section": "业有限公司（系比亚迪股份有限公\n司全资孙公司）签署《磷酸铁锂委托加工协议》，由青海弗迪委托兴顺新材料加工生产8 万吨/年磷酸铁锂\n产品，并支付加工费。协议期限2 年，经双方协商一致，可自动续约1 年。\n国信化工观点：1）我们看好储能及新能源汽车需求快速增长背景下磷酸铁锂需求增长，磷酸铁锂价格和\n利润有望得到修复，此次兴发集团与比亚迪就磷酸铁锂达成合作将促使兴发集团产能释放，盈利改善。我\n们维持公司2025-2027 年盈利预测，预计公司2025-2027 年归母净利润分别为19.06/21.54/23.33 亿元，\n摊薄EPS 为1.73/1.95/2.11 元，当前股价对应PE 为18.9/16.7/15.4x，维持“优于大市”评级。\n评论：\n此次协议的签订将有助于公司磷酸铁锂产能释放，增厚公司利润\n兴发集团主营业务为精细磷化工系列产品的生产与销售，近年来，公司顺势切入新能源产业，陆续建成10\n万吨/年磷酸铁、8 万吨/年磷酸铁锂、10 万吨/年磷酸二氢锂项目，2025 年1-9 月新能源板块的收入占公\n司总收入的比重约为3%。\n青海弗迪作为我国新能源汽车头部生产制造商比亚迪的全资孙"
+        },
+        {
+          "title": "US Pharmaceuticals & Biotechnology \"Drug patent cases: CORT vs TEVA,...\"",
+          "file_id": 84,
+          "publish_date": "2026-01-07",
+          "type_full_name": "行业研究:行业深度",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [],
+          "section": "nfringement of these polymorph claims.\nAnd also just worth pointing out, as you mentioned earlier, the polymorph patent \nexpires 2030. Both of the Orange Book- listed method-of-use patents expire earlier than \nthat. The 430 patent expires 2026, that's, like, next year. I think it's a non-issue. And the \n947 expires in 2029. So it's hard for me to imagine this world in which the 197 patent \ngets invalidated or there's a non-infringement finding, but somehow it's the 947 patent \nthat's holding people back. Anyway. But we'll find out.\nSo-Youn:\nOkay. So based on the information that we have in hand and what we've discussed, \nwhat would you say, if you have to give a number, is the probability that Harmony can \nwin in this trial?\nJacob Sherkow:\nMy confidence level is not high only because... Well, just to be clear, I do think Harmony \nis going to win because I think they've at least got an invalidity or a good infringement \nargument on either side of these things, but my confidence level is not high because \nthat's a function of whether they're going to find a way to get their technical experts in \nto testify, and I don't have a good sense about whether that's true.\nAnd so if they are not able to get the technical expert that they want to come in and \ntestify about some of the X-ray diffraction pattern information for this polymorph, then \nI think Harmony is probably going to lose. And at the same time, if they are able to get \ntheir technical expert in, I think they're probably going to win, although I don't really \nknow about whether the generics are likely to infringe or not. And so this is just \nsomething where I think we kind of need to get these motions in limine resolved, that is \nthe pretrial motions, resolved from the court about technical experts first before we can \ndo a better job handicapping about who's likely to win.\nSo-Youn:\nI see. In the event that Harmony loses the trial, I'm just wondering here, based on all the \ndates that we have, what are the extent"
+        }
+      ],
+      "timestamp": "2026-01-21T14:10:06.814165",
+      "result_count": 10
+    },
+    {
+      "category": "team",
+      "query": "比亚迪 管理团队 高管 董事长 CEO",
+      "results": [
+        {
+          "title": "Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens",
+          "file_id": 2,
+          "publish_date": "2025-11-14",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "Jefferies"
+          ],
+          "company_name": [
+            "比亚迪电子",
+            "鹏鼎控股"
+          ],
+          "section": "neer. He joined BYDE in April 2015 and is the chief\nexecutive officer and executive Director of the Company and the vice chairman of BYD Charity\nFoundation.\n \nMr Xiangrong Jiang, Executive Director, obtained a bachelor’s degree in Applied Chemistry Fudan\nUniversity in 1999. Mr. Jiang joined BYD Industries in July 1999. He is also the COO of BYD electronic\nbusiness group, the general manager of the first business division and the general manager of the\nALPHA structural parts business division.\n \nMr Chuanfu Wang, Non-executive Director/Chairman, obtained a master’s degree majoring in\nmetallurgy physical chemistry from Beijing Non-Ferrous Research Institute in the PRC. In Feb 1995,\nMr Wang founded BYD Industries with Mr. Lv Xiang-yang and took the position of general manager.\nHe currently serves as the chairman, an executive director and the president of BYD, the chairman of\nBYD Semiconductor Company Limited, the chairman of Shenzhen DENZA New Energy Automotive\nCo., Ltd.\n \nMr Bo Wang, Non-executive Director, obtained a bachelor’s degree in engineering from Harbin\nInstitute of Technology. Mr. Wang joined BYD Industries in Sep 2001 and is mainly responsible for\nmarketing and sales. He served as an executive Director. Mr Wang has been appointed as a non-\nexecutive Director since 6 June, 2019.\n \nMs Ya-lin Zhou, Chief Financial Officer, obtained a MBA degree from Tsinghua University in Jun\n2024. Ms. Zhou joined BYD Industries in March 1999 and is a Senior Vice President and chief\nfinancial officer of BYD. She is also a director of BYD Semiconductor Company Limited, chairman\nof BYD Auto Finance Company Limited, chairman of Shenzhen BYD Property Insurance Co., Ltd., a\nsupervisor of BYD TOYOTA EV Technology Co., Ltd. and a supervisor of BYD Charity Foundation,\netc.\n \n \nPlease see important disclosure information on pages 93 - 98 of this report.\nThis report is intended for Jefferies clients only. Unauthorized distribution is prohibited.\n56\nElectronic Components\nEquity Research\n"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)深度报告：EMS底蕴拓展AIDC(AI硬件系列之6)",
+          "file_id": 85,
+          "publish_date": "2025-10-17",
+          "type_full_name": "公司研究:首次覆盖",
+          "institution_name": [
+            "申万宏源"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "资拥有 \n \n公司高管多数具有深厚工程背景，均在比亚迪集团创业阶段加入。公司董事会主席、创\n始人王传福为冶金物理化学专业出身，曾任北京有色金属研究总院副主任。公司高管江向\n荣和王念强均在比亚迪创业早期加入，且具金属类业务一线工作经历，公司高管团队具有\n深厚学科背景，产业经验丰富，且均在比亚迪早期阶段加盟，团结度较强。高管履历与“材\n料与工艺禀赋经过验证，捕捉机身材质创新小周期”呼应。 \n表4：比亚迪电子核心管理层均系内生选拔培养，金属/化学/材料学科背景深厚 \n姓名 \n职务 \n出生年份 \n学历 \n履历 \n核心贡献与职责 \n王传福 \n董事会主席、\n非执行董事 \n1966 \n中南大学冶金物理化学学士，\n北京有色金属研究总院冶金物\n理化学硕士 \n创办比亚迪 \n顶层战略，大客户关系 \n王念強 \n执行董事，行\n政总裁 \n1964 \n中南大学工业分析学士，中欧\n国际工商学院工商管理硕士 \n安徽铜陵有色金属公司研\n究院；1995 加入比亚迪担\n任总工程师；2015 年加入\n比亚迪电子 \n负责比亚迪电子整体策略规划与业\n务管理 \n江向榮 \n执行董事 \n1977 \n复旦大学应用化学学士 \n1997 年加"
+        },
+        {
+          "title": "比亚迪股份:董事会会议通告",
+          "file_id": 86,
+          "publish_date": "2025-10-15",
+          "type_full_name": "一般公告:董事会公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "至二零二五年九月三十日止九個月之未經審核第三季度業績及其發佈，以及處理\n任何其他事項（如有）。\n承董事會命\n比亞迪股份有限公司\n主席\n王傳福\n中國 • 深圳，二零二五年十月十五日\n於本公告刊發日期，董事會成員包括執行董事王傳福先生、非執行董事呂向陽\n先生及夏佐全先生、獨立非執行董事蔡洪平先生、張敏先生及喻玲女士。\n"
+        },
+        {
+          "title": "比亚迪:H股公告(2025年中期报告)",
+          "file_id": 51,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "合併利潤表\n65\nConsolidated Statement of Changes in Owners’ Equity\n合併股東權益變動表\n67\nConsolidated Cash Flow Statement\n合併現金流量表\n70\nNotes to Financial Statements\n財務報表附註\nCORPORATE INFORMATION\n公司資料\n2\nBYD Company Limited\n比亞迪股份有限公司\nEXECUTIVE DIRECTOR\nWang Chuan-fu\nNON-EXECUTIVE DIRECTORS\nLv Xiang-yang\nXia Zuo-quan\nINDEPENDENT NON-EXECUTIVE DIRECTORS\nCai Hong-ping \nZhang Min\nYu Ling\nSUPERVISORS\nLi Yong-zhao \nZhu Ai-yun \nWang Zhen\nHuang Jiang-feng \nTang Mei\nCOMPANY SECRETARY\nLi Qian\nAUDIT COMMITTEE\nXia Zuo-quan \nCa"
+        },
+        {
+          "title": "比亚迪:关于高级管理人员、核心人员增持公司股份的公告",
+          "file_id": 87,
+          "publish_date": "2025-09-11",
+          "type_full_name": "重大事项:股份增减持",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "0.0106%\n59,100\n0.0006%\n1,024,200\n0.0112%\n杨冬生\n高级副总裁\n119,100\n0.0013%\n79,600\n0.0009%\n198,700\n0.0022%\n罗忠良\n副总裁\n54,600\n0.0006%\n30,500\n0.0003%\n85,100\n0.0009%\n李巍\n副总裁\n45,600\n0.0005%\n31,600\n0.0003%\n77,200\n"
+        },
+        {
+          "title": "比亚迪(002594.SZ)三季度业绩有喜有忧，研发加码与全球扩张驱动长期成长",
+          "file_id": 31,
+          "publish_date": "2025-11-02",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "海通国际"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "品牌公关总经理李云飞表示，公司计划至2026 年加快\n兆瓦闪充桩与储能站的建设进度，未来将建设超4000 座兆瓦闪充\n站，其中首批约500 座已随汉L 与唐L 上市同步启用。该系统采用\n全域千伏高压架构（1000V/1000A），充电功率达1MW，实现“闪\n充5 分钟，续航400 公里”，并搭载自主研发的1500V 耐压碳化硅\n功率芯片、专用高功率电池及冷媒直冷技术，大幅提升散热与安\n全性能。公司同时在电网容量不足地区同步部署储能系统，保障\n高功率充电稳定运行。李云飞强调，电池安全仍是新能源汽车最\n核心命题，比亚迪将继续坚持磷酸铁锂路线，确保商用车与乘用\n车的本质安全，构筑技术壁垒与消费者信任。 \n盈利预测：我们预计公司2025 年新车销量约461 万台，同比\n+11%。预计公司2025/26/27 年营收分别为8659/9553/10846 亿元\n（下调6%/13%/新引入），归母净利润约为322/442/529 亿元， \nEPS 为3.54/4.84/5.80 元。我们正式切换至2026 年估值，参照可比\n公司估值，综合实力显著优于大多数同行业自主车企，给予一定\n的估值溢价。给予公"
+        },
+        {
+          "title": "汽车行业周报：小鹏比亚迪多款新车上市，工信部公示403批新车",
+          "file_id": 88,
+          "publish_date": "2026-01-12",
+          "type_full_name": "行业研究:行业周报月报",
+          "institution_name": [
+            "国海证券"
+          ],
+          "company_name": [],
+          "section": "18.68 万元起；小鹏G7 纯\n电版与增程版同价，共四个版本，售价19.58 万元起；2026 款小鹏G6 共有两\n个版本，17.68 万元起；2026 款小鹏G9 共有三个版本，起售价24.88 万元。小\n鹏汽车CEO 何小鹏在发布会上表示，这四款新车都将搭载小鹏汽车第二代VLA\n（视觉-语言-动作）大模型。何小鹏称，这是行业首个实现L4 级初阶能力的物\n理世界大模型。今年，小鹏将迎来物理AI 的落地和规模量产，将开始运营\nRobotaxi，以及规模量产人形机器人和飞行汽车。\n比亚迪秦家族长续航版上市。1 月8 日，比亚迪秦家族长续航版正式上市。其中，\n2026 款秦L DM-i 售价11.68 万-12.68 万元，限时售价11.28 万-12.28 万元。纯\n电续航里程210km，满油满电综合续航达2110km，NEDC 百公里亏电油耗2.79L。\n新车全系提供包括墨竹青、星河米、冰珀青等6 款车色。科技配置丰富，除了天\n神之眼C-辅助驾驶系统（DiPilot 100），还搭载云辇-C 智能阻尼车身控制系统、\nW-HUD 抬头显示、一体式智能冷暖冰箱、前排远端侧安全气囊等科技配"
+        },
+        {
+          "title": "BYDE (0285.HK): Mgmt. visits: Foldable phones to bring dollar content increase; AI servers brings potential upside",
+          "file_id": 38,
+          "publish_date": "2026-01-19",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "Goldman Sachs"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "Verena Jeng \n+852-2978-1681 | verena.jeng@gs.com \nGoldman Sachs (Asia) L.L.C. \nAllen Chang \n+852-2978-2930 | \nallen.k.chang@gs.com \nGoldman Sachs (Asia) L.L.C.\nBYDE (0285.HK): Mgmt. visits: Foldable phones to bring dollar content \nincrease; AI servers brings potential upside\n19 January 2026 | 10:42PM HKT\nWe hosted BYDE management on Jan 14 at the GS Tech AI Outlook Corp Day in Hong \nKong. Management expects its major brand customer’s new foldable phone launch, \nwhich carries a higher dollar content for BYDE compared to previous models, could \nsupport their growth ahead. Management remains positive on the AI infrastructure \ncycle and aiming opportunities across both global-tier and local customers. The \nshipment of automotive components is expected to increase in 2026E, per \nmanagement, with suspension system shipments ramp up and ADAS system \npenetrating into more budget models. We remain positive on BYDE’s strategy \ntowards leading customers, and product line expansion to AI infrastructures. \nMaintain Buy. \nKey takeaways: Management holds a positive view on the company’s smartphone \ncomponent business expansion in 2026E, riding on its major brand customer’s new \nfoldable phone launch, where BYDE offers higher dollar content compared to \nprevious models, driving BYDE’s revenue growth ahead. On AI servers, BYDE serves \nlocal customers, along with expansion to global-tier customers with components \n(e.g. liquid cooling, power supply, etc.), riding on the growing AI infrastructure cycle. \nFor automotive business, management expects suspension system ramp up and the \ntrend of ADAS system penetrating into budget models to continue. \nPrice Target Risks and Methodology - BYDE \nValuation methodology: We are Buy rated on BYDE with a 12-month TP of \nHK$53.08. We apply a 17.1x target P/E multiple to our 2026E EPS estimate, and \nconvert it to HKD. Our target P/E is derived from BYDE’s historical avg. +1stv. forward \nP/E. Our target P/E to forward year net income growth and OPM "
+        },
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "5年7月，比亚迪巴西工厂开始投\n产，管理层预计到2026年12月年产能将达15万辆。2026年，比亚迪将在欧\n盟境内匈牙利新增15万辆产能。土耳其、西班牙和印度尼西亚工厂正在规划\n建设中。比亚迪的KD（散件组装）工厂分布更广，我们认为这有助于将公\n司车型推广到产业供应链较弱的更广泛市场，扩大客户群体。\n图表6: 到2026年底，比亚迪的本土化年产能将达到51万台\nOEM\nLocation\nRegion\nCapacity p.a.\nSOP\nBYD\nUzbekistan Central Asia\n50,000\n2024\nThailand\nSoutheast Asia\n150,000\n2024\nBrazil\nLatin America\n150,000\n2025\nCambodia\nSoutheast Asia\n10,000\n2025\nHungary\nEurope\n150,000\n2026\n来源: 公司数据、瑞银证券\n比亚迪在海外市场已与当地经销商、充电公司及租赁合作伙伴建立合作关\n系，提升门店在当地消费者中的曝光度。比亚迪欧洲区董事总经理Maria \nGrazia Davino宣布，到2025"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " to t\nhe narrative \nof \nthi\ns report f or an explan\nation \nof t\nhis imag\ne/chart\n来源: 公司数据、瑞银证券\n比亚迪在海外市场已与当地经销商、充电公司及租赁合作伙伴建立合作关\n系，提升门店在当地消费者中的曝光度。比亚迪欧洲区董事总经理Maria \nGrazia Davino宣布，到2025年底，比亚迪欧洲销售网点将达1000个，2026\n年将达2000个。9月，比亚迪宣布已在英国开设第100家特许经营店，门店\n数量约为英国最畅销纯电动车品牌福特的一半。值得注意的是，福特\n于1910年在英国开设了第一家经销网点。\n比亚迪A 2025 年 12 月 16 日\nabc 5\n图表7: H125比亚迪海外ASP和单车成本分别较国内市场\n高35%和19%\nP\nlease \nrefer t\no the n\narrativ\ne of th\nis repor\nt for an\n explana\ntion of \nthis ima\nge/chart\n来源: 公司数据、瑞银证券\n图表8: 比亚迪海外毛利率较国内市场高约10个百分"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：全年销量460万辆，方程豹与出口表现亮眼",
+          "file_id": 26,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华创证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": " \n高级分析师：夏凉 \n华威大学商学院商业分析硕士。曾任职于汽车产业私募股权基金，2020 年加入华创证券研究所。 \n分析师：李昊岚 \n伦敦大学学院金融硕士。2022 年加入华创证券研究所。 \n分析师：林栖宇 \n上海财经大学金融硕士。2023 年加入华创证券研究所。 \n助理研究员：于公铭 \n英国拉夫堡大学金融硕士。2024 年加入华创证券研究所。 \n助理研究员：张睿希 \n上海交通大学金融硕士。2024 年加入华创证券研究所。 \n   \n \n \n \n比亚迪（002594）2025 年12 月销量点评   \n \n \n证监会审核华创证券投资咨询业务资格批文号：证监许可（2009）1210 号  \n 4  \n华创证券机构销售通讯录 \n地区 \n姓名 \n职务 \n办公电话 \n企业邮箱 \n北京机构销售部 \n张昱洁 \n副总经理、北京机构销售总监 \n010-63214682 \nzhangyujie@hcyjs.com \n张菲菲 \n北京机构副总监 \n010-63214682 \nzhangfeifei@hcyjs.com \n张婷 \n北京机构销售副总监 \n \nzhangting3@hcyjs.com \n刘懿 \n"
+        },
+        {
+          "title": "Anchor Report: India Autos - CV cycle turning up, fundamentals improving: TMCV: Initiate coverage with a TP of INR481",
+          "file_id": 89,
+          "publish_date": "2025-12-19",
+          "type_full_name": "行业研究:行业策略",
+          "institution_name": [
+            "Nomura"
+          ],
+          "company_name": [],
+          "section": "tive Director of the company with effect from 1 July 2021.\nSource: Company data, Nomura research\n \nFig. 98: Shareholding pattern – Iveco (Nov-25) \nSource: Company data, Nomura research\n \nNomura | India Autos\n19 December 2025\n45\nFig. 99: Board of directors – Iveco\nName\nAge\nRemuneration \n(EUR mn) \n(CY24)\nDesignation\nProfile\nHeywood \nSuzanne\n56\n1.39\nChariman\nSuzanne Heywood became a Managing Director of Exor N.V. (the diversified investment holding company listed on \nEuronext Amsterdam and qualifying as IVG’s major shareholder) in 2016 and was appointed as its Chief Operating \nOfficer in November 2022. Prior to that she worked at McKinsey & Company which she joined as an associate in \n1997 and left as a Senior Partner (Director) in 2016.\nOlof Persson\n61\n0.99\nDirector / \nincoming CEO\nOlof Persson started his career at ABB, a global technology leader in electrification and automation, where he held \nvarious positions. In 2014 he was appointed Division President of Bombardier Transportation, one of the world’s \nlargest rail transport companies. In 2006, he joined\nVolvo Group as President first of Volvo Aero and subsequently of Volvo Construction Equipment (2008). In 2011 he \nwas named President and CEO of the Volvo Group, a role that he held for four years. In 2015 he was appointed \nSenior Operating Executive at Cerberus Capital Management. In 2022 he joined the Board of Iveco Group as an \nIndependent Director when the Group listed on Euronext Milan. \nTufan \nErginbilgic\n66\n0.16\nDirector\nTufan Erginbilgic has a background in engineering and has built his career in international business with over 20 \nyears with BP, five years as part of its executive team. He held a number of senior roles at BP, including CEO of \nLubricants, BP and Castrol; Chief of Staff to the Group\nCEO; and Chief Operating Officer of the downstream business, becoming its CEO in 2014 until 2020. Since 1 \nJanuary 2023, he has been Group Chief Executive Officer of Rolls-Royce plc, that develops and deliver"
+        }
+      ],
+      "timestamp": "2026-01-21T14:10:21.416446",
+      "result_count": 12
+    },
+    {
+      "category": "team",
+      "query": "比亚迪 股东结构 股权变动 大股东 控股股东",
+      "results": [
+        {
+          "title": "比亚迪:2025年半年度报告",
+          "file_id": 52,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "\n《证券时报》、《中国证券报》、《上海证\n券报》、《证券日报》及巨潮资讯网\n（www.cninfo.com.cn）\nH 股公告（证券变动月报表）\n2025/6/3\n巨潮资讯网（www.cninfo.com.cn）\n2025-043\n2024 年度股东会决议公告\n2025/6/7\n《证券时报》、《中国证券报》、《上海证\n券报》、《证券日报》及巨潮资讯网\n（www.cninfo.com.cn）\n比亚迪股份有限公司2025 年半年度报告全文\n53\n北京市中伦（深圳）律师事务所关\n于比亚迪股份有限公司2024 年度股\n东会的法律意见书\n2025/6/7\n巨潮资讯网（www.cninfo.com.cn）\n十四、公司子公司重大事项\n□适用不适用\n比亚迪股份有限公司2025 年半年度报告全文\n54\n第六节股份变动及股东情况\n一、股份变动情况\n1、股份变动情况\n单位：股\n本次变动前\n本次变动增减（＋，－）\n本次变动后\n数量\n比例\n发行新股\n送股\n公积金\n转股\n其他\n小计\n数量\n比例\n一、有限售条件股份\n648,851,914\n22.30%\n648,851,914\n21.35%\n1、国家持股\n2、国有"
+        },
+        {
+          "title": "比亚迪:2025年半年度财务报告",
+          "file_id": 55,
+          "publish_date": "2025-08-30",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "民币1,224,836千元。本集团持有的部分金融工具由于被投资\n公司近一年内新增融资，存在非活跃市场中相同或类似资产或负债的报价，因此采用第二层次估\n值技术予以估值，并将其公允价值从第三层次转入第二层次，转移金额为人民币185,025千元。本\n集团部分金融工具因无法获取可观察输入值而采用第三层次估值技术予以估值，并将其公允价值\n从第二层次转移到第三层次，转移金额为人民币1,453,457千元。除此之外，2024年度本集团金融\n工具的公允价值层次之间无其他重大转移。\n7.\n估值技术变更\n2025年1-6月，本集团未发生变更估值技术的情况。\n比亚迪股份有限公司\n财务报表附注(续)\n2025年6月30日\n人民币千元\n116\n十二、关联方关系及其交易\n1.\n存在控制关系的关联方\n名称\n与本企业关系\n占本公司股份\n持股比例\n表决权比例\n王传福\n公司第一大股东、董事长\n518,351,550\n17.06%\n17.06%\n注：\n王传福先生持股总数及持股比例中均包括持有的1,000,000股H股股份，也包括王传福先生通过易\n方达资产比亚迪增持1号资产管理计划持有的3,727,700股A股股份。\n2.\n"
+        },
+        {
+          "title": "比亚迪:关于高级管理人员、核心人员增持公司股份的公告",
+          "file_id": 87,
+          "publish_date": "2025-09-11",
+          "type_full_name": "重大事项:股份增减持",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "\n公司接到高级管理人员及核心人员以自有或自筹资金通过深圳证券交易所交易\n系统以集中竞价方式增持公司A股股份的通知。现将相关情况公告如下：\n一、本次增持主体的基本情况\n1、增持主体：高级副总裁罗红斌先生、高级副总裁兼财务总监周亚琳女士、高\n级副总裁杨冬生先生、副总裁罗忠良先生、副总裁李巍女士及其他32名核心人员。"
+        },
+        {
+          "title": "比亚迪股份:海外监管公告",
+          "file_id": 90,
+          "publish_date": "2025-09-10",
+          "type_full_name": "一般公告:海外监管公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": " \n \n公司接到高级管理人员及核心人员以自有或自筹资金通过深圳证券交易所交易\n系统以集中竞价方式增持公司A股股份的通知。现将相关情况公告如下： \n一、本次增持主体的基本情况 \n1、增持主体：高级副总裁罗红斌先生、高级副总裁兼财务总监周亚琳女士、高\n级副总裁杨冬生先生、副总裁罗忠良先生、副总裁李巍女士及其他32名核心人员。"
+        },
+        {
+          "title": "比亚迪股份:二零二五年中期业绩公告",
+          "file_id": 54,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": ".02\n \n \n \n \n \n(L) – Long Position\nMANAGEMENT DISCUSSION AND ANALYSIS\n管理層討論及分析\n56\nBYD Company Limited\n比亞迪股份有限公司\n附註：\n1. \n在該513,623,850股A股之中，不包含王先生通\n過易方達資產比亞迪增持1號資產管理計劃持有\n的3,727,700股A股股份。\n2. \n在該394,378,222股A股之中，239,228,620股A\n股由呂先生以個人身份持有及155,149,602股A\n股由融捷投資控股集團有限公司（「融捷投資」，\n前稱為廣州融捷投資管理集團有限公司）持有。\n融捷投資則由呂先生及其配偶分別持有89.5%及\n10.5%股權，因此根據證券及期貨條例，呂先生\n被視為於該155,149,602股A股中擁有權益。\n每股人民幣1.00元的H股\n(L) – 好倉\n附註：\n於500,000股H股之中，夏先生以實益擁有人身份\n持有195,000股H股，而由夏先生全資擁有的Sign \nInvestments Limited則持有305,000股H股。\n除上述披露者外，於二零二五年六月"
+        },
+        {
+          "title": "比亚迪电子:二零二五年中期业绩公告",
+          "file_id": 57,
+          "publish_date": "2025-08-29",
+          "type_full_name": "财务经营报告:半年报",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "nk Worldwide Limited \n (“Golden Link”)\nGolden Link Worldwide Limited\n （「Golden Link」）\nBeneficial interest(note)\n實益權益（附註）\n1,481,700,000\n(long position)\n（好倉）\n65.76%\nBYD (H.K.) Co., Limited (“BYD HK”)\nBYD (H.K.) Co., Limited（「BYD HK」）\nInterest of controlled \n corporation(note)\n1,481,700,000\n(long position)\n65.76%\n受控制法團權益（附註）\n（好倉）\nBYD Company Limited (“BYD”)\n比亞迪股份有限公司（「比亞迪」）\nInterest of controlled \n corporation(note)\n1,481,700,000\n(long position)\n65.76%\n受控制法團權益（附註）\n（好倉）\nNote:\nBYD is the sole shareho"
+        },
+        {
+          "title": "新广益:首次公开发行股票并在创业板上市招股说明书",
+          "file_id": 91,
+          "publish_date": "2025-12-26",
+          "type_full_name": "首次发行:招股说明书",
+          "institution_name": [],
+          "company_name": [
+            "新广益"
+          ],
+          "section": "比亚迪股权结构情况如下： \n序\n号 \n股东名称 \n持股数（股） \n持股比例\n（%） \n1 \nHKSCC NOMINEES LIMITED \n1,227,164,245\n注2 \n40.38 \n2 \n王传福 \n513,623,850\n注3 \n16.90 \n3 \n吕向阳 \n239,228,620 \n7.87 \n4 \n融捷投资控股集团有限公司 \n155,149,602 \n5.11 \n5 \n香港中央结算有限公司 \n128,002,614 \n4.21 \n6 \n夏佐全 \n82,635,607\n注4 \n2.72 \n7 \n王念强 \n18,299,740 \n0.60 \n8 \n中国工商银行股份有限公司－华泰柏瑞沪深\n300 交易型开放式指数证券投资基金 \n16,058,154 \n0.53 \n苏州市新广益电子股份有限公司                                                              招股说明书 \n1-1-65 \n序\n号 \n股东名称 \n持股数（股） \n持股比例\n（%） \n9 \n中央汇金资产管理有限责任公司 \n11,976,633 \n0.39 \n10 \n"
+        },
+        {
+          "title": "比亚迪股份:海外监管公告",
+          "file_id": 92,
+          "publish_date": "2025-12-05",
+          "type_full_name": "一般公告:海外监管公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "与会持有人经过审议，以记名投票方式通过了如下\n决议： \n《关于调整比亚迪股份有限公司2025年员工持股计划管理委员会委员的议\n案》 \n表决结果：同意3,272,168,084份，占出席持有人会议的持有人所持份额总\n数的82.04%；反对0份，占出席持有人会议的持有人所持份额总数的0%；弃权\n716,102,496份，占出席持有人会议的持有人所持份额总数的17.96%。"
+        },
+        {
+          "title": "比亚迪:2025年第二次临时股东会决议公告",
+          "file_id": 93,
+          "publish_date": "2025-12-06",
+          "type_full_name": "一般公告:股东大会",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "80.2802\n965,771,912\n11,188,975\n该议案属于特别决议案，已经出席会议有表决权股东所持股份总数的三分之二以上通过。\n2.03、关于修订《募集资金管理制度》的议案\n表决结果：通过。"
+        },
+        {
+          "title": "比亚迪股份:截至2025年12月31日股份发行人的证券变动月报表",
+          "file_id": 94,
+          "publish_date": "2026-01-01",
+          "type_full_name": "重大事项:重组收购",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "21,775\n161.83%\n  －客車\n501\n1,375\n4,923\n5,580\n-11.77%\n501\n1,375\n4,923\n5,580\n-11.77%\n  －其他\n4,750\n4,347\n53,041\n17,409\n204.68%\n5,113\n3,994\n52,090\n16,195\n221.64%\n合計\n419,804\n466,441\n4,537,356\n4,304,073\n5.42%\n"
+        },
+        {
+          "title": "比亚迪股份:截至2025年11月30日股份发行人的证券变动月报表",
+          "file_id": 95,
+          "publish_date": "2025-12-01",
+          "type_full_name": "股权股本:股本变动",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "2."
+        },
+        {
+          "title": "恒辉安防:关于大股东及部分董事、高级管理人员减持股份触及1%整数倍的公告",
+          "file_id": 96,
+          "publish_date": "2026-01-19",
+          "type_full_name": "重大事项:股份增减持",
+          "institution_name": [],
+          "company_name": [
+            "恒辉安防"
+          ],
+          "section": "\n本次权益变动前，公司控股股东、实际控制人姚海霞女士、王咸华先生、王\n鹏先生及其一致行动人钥诚投资合计持有公司股份98,600,000 股，占剔除回购\n专用证券账户中股份数量后公司总股本的57.70%。本次权益变动后，姚海霞女\n士、王咸华先生、王鹏先生及其一致行动人钥诚投资合计持有公司股份\n96,867,600 股，占剔除回购专用证券账户中股份数量后公司总股本的56.69%。"
+        }
+      ],
+      "timestamp": "2026-01-21T14:10:29.453370",
+      "result_count": 12
+    },
+    {
+      "category": "team",
+      "query": "比亚迪 公司治理 董事会 独立董事",
+      "results": [
+        {
+          "title": "Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens",
+          "file_id": 2,
+          "publish_date": "2025-11-14",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "Jefferies"
+          ],
+          "company_name": [
+            "比亚迪电子",
+            "鹏鼎控股"
+          ],
+          "section": "neer. He joined BYDE in April 2015 and is the chief\nexecutive officer and executive Director of the Company and the vice chairman of BYD Charity\nFoundation.\n \nMr Xiangrong Jiang, Executive Director, obtained a bachelor’s degree in Applied Chemistry Fudan\nUniversity in 1999. Mr. Jiang joined BYD Industries in July 1999. He is also the COO of BYD electronic\nbusiness group, the general manager of the first business division and the general manager of the\nALPHA structural parts business division.\n \nMr Chuanfu Wang, Non-executive Director/Chairman, obtained a master’s degree majoring in\nmetallurgy physical chemistry from Beijing Non-Ferrous Research Institute in the PRC. In Feb 1995,\nMr Wang founded BYD Industries with Mr. Lv Xiang-yang and took the position of general manager.\nHe currently serves as the chairman, an executive director and the president of BYD, the chairman of\nBYD Semiconductor Company Limited, the chairman of Shenzhen DENZA New Energy Automotive\nCo., Ltd.\n \nMr Bo Wang, Non-executive Director, obtained a bachelor’s degree in engineering from Harbin\nInstitute of Technology. Mr. Wang joined BYD Industries in Sep 2001 and is mainly responsible for\nmarketing and sales. He served as an executive Director. Mr Wang has been appointed as a non-\nexecutive Director since 6 June, 2019.\n \nMs Ya-lin Zhou, Chief Financial Officer, obtained a MBA degree from Tsinghua University in Jun\n2024. Ms. Zhou joined BYD Industries in March 1999 and is a Senior Vice President and chief\nfinancial officer of BYD. She is also a director of BYD Semiconductor Company Limited, chairman\nof BYD Auto Finance Company Limited, chairman of Shenzhen BYD Property Insurance Co., Ltd., a\nsupervisor of BYD TOYOTA EV Technology Co., Ltd. and a supervisor of BYD Charity Foundation,\netc.\n \n \nPlease see important disclosure information on pages 93 - 98 of this report.\nThis report is intended for Jefferies clients only. Unauthorized distribution is prohibited.\n56\nElectronic Components\nEquity Research\n"
+        },
+        {
+          "title": "比亚迪股份:截至2025年12月31日股份发行人的证券变动月报表",
+          "file_id": 94,
+          "publish_date": "2026-01-01",
+          "type_full_name": "重大事项:重组收购",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "本公司刊發財務業績後，股東及潛在\n投資者務必詳閱。\n承董事會命\n比亞迪股份有限公司\n主席\n王傳福\n中國深圳，二零二六年一月一日\n於本公告刊發日期，本公司董事會包括執行董事王傳福先生，非執行董事呂向陽先生及夏佐全先生，以及獨立非執行董事蔡洪平先生、張\n敏先生及喻玲女士。\n"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)深度报告：EMS底蕴拓展AIDC(AI硬件系列之6)",
+          "file_id": 85,
+          "publish_date": "2025-10-17",
+          "type_full_name": "公司研究:首次覆盖",
+          "institution_name": [
+            "申万宏源"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "资拥有 \n \n公司高管多数具有深厚工程背景，均在比亚迪集团创业阶段加入。公司董事会主席、创\n始人王传福为冶金物理化学专业出身，曾任北京有色金属研究总院副主任。公司高管江向\n荣和王念强均在比亚迪创业早期加入，且具金属类业务一线工作经历，公司高管团队具有\n深厚学科背景，产业经验丰富，且均在比亚迪早期阶段加盟，团结度较强。高管履历与“材\n料与工艺禀赋经过验证，捕捉机身材质创新小周期”呼应。 \n表4：比亚迪电子核心管理层均系内生选拔培养，金属/化学/材料学科背景深厚 \n姓名 \n职务 \n出生年份 \n学历 \n履历 \n核心贡献与职责 \n王传福 \n董事会主席、\n非执行董事 \n1966 \n中南大学冶金物理化学学士，\n北京有色金属研究总院冶金物\n理化学硕士 \n创办比亚迪 \n顶层战略，大客户关系 \n王念強 \n执行董事，行\n政总裁 \n1964 \n中南大学工业分析学士，中欧\n国际工商学院工商管理硕士 \n安徽铜陵有色金属公司研\n究院；1995 加入比亚迪担\n任总工程师；2015 年加入\n比亚迪电子 \n负责比亚迪电子整体策略规划与业\n务管理 \n江向榮 \n执行董事 \n1977 \n复旦大学应用化学学士 \n1997 年加"
+        },
+        {
+          "title": "比亚迪股份:临时股东会投票表决结果",
+          "file_id": 97,
+          "publish_date": "2025-12-05",
+          "type_full_name": "重大事项:股东大会",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "\n承董事會命\n比亞迪股份有限公司\n主席\n王傳福\n中國深圳，二零二五年十二月五日\n於本公告刊發日期，本公司董事會包括執行董事王傳福先生，非執行董事\n呂向陽先生及夏佐全先生，以及獨立非執行董事蔡洪平先生、張敏先生及喻玲\n女士。\n3\n"
+        },
+        {
+          "title": "比亚迪股份:董事会会议通告",
+          "file_id": 86,
+          "publish_date": "2025-10-15",
+          "type_full_name": "一般公告:董事会公告",
+          "institution_name": [],
+          "company_name": [
+            "比亚迪股份"
+          ],
+          "section": "至二零二五年九月三十日止九個月之未經審核第三季度業績及其發佈，以及處理\n任何其他事項（如有）。\n承董事會命\n比亞迪股份有限公司\n主席\n王傳福\n中國 • 深圳，二零二五年十月十五日\n於本公告刊發日期，董事會成員包括執行董事王傳福先生、非執行董事呂向陽\n先生及夏佐全先生、獨立非執行董事蔡洪平先生、張敏先生及喻玲女士。\n"
+        },
+        {
+          "title": "比亚迪A: 重视海外扩张和外部电池销售；重申买入评级",
+          "file_id": 16,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "多忽视了这一点。我们估计外部电动车和ESS销售将占其2025年300GWh电池产\n能的三分之一，高于2024年的五分之一。\n尽管投资者对比亚迪国内电动车市场份额的流失仍持谨慎态度，我们认为海外和电池外部销售\n是2026年盈利增长的主要驱动力。管理层目标2026年海外电动车销量160万辆，净利润或\n较2025年增厚150亿元。其大型电池外部收入占比预计从2024年的1/5增加至2025年的1/3，这主\n要得益于外部电动车和ESS供应。公司当前股价对应6倍的2026E EV/EBITDA，在储能业务强劲增\n长的背景下，我们认为其当前股价被低估  。我们重申买入评级。\n1）管理层2026年海外销量目标为160万辆，较2025年增加约70万辆。比亚迪欧洲市场份额\n为1-2%，丰田为7-8%，现代为8-9%。2）比亚迪欧洲区董事总经理Maria Grazia Davino宣布，\n到2025年底，比亚迪欧洲销售网点将增至1000个，2026年将增至2000个。3）高工产业研究院\n（GGII）数据显示，9M25比亚迪向包括小米、小鹏Mona、一汽丰田、蔚来乐道和斯泰兰蒂斯在\n内的车企供应24GWh的"
+        },
+        {
+          "title": "比亚迪A \"重视海外扩张和外部电池销售；重申买入评级\" (买入) 沈",
+          "file_id": 17,
+          "publish_date": "2025-12-16",
+          "type_full_name": "公司研究:事件点评",
+          "institution_name": [
+            "UBS"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "多忽视了这一点。我们估计外部电动车和ESS销售将占其2025年300GWh电池产\n能的三分之一，高于2024年的五分之一。\n尽管投资者对比亚迪国内电动车市场份额的流失仍持谨慎态度，我们认为海外和电池外部销售\n是2026年盈利增长的主要驱动力。管理层目标2026年海外电动车销量160万辆，净利润或\n较2025年增厚150亿元。其大型电池外部收入占比预计从2024年的1/5增加至2025年的1/3，这主\n要得益于外部电动车和ESS供应。公司当前股价对应6倍的2026E EV/EBITDA，在储能业务强劲增\n长的背景下，我们认为其当前股价被低估  。我们重申买入评级。\n1）管理层2026年海外销量目标为160万辆，较2025年增加约70万辆。比亚迪欧洲市场份额\n为1-2%，丰田为7-8%，现代为8-9%。2）比亚迪欧洲区董事总经理Maria Grazia Davino宣布，\n到2025年底，比亚迪欧洲销售网点将增至1000个，2026年将增至2000个。3）高工产业研究院\n（GGII）数据显示，9M25比亚迪向包括小米、小鹏Mona、一汽丰田、蔚来乐道和斯泰兰蒂斯在\n内的车企供应24GWh的"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年度销量点评：全年销量同比提升，持续推进高端化和出口",
+          "file_id": 23,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "东吴证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "车首位；泰国、乌兹别克斯坦\n工厂已投产；我们预计匈牙利工厂26 年Q2 前有望陆续投产，马来西亚\n和柬埔寨工厂规划投产中。高端及海外均价高，我们预计总体ASP 有\n望提升。 \n◼ 全年电池装机同增47%、外供电池持续高增、储能业务增长加速。比亚\n迪12 月电池装机27.4GWh，同环比+16%/-1%，1-12 月累计装机\n285.6GWh，同增47%。外供看，11 月装机3.96gwh，同环比+134%/+10%。\n1-11 月累计外供装机31.2gwh，同比+200%，其中小鹏9.5gwh、小米\n7.7gwh，我们预计全年外供装机约35gwh。此外，我们预计25 年储能\n电池出货50GWh 以上，26 年出货约80GWh。 \n◼ 盈利预测与投资评级：我们预计公司25-27 年归母净利350/509/664 亿\n元（维持原预测值），同比-13%/+45%/+30%，对应PE 为26/18/13x，给\n予26 年25x，目标价140 元，维持“买入”评级。 \n◼ 风险提示：原材料价格波动超市场预期，终端需求不及预期，行业竞争\n加剧。 \n \n-5%\n0%\n5%\n10%\n15%\n20%\n2"
+        },
+        {
+          "title": "比亚迪电子(0285.HK)全球领先的智能制造平台 消费电子&汽车电子&AIDC业务多元驱动",
+          "file_id": 40,
+          "publish_date": "2025-12-01",
+          "type_full_name": "公司研究:公司深度",
+          "institution_name": [
+            "中信建投"
+          ],
+          "company_name": [
+            "比亚迪电子"
+          ],
+          "section": "其65.76%的股份。此外，公司公开发行前的股权激励计划主体Gold Dragonfly Limited 持有比亚迪电子0.38%\n的股份，公司执行董事王念强直接持有比亚迪电子0.38%的股权。 \n图3:比亚迪电子股权结构 \n \n数据来源：wind，中信建投证券 数据截至2025 年中报 \n \n公司2019-2024 年营业收入保持快速增长，复合增速达25%，2025 年前三季度营收同比增长0.95%。\n分业务来看，消费电子业务主要受益于公司与大客户合作深化，公司所供应的产品品类和份额不断增长，\n2025 年受到大客户外观结构件材质变化等因素影响，公司的消费电子收入增长有所放缓，未来随着大客户\n \n \n \n3 \nA 股公司深度报告 \n比亚迪电子 \n \n请务必阅读正文之后的免责条款和声明。 \n \n折叠机型的发布，该业务有望重回增长；受益于公司持续扩张产品品类，新型智能产品业务2019-2023 年\n持续增长，近年来受到户储等下游需求波动影响，公司该业务收入有所下滑，未来考虑到公司在AI 服务\n器、液冷方案等数据中心产品放量，公司该业务同样有望积极成长；新能源汽车业务方面，受益于母公司\n比"
+        },
+        {
+          "title": "比亚迪(002594.SZ)2025年12月销量点评：全年销量460万辆，方程豹与出口表现亮眼",
+          "file_id": 26,
+          "publish_date": "2026-01-06",
+          "type_full_name": "公司研究:业绩点评",
+          "institution_name": [
+            "华创证券"
+          ],
+          "company_name": [
+            "比亚迪"
+          ],
+          "section": "，新能源车海外销售13.3\n万辆/+133%、全年105 万辆/+153%，2026 年有望实现150 万辆的销售目标。 \n \n1Q26 调整节奏，3 月或开启新一轮产品周期。2026 年2 月春节时间点较晚，\n受两新政策接续、新能源购置税退坡的影响，行业1-2 月估计以库存消化为主\n要目标。2026 款秦L DM-i 将于1 月8 日上市，作为先行新品，产品升级了大\n容量电池、智能驾驶配置和底盘配置。预计公司大规模产品换代及推新将在3\n月份开启，有望凭此巩固国内市场份额、提升品牌价值。 \n \n投资建议：公司综合竞争力强劲，看好中期全球份额扩张。考虑当下经营节奏\n及行业需求的变化，我们调整25-27 年核心预测：1）销量：460/527/585 万辆，\n同比+8%/+14%/+11%，原值466/523/572 万辆；2）营收：8,056/9,436/10,705 亿\n元，同比+4%/+17%/+14%，原值8,195/9,729/11,026 亿元；3）净利：352/470/600\n亿元，同比-13%/+34%/+28%，原值356/480/611 亿元；4）EPS：3.86/5"
+        }
+      ],
+      "timestamp": "2026-01-21T14:10:52.934921",
+      "result_count": 10
+    }
+  ],
+  "summary": {
+    "total_queries": 12,
+    "total_results": 148,
+    "categories": [
+      "team",
+      "financial",
+      "business",
+      "legal"
+    ]
+  }
+}

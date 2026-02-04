@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 1800,
+      "y": -400,
+      "width": 900,
+      "height": 120,
+      "color": "6",
+      "text": "# DeepSeek-R1 训练步骤详解\n\n## 基于 GRPO 的推理模型训练范式"
+    },
+    {
+      "id": "overview",
+      "type": "text",
+      "x": 400,
+      "y": -200,
+      "width": 3800,
+      "height": 150,
+      "text": "### 训练范式概述\n\nDeepSeek-R1 采用**两阶段**训练方法，旨在通过强化学习涌现推理能力：\n\n1. **DeepSeek-R1-Zero**: 仅使用强化学习(RL)，探索推理能力的涌现机制\n2. **DeepSeek-R1**: 结合冷启动数据和多轮迭代训练，解决 Zero 版本的语言混合问题\n\n**核心算法**: Group Relative Policy Optimization (GRPO) - 无需 critic 模型，大幅减少内存消耗"
+    },
+    {
+      "id": "phase_zero",
+      "type": "group",
+      "x": 100,
+      "y": 50,
+      "width": 1700,
+      "height": 600,
+      "label": "阶段 0: DeepSeek-R1-Zero",
+      "color": "1"
+    },
+    {
+      "id": "zero_title",
+      "type": "text",
+      "x": 150,
+      "y": 100,
+      "width": 1500,
+      "height": 500,
+      "text": "## DeepSeek-R1-Zero: 纯 RL 训练\n\n### 目标\n探索在大规模基础模型上直接应用 RL 是否能涌现推理能力\n\n### 特点\n- **无需任何 SFT 数据**：完全依赖强化学习\n- **基础模型**: DeepSeek-V3-Base\n- **核心算法**: GRPO (Group Relative Policy Optimization)\n\n### 奖励机制\n1. **规则奖励 (Rule-based)**\n   - 代码执行结果：通过编译/测试验证\n   - 数学答案匹配：与标准答案比对\n   - 优点：客观可验证，无需人工标注\n\n2. **语言模型奖励**\n   - 基于偏好对训练\n   - 训练奖励模型评估输出质量\n   - 保持模型通用能力\n\n### 关键发现\n- **推理能力涌现**: AIME 评分从 15.6% → 71.0%\n- **自我进化**: 自发产生多种推理模式（反思、验证、回溯）\n- **长思维链**: 平均 60.6K tokens\n\n### 存在问题\n- 语言混合（中英混杂）\n- 思维链重复\n- 可读性较差"
+    },
+    {
+      "id": "phase1",
+      "type": "group",
+      "x": 2000,
+      "y": 50,
+      "width": 1700,
+      "height": 600,
+      "label": "步骤 1: 冷启动数据",
+      "color": "2"
+    },
+    {
+      "id": "cold_start",
+      "type": "text",
+      "x": 2050,
+      "y": 100,
+      "width": 1600,
+      "height": 500,
+      "text": "## 冷启动数据 (Cold Start)\n\n### 目标\n解决 R1-Zero 的语言混合和可读性问题\n\n### 实施方法\n1. **收集少量高质量长思维链数据**\n   - 数千条精心设计的 prompt\n   - 覆盖数学、代码、逻辑推理等任务\n\n2. **使用 DeepSeek-V3 生成回答**\n   - 确保语言纯度（纯中文/英文）\n   - 保证思维链清晰可读\n   - 展示完整的推理过程\n\n3. **数据质量保证**\n   - 人工审核质量\n   - 去除重复内容\n   - 统一格式规范\n\n### 数据量\n约 **数千条**，远小于传统 SFT 数据集\n\n### 作用\n为后续 SFT 和 RL 提供**高质量起点**，避免 RL 从零开始探索"
+    },
+    {
+      "id": "phase2_intro",
+      "type": "text",
+      "x": 4000,
+      "y": 50,
+      "width": 1500,
+      "height": 200,
+      "color": "5",
+      "text": "## 步骤 2: 两轮迭代训练\n\n### 迭代结构\nDeepSeek-R1 经过 **2 轮** 完整迭代\n\n每轮包含四个阶段：\n- **A**: 推理 focused SFT\n- **B**: 推理 focused RL\n- **C**: Rejection Sampling + SFT\n- **D**: 再次 RL\n\n### 持续改进\n每轮迭代后模型推理能力显著提升"
+    },
+    {
+      "id": "phase2a",
+      "type": "group",
+      "x": 100,
+      "y": 750,
+      "width": 1800,
+      "height": 500,
+      "label": "阶段 A: 推理 SFT",
+      "color": "3"
+    },
+    {
+      "id": "stage_a_content",
+      "type": "text",
+      "x": 150,
+      "y": 800,
+      "width": 1700,
+      "height": 420,
+      "text": "## 阶段 A: 推理 Focused SFT\n\n### 目标\n让模型学习**推理任务**的思考模式\n\n### 训练方法\n1. **使用冷启动数据**\n   - DeepSeek-V3 生成的数千条高质量数据\n   - 展示完整思维链\n\n2. **微调基础模型**\n   - 模型: DeepSeek-V3-Base\n   - 学习目标: 推理模式\n\n3. **学习内容**\n   - 逐步思考\n   - 尝试不同策略\n   - 验证答案\n   - 反思和回溯\n\n### 数据特点\n- **推理密集**: 数学、代码、逻辑推理\n- **思维链展示**: 包含完整的思考过程\n- **任务多样**: 覆盖多个推理场景"
+    },
+    {
+      "id": "phase2b",
+      "type": "group",
+      "x": 2100,
+      "y": 750,
+      "width": 1800,
+      "height": 500,
+      "label": "阶段 B: 推理 RL (GRPO)",
+      "color": "4"
+    },
+    {
+      "id": "stage_b_content",
+      "type": "text",
+      "x": 2150,
+      "y": 800,
+      "width": 1700,
+      "height": 420,
+      "text": "## 阶段 B: 推理 Focused RL (GRPO)\n\n### GRPO 算法优势\n- **无需 Critic 模型**: 通过 group baseline 估计优势\n- **内存高效**: 显著减少训练时的内存消耗\n- **适合长序列**: 支持 60K+ tokens 的思维链\n\n### 双奖励机制\n**1. 规则奖励 (Rule-based)**\n- 代码执行: 通过编译/测试验证\n- 数学答案: 与标准答案比对\n- 客观可验证: 无需人工标注\n\n**2. 语言模型奖励**\n- 偏好对训练: 收集模型输出偏好数据\n- 质量判断: 训练奖励模型评估输出质量\n- 通用能力保持: 防止过度专精推理\n\n### 训练规模\n- 数千 GPU 并行训练\n- 数千小时的 RL 训练"
+    },
+    {
+      "id": "phase2c",
+      "type": "group",
+      "x": 100,
+      "y": 1350,
+      "width": 1800,
+      "height": 550,
+      "label": "阶段 C: Rejection Sampling",
+      "color": "3"
+    },
+    {
+      "id": "stage_c_content",
+      "type": "text",
+      "x": 150,
+      "y": 1400,
+      "width": 1700,
+      "height": 470,
+      "text": "## 阶段 C: Rejection Sampling + SFT\n\n### 目标\n从 RL 模型中提取**高质量推理数据**\n\n### Rejection Sampling 流程\n1. **生成多个输出**\n   - 对每个 prompt 生成 **60+ 个**不同回答\n   - 使用温度参数控制多样性\n\n2. **质量筛选**\n   - 使用奖励模型评分\n   - 选择最优 1-2 个输出\n\n3. **构建 SFT 数据集**\n   - 仅保留高质量推理链\n   - 确保语言纯度和可读性\n   - 去除重复和低质量样本\n\n### 核心价值\n- **数据蒸馏**: 将 RL 学到的策略固化为 SFT 数据\n- **质量提升**: 每轮迭代后数据质量显著提高\n- **训练稳定**: SFT 提供稳定的训练信号\n\n### 数据规模\n每轮生成数百万候选，最终保留数十万高质量样本"
+    },
+    {
+      "id": "phase2d",
+      "type": "group",
+      "x": 2100,
+      "y": 1350,
+      "width": 1800,
+      "height": 550,
+      "label": "阶段 D: 再次 RL",
+      "color": "4"
+    },
+    {
+      "id": "stage_d_content",
+      "type": "text",
+      "x": 2150,
+      "y": 1400,
+      "width": 1700,
+      "height": 470,
+      "text": "## 阶段 D: 再次 RL (第 2 轮)\n\n### 目标\n在新 SFT 数据上进一步提升推理能力\n\n### 训练方法\n1. **使用阶段 C 的 SFT 数据**\n   - 更新模型为最新 SFT 版本\n\n2. **再次应用 GRPO**\n   - 相同的双奖励机制\n   - 探索更多推理策略\n\n3. **性能提升**\n   - **AIME**: 71.0% → 86.7%\n   - **MATH**: 83.8% → 92.0%\n   - **Codeforces**: 13.5% → 45.0%\n\n### 迭代策略\n- 可继续 阶段 C → 阶段 D 循环\n- **2 轮**已达到推理与通用能力的平衡\n- 避免过度拟合\n\n### 关键发现\n- 迭代初期收益明显\n- 后期边际收益递减\n- 2 轮是最佳平衡点"
+    },
+    {
+      "id": "phase3",
+      "type": "group",
+      "x": 4100,
+      "y": 750,
+      "width": 1700,
+      "height": 500,
+      "label": "步骤 3: 通用能力对齐",
+      "color": "5"
+    },
+    {
+      "id": "alignment_content",
+      "type": "text",
+      "x": 4150,
+      "y": 800,
+      "width": 1600,
+      "height": 420,
+      "text": "## 步骤 3: 通用能力对齐\n\n### 目标\n在强化推理能力的同时**保持通用能力**\n\n### SFT 数据构造\n创建多场景指令微调数据：\n\n**推理场景** (展示思维链):\n- 数学问题求解\n- 代码编写与调试\n- 逻辑推理任务\n\n**非推理场景** (直接输出):\n- 创意写作\n- 信息整理\n- 问答对话\n\n### 任务感知推理\n- **推理任务**: 展示完整思维链\n- **非推理任务**: 直接输出答案\n\n### 训练规模\n- **数据量**: 数十万条指令微调数据\n- **模型**: DeepSeek-V3-Base\n- **结果**: R1-Distill 模型系列"
+    },
+    {
+      "id": "grpo_box",
+      "type": "group",
+      "x": 4100,
+      "y": 1350,
+      "width": 1700,
+      "height": 650,
+      "label": "GRPO 算法详解",
+      "color": "6"
+    },
+    {
+      "id": "grpo_content",
+      "type": "text",
+      "x": 4150,
+      "y": 1400,
+      "width": 1600,
+      "height": 570,
+      "text": "## GRPO: Group Relative Policy Optimization\n\n### 核心思想\n传统 PPO 算法需要训练一个 critic 模型来估计价值函数，这在大规模模型上消耗大量内存。\n\n**GRPO 创新**: 使用 group sampling 估计 baseline，无需 critic 模型。\n\n### 算法流程\n1. **Group Sampling**\n   - 对每个 prompt 采样一组输出 (如 64 个)\n   - 计算组内平均奖励作为 baseline\n\n2. **优势估计**\n   ```\n   A = r - mean(r_group)\n   ```\n   - 简单高效，无需额外模型\n\n3. **策略更新**\n   - 使用相对优势优化策略\n   - 类似 PPO 的裁剪目标\n\n### 优势\n- **内存效率**: 无需 critic 模型，减少 50%+ 内存\n- **适合长序列**: 支持 60K+ tokens 的思维链训练\n- **实现简单**: 无需复杂的 value 网络\n\n### 应用\nDeepSeek-R1 的所有 RL 阶段都使用 GRPO 算法"
+    },
+    {
+      "id": "distill_box",
+      "type": "group",
+      "x": 100,
+      "y": 2000,
+      "width": 5600,
+      "height": 400,
+      "label": "模型蒸馏系列",
+      "color": "2"
+    },
+    {
+      "id": "distill_content",
+      "type": "text",
+      "x": 150,
+      "y": 2050,
+      "width": 5500,
+      "height": 320,
+      "text": "## DeepSeek-R1-Distill 系列\n\n### 蒸馏方法\n使用 R1 (671B) 生成的 **800K 训练样本** 微调开源基座模型\n\n### 模型系列\n| 模型 | 参数量 | 基座模型 | 用途 |\n|------|--------|----------|------|\n| R1-Distill-Qwen-1.5B | 1.5B | Qwen-1.5B | 轻量部署 |\n| R1-Distill-Qwen-7B | 7B | Qwen-7B | 边缘设备 |\n| R1-Distill-Qwen-14B | 14B | Qwen-14B | 中等规模 |\n| R1-Distill-Qwen-32B | 32B | Qwen-32B | 高性能 |\n| R1-Distill-Llama-8B | 8B | Llama-3.1-8B | Llama 生态 |\n| R1-Distill-Llama-70B | 70B | Llama-3.3-70B | 顶级性能 |\n\n### 关键成果\n小模型也能展现强大的推理能力，部分蒸馏模型性能接近甚至超越原始基座"
+    },
+    {
+      "id": "innovation_box",
+      "type": "group",
+      "x": 100,
+      "y": 2500,
+      "width": 5600,
+      "height": 400,
+      "label": "技术创新总结",
+      "color": "6"
+    },
+    {
+      "id": "innovation_content",
+      "type": "text",
+      "x": 150,
+      "y": 2550,
+      "width": 5500,
+      "height": 320,
+      "text": "## 五大技术创新\n\n### 1. GRPO 算法\n无需 critic 模型，大幅减少内存消耗，使大规模 RL 训练成为可能\n\n### 2. 双奖励机制\n**规则奖励 + 语言模型奖励**: 既提升推理能力，又保持通用能力\n\n### 3. 多轮迭代策略\n**SFT → RL → Rejection Sampling → SFT → RL**: 每轮质量显著提升，2 轮达到最佳平衡\n\n### 4. 任务感知推理\n推理任务展示思维链，非推理任务直接输出，避免过度推理\n\n### 5. 知识蒸馏\n将 671B 模型能力转移到小模型，800K 样本覆盖 Qwen 和 Llama 架构"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "phase_zero",
+      "fromSide": "right",
+      "toNode": "phase1",
+      "toSide": "left",
+      "label": "发现问题",
+      "color": "1"
+    },
+    {
+      "id": "e2",
+      "fromNode": "phase1",
+      "fromSide": "right",
+      "toNode": "phase2_intro",
+      "toSide": "left",
+      "label": "进入迭代",
+      "color": "4"
+    },
+    {
+      "id": "e3",
+      "fromNode": "phase2_intro",
+      "fromSide": "bottom",
+      "toNode": "phase2a",
+      "toSide": "top",
+      "label": "阶段 A",
+      "color": "3"
+    },
+    {
+      "id": "e4",
+      "fromNode": "phase2a",
+      "fromSide": "right",
+      "toNode": "phase2b",
+      "toSide": "left",
+      "label": "GRPO",
+      "color": "4"
+    },
+    {
+      "id": "e5",
+      "fromNode": "phase2b",
+      "fromSide": "bottom",
+      "toNode": "phase2c",
+      "toSide": "top",
+      "label": "提取数据",
+      "color": "3"
+    },
+    {
+      "id": "e6",
+      "fromNode": "phase2c",
+      "fromSide": "right",
+      "toNode": "phase2d",
+      "toSide": "left",
+      "label": "再次 RL",
+      "color": "4"
+    },
+    {
+      "id": "e7",
+      "fromNode": "phase2d",
+      "fromSide": "right",
+      "toNode": "phase3",
+      "toSide": "left",
+      "label": "对齐",
+      "color": "5"
+    },
+    {
+      "id": "e8",
+      "fromNode": "phase2b",
+      "fromSide": "top",
+      "toNode": "grpo_box",
+      "toSide": "bottom",
+      "label": "详解",
+      "color": "6",
+      "label": "使用算法"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "ccaa76b13dda4993",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "小米集团 尽调分析"
+    },
+    {
+      "id": "a8ee22ed5c164864",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 15 条\n\n1. 3Q25 preview: EV strength, appliances softer\n2. 3Q preview: long-term positives intact despite near-term risks; cut PO to HK$57: 3Q preview: revenue down QoQ, but GM stays solid\n3. 小米集团-W(1810.HK)2025“人车家全生态”合作伙伴大会点评：Mimo-V2-Flash大模型发布，小米AI战略是耐力赛而非单点冲刺\n4. 小米集团-W(1810.HK)营收增长带动利润上扬，业务升级亟待契机\n5. 2Q largely in line; tones down smartphone shipment; L-T outlook intact at IoT/EV: Reiterate Rating: BUY | PO: 69.00 HKD | Price: 52.40 HKD\n\n... 还有 10 条"
+    },
+    {
+      "id": "76813c5ce4de48eb",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 12 条\n\n1. Xiaomi: Unpacking the EV margin advantage – Leveraging Brand, Scale efficiency, and Supply chain mastery\n2. Xiaomi Corp. (1810.HK): Asia Leaders Conference 2025 and Communacopia + Technology Conference 2025 — Key Takeaways\n3. 汽车行业2025年7月投资策略：新品密集上市有望提振板块景气度，建议关注财报行情\n4. Xiaomi: Smartphone Premiumization on track, amid near-term pressure from rising memory prices; Lower PT to HK$57\n5. Xiaomi Corp. (1810.HK): 2025 Investor Day: Expanding ecosystem and consumer base positioned to benefit from hard-core technology investments; Buy\n\n... 还有 7 条"
+    },
+    {
+      "id": "62c296311fc94349",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 15 条\n\n1. 大唐在德国向小米索要“天价专利费”，金额数倍于苹果9500万美元\n2. 大唐在德国向小米索要“天价专利费”，金额数倍于苹果9500万美元\n3. 雷军突发大动作，小米重回万亿市值\n4. 小米股价大跌，雷军有麻烦了\n5. 小米汽车败诉，雷军玩砸了\n\n... 还有 10 条"
+    },
+    {
+      "id": "ebc93f1735324cde",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 12 条\n\n1. 小米集团-W:截至2025年 9 月 30日止三个月及九个月之业绩公告\n2. Xiaomi Corp. (1810.HK): Takeaways from GS China Auto 2026 Management Outlook Call Series\n3. 小米集团-W(1810.HK)不同以往，高端化战略与人车家全生态赋予更强韧题\n4. 小米集团-W(01810.HK)新十年再升级 用户资产激发全生态飞轮效应\n5. 小米集团-W盈利预告\n\n... 还有 7 条"
+    },
+    {
+      "id": "05037b2943274d5b",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "bac190393cbc4cfd",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "d1833e9dfdcd49c9",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 15 条\n**FINANCIAL**: 15 条\n**FINANCIAL**: 10 条\n**BUSINESS**: 12 条\n**BUSINESS**: 12 条\n**BUSINESS**: 10 条\n**LEGAL**: 15 条\n**LEGAL**: 15 条\n**LEGAL**: 10 条\n**TEAM**: 12 条\n**TEAM**: 12 条\n**TEAM**: 10 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "82621f1cb93043cc",
+      "fromNode": "a8ee22ed5c164864",
+      "fromSide": "bottom",
+      "toNode": "05037b2943274d5b",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "eb7770b5121c447a",
+      "fromNode": "a8ee22ed5c164864",
+      "fromSide": "bottom",
+      "toNode": "bac190393cbc4cfd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "43e3019ffddc4176",
+      "fromNode": "76813c5ce4de48eb",
+      "fromSide": "bottom",
+      "toNode": "05037b2943274d5b",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "01a99a77a2224a84",
+      "fromNode": "76813c5ce4de48eb",
+      "fromSide": "bottom",
+      "toNode": "bac190393cbc4cfd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "587f53763c5c40be",
+      "fromNode": "62c296311fc94349",
+      "fromSide": "bottom",
+      "toNode": "05037b2943274d5b",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "2c7e593c055b4702",
+      "fromNode": "62c296311fc94349",
+      "fromSide": "bottom",
+      "toNode": "bac190393cbc4cfd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b1da6a2acef14113",
+      "fromNode": "ebc93f1735324cde",
+      "fromSide": "bottom",
+      "toNode": "05037b2943274d5b",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "5883a1fcdab74ca0",
+      "fromNode": "ebc93f1735324cde",
+      "fromSide": "bottom",
+      "toNode": "bac190393cbc4cfd",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}

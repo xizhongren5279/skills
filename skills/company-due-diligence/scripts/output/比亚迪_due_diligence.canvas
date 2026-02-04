@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "00d2823d2eec4c3d",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "比亚迪 尽调分析"
+    },
+    {
+      "id": "e3299d7e51424800",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 15 条\n\n1. BYD: An Underappreciated Global Battery Leader\n2. Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens\n3. 3Q results: a slow move off the bottom\n4. BYD (1211 HK/002594 CH)\n5. BYD (H): 3Q25 miss on lower GPM; net profit per car improved QoQ; new PO HKD137; Buy\n\n... 还有 10 条"
+    },
+    {
+      "id": "0c8f1bcf77d64c0c",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 12 条\n\n1. BYD Company Limited \"Highlighting overseas expansion & external battery...\"\n2. BYD - A \"Highlighting overseas expansion & external battery sales;...\"\n3. BYD Company Limited: Highlighting overseas expansion & external battery sales; reiterate Buy\n4. BYD - A: Highlighting overseas expansion & external battery sales; reiterate Buy\n5. Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens\n\n... 还有 7 条"
+    },
+    {
+      "id": "4a55bce65cc343b8",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 15 条\n\n1. 比亚迪:H股公告(2025年中期报告)\n2. 比亚迪:2025年半年度报告\n3. 比亚迪股份:2025年中期报告\n4. 比亚迪股份:二零二五年中期业绩公告\n5. 比亚迪:2025年半年度财务报告\n\n... 还有 10 条"
+    },
+    {
+      "id": "b7bac36c17414587",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 12 条\n\n1. Another Deep Dive into Apple Supply Chain; Initiate on Avary/BYDE/Lens\n2. 比亚迪电子(0285.HK)深度报告：EMS底蕴拓展AIDC(AI硬件系列之6)\n3. 比亚迪股份:董事会会议通告\n4. 比亚迪:H股公告(2025年中期报告)\n5. 比亚迪:关于高级管理人员、核心人员增持公司股份的公告\n\n... 还有 7 条"
+    },
+    {
+      "id": "7d19fa9811434ce4",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "cfa3b3974c1346cd",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "efca5099a3214900",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 15 条\n**FINANCIAL**: 15 条\n**FINANCIAL**: 10 条\n**BUSINESS**: 12 条\n**BUSINESS**: 12 条\n**BUSINESS**: 10 条\n**LEGAL**: 15 条\n**LEGAL**: 15 条\n**LEGAL**: 10 条\n**TEAM**: 12 条\n**TEAM**: 12 条\n**TEAM**: 10 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "6301fb5120524705",
+      "fromNode": "e3299d7e51424800",
+      "fromSide": "bottom",
+      "toNode": "7d19fa9811434ce4",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "5add42d0c07a485c",
+      "fromNode": "e3299d7e51424800",
+      "fromSide": "bottom",
+      "toNode": "cfa3b3974c1346cd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "eb804d02a8a8472e",
+      "fromNode": "0c8f1bcf77d64c0c",
+      "fromSide": "bottom",
+      "toNode": "7d19fa9811434ce4",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "27196d8227b44bc5",
+      "fromNode": "0c8f1bcf77d64c0c",
+      "fromSide": "bottom",
+      "toNode": "cfa3b3974c1346cd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "d20f4066ff0941da",
+      "fromNode": "4a55bce65cc343b8",
+      "fromSide": "bottom",
+      "toNode": "7d19fa9811434ce4",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "c148f4289b6546c7",
+      "fromNode": "4a55bce65cc343b8",
+      "fromSide": "bottom",
+      "toNode": "cfa3b3974c1346cd",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "0ee4e6b033ca4c9c",
+      "fromNode": "b7bac36c17414587",
+      "fromSide": "bottom",
+      "toNode": "7d19fa9811434ce4",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "64a7b62351e1446b",
+      "fromNode": "b7bac36c17414587",
+      "fromSide": "bottom",
+      "toNode": "cfa3b3974c1346cd",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}

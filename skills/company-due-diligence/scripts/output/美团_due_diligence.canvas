@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "6b8470819f0b4493",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "美团 尽调分析"
+    },
+    {
+      "id": "089d793e012c4c42",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 20 条\n\n1. Meituan: Brutal food delivery competition weighs on 3Q; 4Q loss to narrow, rivalry still intense\n2. Meituan (3690.HK) 3Q25 Review: Sustaining GTV scale leadership; reframing bull/bear narratives; Buy\n3. Meituan (3690 HK): Buy: Investment ongoing as operating metrics stabilize\n4. Meituan Q3: War does not determine who‘s right...\n5. Extended competitive pressure results in high earnings uncertainty; Neutral\n\n... 还有 15 条"
+    },
+    {
+      "id": "cd8ab94f7d084f8a",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 15 条\n\n1. Meituan: NDR takeaway: Deep moat sustains despite near-term uncertainties\n2. NDR and China Best Conference Takeaways\n3. Meituan Q3 2025\n4. Meituan (3690.HK): CLC Op Loss To Persist For 4Q25; Keeta Track Well; Maintain Neutral\n5. Meituan: NDR and China Best Conference Takeaways\n\n... 还有 10 条"
+    },
+    {
+      "id": "ebde295f929547ca",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 20 条\n\n1. 【广发专家会-海外专场】| 旅行服务行业分享\n2. Group Call: Food Delivery Anti-monopoly Policy with CITICS Qingpu Yang & Ethan Wang\n3. 中信机构股票智库·第28期 | OTA专家交流\n4. 中金-睿远香港交流会\n5. Micron Technology, Inc.季度报告\n\n... 还有 15 条"
+    },
+    {
+      "id": "11fc607dc9454c25",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 15 条\n\n1. 美团-W:董事会会议召开日期\n2. 美团-W:授出受限制股份单位\n3. 美团-W(3690.HK)短期业绩承压，外卖中长期目标维持不变\n4. 美团-W(3690.HK)3Q25点评：在高客单价市场成功捍卫自身份额\n5. 食品饮料行业老乡鸡深度报告：从养殖到餐桌，中式快餐第一龙头\n\n... 还有 10 条"
+    },
+    {
+      "id": "0a3cb8a9453c4bc1",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "5f0ba5055f8c4e41",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "37afe803222a48c2",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 20 条\n**BUSINESS**: 15 条\n**LEGAL**: 20 条\n**TEAM**: 15 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "0a8c1f198e52488a",
+      "fromNode": "089d793e012c4c42",
+      "fromSide": "bottom",
+      "toNode": "0a3cb8a9453c4bc1",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "1c61ea520987490d",
+      "fromNode": "089d793e012c4c42",
+      "fromSide": "bottom",
+      "toNode": "5f0ba5055f8c4e41",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b3387592144e4c00",
+      "fromNode": "cd8ab94f7d084f8a",
+      "fromSide": "bottom",
+      "toNode": "0a3cb8a9453c4bc1",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "4784b1251ee94093",
+      "fromNode": "cd8ab94f7d084f8a",
+      "fromSide": "bottom",
+      "toNode": "5f0ba5055f8c4e41",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "f1d1c0706b7047dc",
+      "fromNode": "ebde295f929547ca",
+      "fromSide": "bottom",
+      "toNode": "0a3cb8a9453c4bc1",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "03be857040c743e0",
+      "fromNode": "ebde295f929547ca",
+      "fromSide": "bottom",
+      "toNode": "5f0ba5055f8c4e41",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "2b0e2c78eca442c6",
+      "fromNode": "11fc607dc9454c25",
+      "fromSide": "bottom",
+      "toNode": "0a3cb8a9453c4bc1",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "6093fd4078f54fe8",
+      "fromNode": "11fc607dc9454c25",
+      "fromSide": "bottom",
+      "toNode": "5f0ba5055f8c4e41",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}

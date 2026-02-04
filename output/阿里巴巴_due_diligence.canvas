@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "afb0fe253f024949",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "阿里巴巴 尽调分析"
+    },
+    {
+      "id": "516603337b934c02",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 20 条\n\n1. 阿里巴巴(BABA.N)：收入增长保持稳定 AI转型谋求变局...\n2. Alibaba Group: Cloud momentum remains strong while...\n3. 阿里巴巴-W(09988.HK)：AI时代下的商业重构...\n4. Alibaba Group (BABA US & 9988 HK): 3QFY26 preview:...\n5. 阿里巴巴-W(9988.HK)FY26Q2财报点评：电商收入及利润增势稳健，云业务加速增长...\n\n... 还有 15 条"
+    },
+    {
+      "id": "99bed62ad9294ced",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 15 条\n\n1. Strong AI Demand; Solid Progress Made in Quick Com...\n2. Alibaba Turning tokens into take-rate: The Alibaba...\n3. Turning tokens into take-rate: The Alibaba flywhee...\n4. Key Takeaways from Group Investor Call...\n5. 阿里巴巴-W(9988.HK)阿里云全栈AI+TOC入口 AI重估继续(阿里巴巴深度之四暨GENAI...\n\n... 还有 10 条"
+    },
+    {
+      "id": "f8d42d59c5ac440b",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 20 条\n\n1. Alibaba Group Holding Limited2024致股东年报...\n2. 阿里巴巴-W:2025财务年度报告...\n3. Alibaba Group Holding Limited2024年报...\n4. 阿里巴巴-SW(09988.HK)深度研究报告：以长期主义经营电商，跨境与云支撑新增长...\n5. First Read: Trip.com \"Our initial reaction to the ...\n\n... 还有 15 条"
+    },
+    {
+      "id": "299e93f1f12f4bcf",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 15 条\n\n1. Alibaba Group Holding Limited盈利预告...\n2. 阿里巴巴-W:2026 财务年度中期报告...\n3. 阿里巴巴-W(9988.HK)阿里云全栈AI+TOC入口 AI重估继续(阿里巴巴深度之四暨GENAI...\n4. 阿里巴巴-W(09988.HK)深度报告：聚焦消费和云+AI战略，持续投入重新创业...\n5. 阿里巴巴-W:2025年九月底止季度业绩及截至2025年9月30日止六个月中期业绩公告...\n\n... 还有 10 条"
+    },
+    {
+      "id": "fc5d29fa57e24f6e",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "5c73456ab1794758",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "47b8a890f8994ae7",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 20 条\n**BUSINESS**: 15 条\n**LEGAL**: 20 条\n**TEAM**: 15 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "5e950c6700eb4c95",
+      "fromNode": "516603337b934c02",
+      "fromSide": "bottom",
+      "toNode": "fc5d29fa57e24f6e",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "58d35504a6b64100",
+      "fromNode": "516603337b934c02",
+      "fromSide": "bottom",
+      "toNode": "5c73456ab1794758",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "4c747e36ade14197",
+      "fromNode": "99bed62ad9294ced",
+      "fromSide": "bottom",
+      "toNode": "fc5d29fa57e24f6e",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "694e085aee8c4883",
+      "fromNode": "99bed62ad9294ced",
+      "fromSide": "bottom",
+      "toNode": "5c73456ab1794758",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "279cb8a0f2004312",
+      "fromNode": "f8d42d59c5ac440b",
+      "fromSide": "bottom",
+      "toNode": "fc5d29fa57e24f6e",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "2628b613c4a046df",
+      "fromNode": "f8d42d59c5ac440b",
+      "fromSide": "bottom",
+      "toNode": "5c73456ab1794758",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "527b245b618e4083",
+      "fromNode": "299e93f1f12f4bcf",
+      "fromSide": "bottom",
+      "toNode": "fc5d29fa57e24f6e",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "e13a0181ecea474d",
+      "fromNode": "299e93f1f12f4bcf",
+      "fromSide": "bottom",
+      "toNode": "5c73456ab1794758",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}

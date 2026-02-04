@@ -1,0 +1,4 @@
+aiohttp>=3.9.0
+langchain-core>=0.1.0
+langgraph>=0.0.1
+loguru>=0.7.0

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "c39805c97d014bb7",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 1400,
+      "height": 900,
+      "label": "腾讯控股 尽调分析"
+    },
+    {
+      "id": "f9d16e92f960421b",
+      "type": "text",
+      "x": 50,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "1",
+      "text": "## 财务分析\n\n**数据量**: 15 条\n\n1. 腾讯控股(0700.HK)游戏业务强劲复苏，AI赋能广告收入增长\n2. 腾讯控股(0700.HK)游戏及广告延续强劲趋势 AI持续赋能主业\n3. Tencent Holdings Addressing key investor inbounds post 3Q25; reiterate sector top pick\n4. 腾讯控股(0700.HK)游戏广告稳健增长，把握机遇加大AI投入\n5. Tencent Holdings (700 HK) Buy: Reinvesting for future growth: Buy: Reinvesting for future growth\n\n... 还有 10 条"
+    },
+    {
+      "id": "ae0ba886f24c421b",
+      "type": "text",
+      "x": 400,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "3",
+      "text": "## 业务分析\n\n**数据量**: 12 条\n\n1. Key Call: Tencent Holdings: Games and Cloud event sharing takeaway\n2. Tencent Holdings Ltd.: Business Sharing Takeaways\n3. Tencent Holdings: Key takeaways from business sharing; reiterate sector top pick\n4. Quick Note - Tencent Holdings (700 HK) (Buy) - Takeaways from business sharing\n5. 腾讯控股(0700.HK)首次覆盖：守正创新，基业长青\n\n... 还有 7 条"
+    },
+    {
+      "id": "7f74d12bb4bb455b",
+      "type": "text",
+      "x": 750,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "5",
+      "text": "## 法律合规\n\n**数据量**: 15 条\n\n1. Quick Note - Tencent Holdings (700 HK) (Buy) - An overhang for Tencent\n2. 腾讯控股(0700.HK)股价韧性强于市 强监管无碍微信价值\n3. PROSUS NV / TENCENT HOLDINGS : The Force Awakens\n4. 腾讯控股(0700.HK)中概互联网复盘系列报告之三，腾讯控股2021年复盘：股价韧性强于市，强监管无碍微信价值\n5. 腾讯起诉拼多多不正当竞争\n\n... 还有 10 条"
+    },
+    {
+      "id": "580d43b94ac341c6",
+      "type": "text",
+      "x": 1100,
+      "y": 100,
+      "width": 300,
+      "height": 250,
+      "color": "6",
+      "text": "## 团队背景\n\n**数据量**: 12 条\n\n1. 腾讯控股(0700.HK)首次覆盖：守正创新，基业长青\n2. 腾讯控股:董事会会议召开日期\n3. Tencent Holdings (0700.HK): Business Sharing Highlights: Long runway for int‘I cloud & overseas games growth empowered by AI; Buy\n4. TENCENT HOLDINGS (+) : What is management saying?\n5. 腾讯控股(0700.HK)周报\n\n... 还有 7 条"
+    },
+    {
+      "id": "179932ba492d4eb8",
+      "type": "text",
+      "x": 50,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "2",
+      "text": "## 风险评估\n\n[根据分析结果填写主要风险]\n\n- 风险1\n- 风险2\n- 风险3"
+    },
+    {
+      "id": "7ff21895cc054ae0",
+      "type": "text",
+      "x": 750,
+      "y": 400,
+      "width": 600,
+      "height": 200,
+      "color": "4",
+      "text": "## 投资建议\n\n[根据分析结果填写投资建议]\n\n- 建议: [是/否/谨慎]\n- 估值区间\n- 关键条件"
+    },
+    {
+      "id": "4ab26c6f0b514145",
+      "type": "text",
+      "x": 50,
+      "y": 650,
+      "width": 1300,
+      "height": 150,
+      "text": "## 数据来源\n\n**FINANCIAL**: 15 条\n**FINANCIAL**: 15 条\n**FINANCIAL**: 10 条\n**BUSINESS**: 12 条\n**BUSINESS**: 12 条\n**BUSINESS**: 10 条\n**LEGAL**: 15 条\n**LEGAL**: 15 条\n**LEGAL**: 10 条\n**TEAM**: 12 条\n**TEAM**: 12 条\n**TEAM**: 10 条\n"
+    }
+  ],
+  "edges": [
+    {
+      "id": "73acb31276374bbc",
+      "fromNode": "f9d16e92f960421b",
+      "fromSide": "bottom",
+      "toNode": "179932ba492d4eb8",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "54953510c6d44520",
+      "fromNode": "f9d16e92f960421b",
+      "fromSide": "bottom",
+      "toNode": "7ff21895cc054ae0",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "87077dc20ec54670",
+      "fromNode": "ae0ba886f24c421b",
+      "fromSide": "bottom",
+      "toNode": "179932ba492d4eb8",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "f097aa89bfe84ff5",
+      "fromNode": "ae0ba886f24c421b",
+      "fromSide": "bottom",
+      "toNode": "7ff21895cc054ae0",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "3c97ef1d2e584413",
+      "fromNode": "7f74d12bb4bb455b",
+      "fromSide": "bottom",
+      "toNode": "179932ba492d4eb8",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "10abef40c6d84e9d",
+      "fromNode": "7f74d12bb4bb455b",
+      "fromSide": "bottom",
+      "toNode": "7ff21895cc054ae0",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "b06eeb5741ee4752",
+      "fromNode": "580d43b94ac341c6",
+      "fromSide": "bottom",
+      "toNode": "179932ba492d4eb8",
+      "toSide": "top",
+      "toEnd": "none"
+    },
+    {
+      "id": "5c35ee7928a94fc2",
+      "fromNode": "580d43b94ac341c6",
+      "fromSide": "bottom",
+      "toNode": "7ff21895cc054ae0",
+      "toSide": "top",
+      "toEnd": "none"
+    }
+  ]
+}
