@@ -269,16 +269,60 @@ CRITICAL: Return完整的section分析文本, not raw retrieval results.
 
 ### Step 5: Synthesize and Analyze
 
-After all retrieval phases complete:
+After all tasks complete:
 
-1. **Integrate findings**: Combine insights from all tasks into cohesive analysis
-2. **Cross-validate**: Check for consistency and resolve contradictions
-3. **Fill gaps**: Identify any missing critical information
-4. **Quality check**:
-   - All sections complete with quantitative data
-   - No placeholder text
-   - Proper citations and data sources
-   - Clear logical flow
+**1. Collect section analyses**:
+- Input: All section analysis texts from completed tasks
+- Each section is already analyzed and written (not raw data)
+
+**2. Integration tasks**:
+- **Consistency check**: Verify data consistency across sections (e.g., revenue numbers match)
+- **Gap filling**: Identify missing critical information, add notes where data unavailable
+- **Flow improvement**: Add transitional paragraphs between sections if needed
+- **Executive summary**: Create summary of key findings from all sections
+
+**3. Quality validation**:
+- All sections present (or marked as failed with reason)
+- Quantitative data included in each section
+- No placeholder text in successful sections
+- Source citations present
+- Logical narrative flow
+
+**4. Assemble final report**:
+```markdown
+# {topic}
+
+**生成时间**: {timestamp}
+**研究类型**: {research_type}
+
+## 核心发现
+
+{Executive summary: 3-5 bullet points of key findings}
+
+## 详细分析
+
+{Section 1 from Task 1}
+
+{Section 2 from Task 2}
+
+...
+
+{Section N from Task N}
+
+## 数据来源
+
+- 金融数据库检索: {count} queries
+- 用户文档库: {count} queries (if applicable)
+- 网络搜索: {count} queries (if applicable)
+
+---
+
+*本报告由financial-research skill生成 | {timestamp}*
+```
+
+**5. Save outputs**:
+- Main report: `{topic}_{research_type}_YYYYMMDD_HHMMSS.md`
+- Generation log: `{topic}_生成日志_YYYYMMDD_HHMMSS.md` (includes JSON plan, wave execution details, task results)
 
 ### Step 6: Generate Final Report
 
@@ -306,7 +350,7 @@ Structure the final report according to the research type:
 
 4. **Use exact MCP syntax**: Follow the exact tool names, query formats, and parameters from mcp_tools.md
 
-5. **Provide progress feedback**: Keep user informed with clear phase indicators
+5. **Provide progress feedback**: Keep user informed with clear wave indicators
 
 6. **Handle data gaps gracefully**: Use "-" for missing data, note data limitations explicitly
 
@@ -319,7 +363,7 @@ Structure the final report according to the research type:
 10. **Save generation logs**: Always save both the final report and a detailed generation log documenting:
     - Plan structure
     - MCP queries executed
-    - Key findings per phase
+    - Key findings per wave
     - Integration decisions
     - Quality checks performed
 
@@ -348,8 +392,8 @@ Available MCP tools (see references/mcp_tools.md for details):
 - Complex research (10+ sections): ~5-8 minutes
 
 **Optimization Strategies**:
-1. **Aggressive parallelization**: Group 5-10 independent queries per phase
-2. **Minimize phases**: Aim for 2-3 phases maximum
+1. **Aggressive parallelization**: Group 5-10 independent queries per wave
+2. **Minimize waves**: Aim for 2-3 waves maximum
 3. **Right-size queries**: Use recall_num judiciously (8-15 typically sufficient)
 4. **Reuse data**: If multiple sections need same data, retrieve once and reference
 
