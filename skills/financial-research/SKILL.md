@@ -155,44 +155,117 @@ Generate a JSON plan with the following structure:
 
 ### Step 4: Execute Research Plan
 
-Once the plan is approved:
+Once the JSON plan is generated:
 
-1. **Create task tracking** (optional, for complex plans):
-   ```python
-   TaskCreate for each major section/phase
-   ```
+**1. Validate plan structure**:
+```python
+# Validate JSON structure
+def validate_plan(plan):
+    # Check required fields
+    assert 'research_type' in plan
+    assert 'topic' in plan
+    assert 'objectives' in plan
+    assert 'tasks' in plan
 
-2. **Execute phases in order**:
-   - **Parallel phases**: Spawn ALL tasks in a single message using Task tool with general-purpose subagents
-   - **Serial phases**: Wait for dependencies to complete before spawning next phase
+    # Check task structure
+    task_ids = set()
+    for task in plan['tasks']:
+        assert 'id' in task
+        assert 'description' in task
+        assert 'dependencies' in task
+        task_ids.add(task['id'])
 
-3. **Subagent prompt template**:
-   ```markdown
-   You are executing [Task Name] for the research plan on [Topic].
+    # Validate dependencies reference valid IDs
+    for task in plan['tasks']:
+        for dep_id in task['dependencies']:
+            assert dep_id in task_ids, f"Invalid dependency: {dep_id}"
 
-   CONTEXT:
-   [Provide relevant context from earlier phases if this task depends on them]
+    # Check for circular dependencies (topological sort)
+    assert is_acyclic(plan['tasks']), "Circular dependency detected"
+```
 
-   YOUR TASK:
-   1. Execute the following MCP query:
-      - Tool: [tool_name]
-      - Query: "[exact query]"
-      - Parameters: {date_range: 'X', recall_num: Y, doc_type: 'Z'}
+**2. Parse dependencies and identify execution waves**:
+```python
+# Identify tasks by wave
+completed = set()
+waves = []
 
-   2. Analyze the retrieved data and extract:
-      - [Specific information needed]
-      - [Specific insights needed]
+while len(completed) < len(plan['tasks']):
+    # Find tasks with all dependencies satisfied
+    current_wave = [
+        task for task in plan['tasks']
+        if task['id'] not in completed
+        and all(dep_id in completed for dep_id in task['dependencies'])
+    ]
 
-   3. Structure your findings as:
-      [Expected output format]
+    if not current_wave:
+        raise Exception("Circular dependency or orphaned tasks detected")
 
-   Return your analysis in the specified format. Include quantitative data and specific evidence.
-   ```
+    waves.append(current_wave)
+    completed.update(task['id'] for task in current_wave)
+```
 
-4. **Progress tracking**:
-   - Show clear phase indicators: "正在执行Phase 1: 并行检索基础数据 (3 tasks)..."
-   - Update task status if using task tracking
-   - Inform user of phase completion
+**3. Execute waves sequentially, tasks within wave in parallel**:
+
+For each wave:
+- Spawn ALL tasks in the wave using Task tool with general-purpose subagents in a single message
+- Each subagent receives the task description, hints, and any dependent task results
+- Subagent reads references/mcp_tools.md, executes MCP queries, and returns complete section analysis
+- Wait for all tasks in wave to complete before proceeding to next wave
+
+**4. Subagent prompt template**:
+
+```markdown
+You are executing Task {task_id} for the research plan on "{topic}".
+
+## Research Context
+- Research Type: {research_type}
+- Topic: {topic}
+- Objectives: {objectives}
+
+## Your Task
+{task_description}
+
+## Execution Hints
+- Data Needs: {hints.data_needs}
+- Key Questions: {hints.key_questions}
+- Suggested Tools: {hints.suggested_tools}
+
+{If task has dependencies:}
+## Context from Previous Tasks
+{Include section text from dependent tasks}
+
+## Execution Requirements
+1. Read `/Users/xizhongren/Downloads/skills/skills/financial-research/references/mcp_tools.md` to understand available MCP tools
+2. Based on the task requirements and hints, determine which MCP queries to execute
+3. Execute the necessary MCP tool calls
+4. Analyze the retrieved data
+5. Write a complete section analysis (800-1500 words) with:
+   - Specific quantitative data (numbers, percentages, dates)
+   - Data source citations
+   - Clear insights and findings
+
+## Output Format
+Return your analysis as a complete Markdown section:
+
+\`\`\`markdown
+## {Section Title Based on Task Description}
+
+{Your analysis with quantitative data, insights, and source citations}
+\`\`\`
+
+CRITICAL: Return完整的section分析文本, not raw retrieval results.
+```
+
+**5. Progress tracking**:
+- Display wave indicators: "执行Wave 1: 3个并行任务..."
+- Show task completion: "Task 1 完成: 公司概况与业务模式分析"
+- Report wave completion: "Wave 1 完成，进入Wave 2..."
+
+**6. Error handling**:
+- If a task fails, mark it as failed and block dependent tasks
+- Continue executing independent tasks
+- Use placeholder for failed sections: "[数据获取失败: {reason}]"
 
 ### Step 5: Synthesize and Analyze
 
