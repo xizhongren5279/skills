@@ -245,16 +245,64 @@ You are executing Task {task_id} for the research plan on "{topic}".
    - Data source citations
    - Clear insights and findings
 
+## Retrieval Metadata Tracking
+
+**CRITICAL**: You MUST track all MCP tool queries and their results for data lineage.
+
+For EVERY MCP tool call you make, extract and record these metadata fields:
+- `file_id`: Document/file identifier (integer)
+- `title`: Document title
+- `publish_date`: Publication date
+- `type_full_name`: Document type (e.g., "研报", "财报", "公告")
+- `institution_name`: Source institution/organization
+- `company_name`: Company name (if applicable)
+- `section`: Specific section/excerpt from the document
+- `data_source`: The exact MCP tool name used
+- `query`: The query string you used
+
+**CRITICAL - data_source Field**: The `data_source` field MUST be the exact MCP tool name:
+- `info_search_finance_db` - For financial database searches (research reports, announcements, news)
+- `info_search_stock_db` - For quantitative stock/financial data queries
+- `info_search_user_db` - For user-uploaded document searches
+- `info_search_web` - For web searches
+
+**WARNING**: DO NOT use generic values like "MCP", "database", "金融数据库", or "research database". Use the exact tool names listed above.
+
+**Example data_source values by use case**:
+- Research reports → `info_search_finance_db`
+- Company announcements → `info_search_finance_db`
+- Stock price data → `info_search_stock_db`
+- Financial metrics (ROE, revenue) → `info_search_stock_db`
+- Web search results → `info_search_web`
+- User documents → `info_search_user_db`
+
 ## Output Format
-Return your analysis as a complete Markdown section:
 
-\`\`\`markdown
-## {Section Title Based on Task Description}
+Return your results as JSON with two fields:
 
-{Your analysis with quantitative data, insights, and source citations}
+\`\`\`json
+{
+  "section_analysis": "## {Section Title}\n\n{Your complete analysis with quantitative data, insights, and source citations}",
+  "retrieved_files": [
+    {
+      "file_id": 123456,
+      "title": "特斯拉2023年年度报告",
+      "publish_date": "2024-01-25",
+      "type_full_name": "年报",
+      "institution_name": "特斯拉",
+      "company_name": "特斯拉",
+      "section": "2023年全年营业收入达到967.7亿美元，同比增长18.8%...",
+      "data_source": "info_search_finance_db",
+      "query": "特斯拉2023年营收"
+    }
+  ]
+}
 \`\`\`
 
-CRITICAL: Return完整的section分析文本, not raw retrieval results.
+**CRITICAL**:
+- `section_analysis` must contain完整的section分析文本, not raw retrieval results
+- `retrieved_files` must include ALL documents retrieved via MCP tools
+- Each entry in `retrieved_files` must have the exact `data_source` tool name
 ```
 
 **5. Progress tracking**:
