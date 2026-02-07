@@ -2,6 +2,155 @@
 
 This document provides a framework for creating efficient research plans that maximize parallel execution and minimize total execution time.
 
+## JSON PLAN Structure
+
+### Overview
+
+Research plans are now expressed as JSON objects with flat task lists and explicit dependencies, replacing the previous Phase-based Markdown structure.
+
+### JSON Structure
+
+```json
+{
+  "research_type": "company|industry|strategy|macro|quantitative",
+  "topic": "研究主题",
+  "objectives": ["目标1", "目标2", "目标3"],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "章节级任务描述",
+      "dependencies": [],
+      "hints": {
+        "data_needs": ["数据类型"],
+        "key_questions": ["关键问题"],
+        "suggested_tools": ["工具名称"]
+      }
+    }
+  ]
+}
+```
+
+### Creating Effective Tasks
+
+**Task Abstraction Level**:
+- Each task = one major report section (章节)
+- Target: 800-1500 words per section after analysis
+- Example good tasks:
+  - ✅ "公司概况与业务模式分析"
+  - ✅ "财务表现与关键指标分析"
+  - ✅ "竞争格局与市场地位"
+- Example bad tasks (too granular):
+  - ❌ "获取公司营收数据"
+  - ❌ "查询ROE指标"
+
+**Identifying Dependencies**:
+- Ask: "Does Task B need Task A's analysis output to write its section?"
+- True dependency: "综合评估" needs "财务分析" + "业务分析" + "竞争分析" results
+- False dependency: "财务分析" does NOT need "业务分析" - both can run in parallel
+
+**Writing Effective Hints**:
+- `data_needs`: General data categories, not specific queries
+  - ✅ Good: ["近3年财务数据", "盈利能力指标", "现金流状况"]
+  - ❌ Bad: ["2022-2024年特斯拉营收", "特斯拉ROE数据"]
+- `key_questions`: What questions this section should answer
+  - ✅ Good: ["盈利能力趋势如何", "财务健康度评价", "现金流是否充裕"]
+- `suggested_tools`: Recommend tools but don't mandate exact usage
+  - ✅ Good: ["info_search_stock_db", "info_search_finance_db"]
+
+### Dependency Best Practices
+
+**Minimize Dependencies**:
+- Target: Most tasks should have empty dependencies `[]`
+- Ideal structure:
+  ```
+  Wave 1 (parallel): Tasks 1, 2, 3, 4
+  Wave 2 (parallel): Task 5 (depends on [1, 2, 3, 4])
+  ```
+- Avoid deep chains:
+  ```
+  ❌ Bad: Task1 → Task2 → Task3 → Task4 (4 waves, serial)
+  ✅ Good: Tasks1,2,3 (parallel) → Task4 (2 waves)
+  ```
+
+**Validation Rules**:
+1. All task IDs must be sequential positive integers starting from 1
+2. Dependencies must reference valid task IDs
+3. No circular dependencies (validate with topological sort)
+4. Empty array for tasks with no dependencies (not null, not omitted)
+
+### Task Count Guidelines
+
+**Optimal task count**: 4-7 tasks
+
+**Reasoning**:
+- Too few (2-3): Low parallelism, longer execution
+- Optimal (4-7): Good balance of parallelism and manageability
+- Too many (10+): Subagent overhead, complex dependencies
+
+### Example: Company Analysis
+
+```json
+{
+  "research_type": "company",
+  "topic": "特斯拉公司深度分析",
+  "objectives": [
+    "全面评估特斯拉的业务模式和竞争优势",
+    "分析财务表现和增长驱动因素",
+    "评估风险因素和未来展望"
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "公司概况与业务模式分析",
+      "dependencies": [],
+      "hints": {
+        "data_needs": ["公司背景", "主营业务", "商业模式"],
+        "key_questions": ["核心产品线是什么", "收入结构如何"],
+        "suggested_tools": ["info_search_finance_db"]
+      }
+    },
+    {
+      "id": 2,
+      "description": "财务表现与关键指标分析",
+      "dependencies": [],
+      "hints": {
+        "data_needs": ["近3年营收利润", "ROE", "毛利率", "现金流"],
+        "key_questions": ["盈利能力趋势", "财务健康度"],
+        "suggested_tools": ["info_search_stock_db", "info_search_finance_db"]
+      }
+    },
+    {
+      "id": 3,
+      "description": "竞争格局与市场地位",
+      "dependencies": [],
+      "hints": {
+        "data_needs": ["行业竞争对手", "市场份额", "技术优势"],
+        "key_questions": ["主要竞争对手有哪些", "差异化优势"],
+        "suggested_tools": ["info_search_finance_db"]
+      }
+    },
+    {
+      "id": 4,
+      "description": "综合评估与投资建议",
+      "dependencies": [1, 2, 3],
+      "hints": {
+        "data_needs": ["最新研报观点", "分析师评级"],
+        "key_questions": ["综合评价", "投资价值判断"],
+        "suggested_tools": ["info_search_finance_db"]
+      }
+    }
+  ]
+}
+```
+
+**Execution**:
+- Wave 1: Tasks 1, 2, 3 execute in parallel (3 subagents spawned simultaneously)
+- Wave 2: Task 4 executes after Wave 1 completes (receives sections from tasks 1, 2, 3)
+- Total waves: 2
+- Estimated time: ~3-4 minutes
+
+---
+
 ## Core Principles
 
 ### 1. Parallelization First
