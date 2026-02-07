@@ -1,0 +1,13 @@
+# Ignore all generated research outputs
+*
+
+# But keep this .gitignore file
+!.gitignore
+
+# This directory stores generated research reports
+# Each research session creates a timestamped subdirectory:
+# - {topic}_{YYYYMMDD_HHMMSS}/
+#   - report.md
+#   - generation_log.md
+#   - retrieval_metadata.json
+#   - plan.json
