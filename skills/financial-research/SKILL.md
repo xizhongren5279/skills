@@ -236,7 +236,7 @@ You are executing Task {task_id} for the research plan on "{topic}".
 {Include section text from dependent tasks}
 
 ## Execution Requirements
-1. Read `/Users/xizhongren/Downloads/skills/skills/financial-research/references/mcp_tools.md` to understand available MCP tools
+1. Read `references/mcp_tools.md` to understand available MCP tools
 2. Based on the task requirements and hints, determine which MCP queries to execute
 3. Execute the necessary MCP tool calls
 4. Analyze the retrieved data
