@@ -1,0 +1,157 @@
+{
+  "research_session": {
+    "topic": "特斯拉公司深度分析",
+    "research_type": "company_analysis",
+    "timestamp": "2026-02-06T15:30:00Z",
+    "total_tasks": 5,
+    "total_files_retrieved": 12
+  },
+  "tasks": [
+    {
+      "task_id": "1",
+      "task_name": "获取特斯拉基本信息和最新动态",
+      "files": [
+        {
+          "file_id": "20240215001",
+          "title": "特斯拉(TSLA.US)2023年度业绩点评:Model Y销量创新高,自动驾驶技术领先",
+          "publish_date": "2024-02-15",
+          "type_full_name": "公司研究-深度报告",
+          "institution_name": "中信证券",
+          "company_name": "特斯拉",
+          "section": "特斯拉2023年全年交付量达到180万辆,同比增长38%。其中Model Y成为全球最畅销车型,Q4单季度交付量突破50万辆。公司在自动驾驶技术方面持续投入,FSD(完全自动驾驶)功能在北美地区累计行驶里程超过10亿英里。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 最新研报"
+        },
+        {
+          "file_id": "20240301002",
+          "title": "特斯拉:能源业务加速增长,储能系统部署量大幅提升",
+          "publish_date": "2024-03-01",
+          "type_full_name": "公司研究-点评报告",
+          "institution_name": "华泰证券",
+          "company_name": "特斯拉",
+          "section": "特斯拉能源业务在2023年实现显著增长,储能系统部署量达到14.7GWh,同比增长125%。Megapack大型储能项目在全球多个市场获得订单,预计2024年产能将进一步扩大。太阳能屋顶业务虽然规模较小,但在美国市场保持稳定增长。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 能源业务"
+        },
+        {
+          "file_id": "20240118003",
+          "title": "特斯拉2023年Q4财报电话会议纪要",
+          "publish_date": "2024-01-18",
+          "type_full_name": "会议纪要",
+          "institution_name": "东方证券",
+          "company_name": "特斯拉",
+          "section": "CEO马斯克在会议中强调,2024年公司将继续专注于降低成本和提升生产效率。德州工厂和柏林工厂的产能利用率持续提升,预计Q1将达到满产状态。管理层确认Cybertruck已于2023年11月开始交付,初期产能爬坡顺利,预计2024年将实现规模化生产。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 2023 Q4 财报会议"
+        }
+      ]
+    },
+    {
+      "task_id": "2",
+      "task_name": "分析特斯拉财务数据和业绩表现",
+      "files": [
+        {
+          "file_id": "N/A",
+          "title": "特斯拉2023年关键财务指标",
+          "publish_date": "2024-01-25",
+          "type_full_name": "量化数据",
+          "institution_name": "N/A",
+          "company_name": "特斯拉",
+          "section": "2023年全年营收967亿美元,同比增长19%;净利润150亿美元,同比增长19%;毛利率18.2%,较2022年下降7个百分点;研发费用38亿美元,占营收3.9%;经营现金流132亿美元;自由现金流44亿美元。Q4单季度营收251亿美元,环比增长3%,同比增长3%。",
+          "data_source": "info_search_stock_db",
+          "query": "特斯拉2023年营收、净利润、毛利率、研发费用"
+        },
+        {
+          "file_id": "N/A",
+          "title": "特斯拉2023年季度业绩趋势",
+          "publish_date": "2024-01-25",
+          "type_full_name": "量化数据",
+          "institution_name": "N/A",
+          "company_name": "特斯拉",
+          "section": "Q1营收233亿美元,Q2营收249亿美元,Q3营收234亿美元,Q4营收251亿美元。Q1净利润25亿美元,Q2净利润27亿美元,Q3净利润19亿美元,Q4净利润79亿美元(包含一次性递延税资产收益)。毛利率呈现下降趋势:Q1为19.3%,Q2为18.2%,Q3为17.9%,Q4为17.6%。",
+          "data_source": "info_search_stock_db",
+          "query": "特斯拉2023年Q1至Q4季度营收和净利润"
+        }
+      ]
+    },
+    {
+      "task_id": "3",
+      "task_name": "研究特斯拉行业地位和竞争态势",
+      "files": [
+        {
+          "file_id": "20240220004",
+          "title": "全球新能源汽车行业深度报告:竞争格局重塑,特斯拉优势依然明显",
+          "publish_date": "2024-02-20",
+          "type_full_name": "行业研究-深度报告",
+          "institution_name": "招商证券",
+          "company_name": "行业研究",
+          "section": "2023年全球新能源汽车销量达到1400万辆,渗透率提升至18%。特斯拉以180万辆销量位居全球第一,市场份额约13%。比亚迪以302万辆(含插混)位居第二,纯电动销量157万辆。中国新势力品牌如蔚来、理想、小鹏等快速成长,但在海外市场拓展方面仍落后于特斯拉。传统车企如大众、通用、福特等电动化转型加速,但盈利能力普遍承压。",
+          "data_source": "info_search_finance_db",
+          "query": "新能源汽车行业 竞争格局 特斯拉"
+        },
+        {
+          "file_id": "20240305005",
+          "title": "特斯拉vs比亚迪:全球化战略对比分析",
+          "publish_date": "2024-03-05",
+          "type_full_name": "公司研究-专题报告",
+          "institution_name": "中金公司",
+          "company_name": "特斯拉",
+          "section": "特斯拉在品牌、技术、软件生态方面具有领先优势,但在成本控制和产品多样性方面面临比亚迪的挑战。特斯拉2023年全球平均售价约4.5万美元,而比亚迪纯电动车型平均售价约2.5万美元。特斯拉在欧美市场占有率超过50%,比亚迪主要集中在中国市场,但正在加速出海。两家公司在自动驾驶技术路线上有明显差异:特斯拉坚持纯视觉方案,比亚迪采用激光雷达+视觉融合方案。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 比亚迪 对比"
+        }
+      ]
+    },
+    {
+      "task_id": "4",
+      "task_name": "评估特斯拉核心技术和创新能力",
+      "files": [
+        {
+          "file_id": "20240125006",
+          "title": "特斯拉FSD自动驾驶技术深度解析:算力、算法、数据三大优势",
+          "publish_date": "2024-01-25",
+          "type_full_name": "公司研究-专题报告",
+          "institution_name": "申万宏源",
+          "company_name": "特斯拉",
+          "section": "特斯拉FSD采用纯视觉+神经网络方案,搭载自研Dojo超级计算机进行模型训练。截至2023年底,FSD Beta在北美地区用户超过40万,累计行驶里程超过10亿英里。相比传统激光雷达方案,特斯拉的纯视觉方案成本更低,但对算法和算力要求更高。公司计划在2024年推出FSD V12版本,实现端到端神经网络控制。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 FSD 自动驾驶技术"
+        },
+        {
+          "file_id": "20240208007",
+          "title": "特斯拉4680电池技术进展跟踪:产能爬坡低于预期",
+          "publish_date": "2024-02-08",
+          "type_full_name": "公司研究-点评报告",
+          "institution_name": "国泰君安",
+          "company_name": "特斯拉",
+          "section": "特斯拉自研的4680电池在能量密度和成本方面具有理论优势,但量产进度慢于预期。截至2023年底,4680电池主要应用于Cybertruck和部分Model Y车型。公司在德州工厂建设了4680电池生产线,但产能利用率仍然较低。管理层表示4680电池的成本优势要到2024年下半年才能充分体现。目前Model 3/Y的主力供应商仍是宁德时代和LG。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 4680电池"
+        }
+      ]
+    },
+    {
+      "task_id": "5",
+      "task_name": "分析特斯拉未来增长驱动因素和风险",
+      "files": [
+        {
+          "file_id": "20240310008",
+          "title": "特斯拉2024年展望:新车型周期开启,价格战压力持续",
+          "publish_date": "2024-03-10",
+          "type_full_name": "公司研究-深度报告",
+          "institution_name": "海通证券",
+          "company_name": "特斯拉",
+          "section": "2024年特斯拉面临机遇与挑战并存的局面。积极因素包括:Cybertruck产能爬坡、新款Model 3在全球市场推广、印度建厂计划推进。挑战因素包括:全球新能源汽车价格竞争加剧、欧美市场需求增速放缓、中国市场竞争更加激烈。机构预测2024年特斯拉交付量将达到220-230万辆,同比增长22-28%,但毛利率可能继续承压。",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉 2024 展望"
+        }
+      ]
+    }
+  ],
+  "data_source_summary": {
+    "info_search_finance_db": 9,
+    "info_search_user_db": 0,
+    "info_search_stock_db": 2,
+    "info_search_web": 0
+  }
+}
