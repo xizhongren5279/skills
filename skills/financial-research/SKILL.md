@@ -323,6 +323,69 @@ After all tasks complete:
 - Input: All section analysis texts from completed tasks
 - Each section is already analyzed and written (not raw data)
 
+**1.5. Aggregate retrieval metadata**:
+
+After collecting section analyses, aggregate all retrieval metadata from task outputs:
+
+**Process**:
+1. Extract `retrieved_files` array from each task's JSON output
+2. Combine all metadata into a master structure
+3. Count files retrieved per task and per data source
+4. Save to `retrieval_metadata.json` in the output directory
+
+**Master metadata structure**:
+```json
+{
+  "research_session": {
+    "topic": "研究主题",
+    "research_type": "company|industry|strategy|macro|quantitative",
+    "timestamp": "20260207_143022",
+    "total_files_retrieved": 42,
+    "total_tasks": 5
+  },
+  "tasks": [
+    {
+      "task_id": 1,
+      "description": "公司概况与业务模式分析",
+      "files_retrieved": 8,
+      "files": [
+        {
+          "file_id": 123456,
+          "title": "特斯拉2023年年度报告",
+          "publish_date": "2024-01-25",
+          "type_full_name": "年报",
+          "institution_name": "特斯拉",
+          "company_name": "特斯拉",
+          "section": "2023年全年营业收入达到967.7亿美元，同比增长18.8%...",
+          "data_source": "info_search_finance_db",
+          "query": "特斯拉2023年营收"
+        }
+      ]
+    }
+  ],
+  "data_source_summary": {
+    "info_search_finance_db": 28,
+    "info_search_stock_db": 10,
+    "info_search_user_db": 0,
+    "info_search_web": 4
+  }
+}
+```
+
+**Python save logic**:
+```python
+import json
+metadata_path = f"{output_dir}/retrieval_metadata.json"
+with open(metadata_path, 'w', encoding='utf-8') as f:
+    json.dump(master_metadata, f, indent=2, ensure_ascii=False)
+```
+
+**Critical requirements**:
+- Include ALL files retrieved across all tasks
+- Preserve exact `data_source` tool names (info_search_finance_db, info_search_stock_db, info_search_user_db, info_search_web)
+- Count all 4 MCP tools in `data_source_summary` even if count is 0
+- Use `indent=2` and `ensure_ascii=False` for pretty-printed JSON
+
 **2. Integration tasks**:
 - **Consistency check**: Verify data consistency across sections (e.g., revenue numbers match)
 - **Gap filling**: Identify missing critical information, add notes where data unavailable
@@ -383,7 +446,7 @@ output/{topic}_{timestamp}/
 **File Specifications**:
 - `report.md`: Main research report following the format template
 - `generation_log.md`: Includes JSON plan, wave execution details, task results
-- `retrieval_metadata.json`: All query logs with timestamps, tools used, and result counts
+- `retrieval_metadata.json`: Aggregated retrieval metadata from all tasks (see subsection 1.5)
 - `plan.json`: Original research plan in JSON format
 
 **Python Path Construction**:
