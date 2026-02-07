@@ -9,6 +9,7 @@
 - Add retrieval metadata tracking requirements to subagent prompt template
 - Update file saving logic to create structured output folders per research session
 - Store full metadata (file_id, title, publish_date, institution_name, company_name, etc.) in single JSON file
+- **CRITICAL**: `data_source` field must use exact MCP tool names (`info_search_finance_db`, `info_search_stock_db`, `info_search_user_db`, `info_search_web`) to distinguish between different data retrieval tools
 
 **Tech Stack:** Markdown documentation updates (no code implementation required)
 
@@ -18,9 +19,15 @@
 
 ### Requirement 1: Store File Information Retrieved by Each Task
 - Track full metadata of files/documents retrieved by MCP tools in each task
-- Include: file_id, title, publish_date, type_full_name, institution_name, company_name, section, data source
+- Include: file_id, title, publish_date, type_full_name, institution_name, company_name, section, data_source, query
+- **CRITICAL**: `data_source` field must distinguish between specific MCP tools:
+  - `info_search_finance_db` - Financial database (reports, announcements, news)
+  - `info_search_stock_db` - Quantitative stock/market data
+  - `info_search_user_db` - User-uploaded documents
+  - `info_search_web` - Web search results
 - Store in single `retrieval_metadata.json` file with all tasks
 - Format: Array of task objects, each containing task_id and retrieved_files array
+- Include data_source_summary statistics showing count per MCP tool
 
 ### Requirement 2: Unified Output to output/ Folder
 - All generated files go to `output/` in skill directory
@@ -136,7 +143,12 @@ For each MCP tool query you execute, extract and save the following metadata fro
 - `institution_name`: Institution/author name (if applicable)
 - `company_name`: Related company name (if applicable)
 - `section`: Relevant section/excerpt used in analysis
-- `data_source`: Which MCP tool was used (info_search_finance_db/info_search_stock_db/info_search_user_db/info_search_web)
+- `data_source`: **CRITICAL - Must specify exact MCP tool name**:
+  - Use `info_search_finance_db` for financial database queries (reports, announcements, news)
+  - Use `info_search_stock_db` for quantitative stock/market data queries
+  - Use `info_search_user_db` for user-uploaded document queries
+  - Use `info_search_web` for web search queries
+  - **DO NOT use generic values like "MCP" or "database" - always specify the exact tool name**
 - `query`: The query string used to retrieve this file
 
 ## Output Format
@@ -166,8 +178,14 @@ Return your analysis as a complete Markdown section PLUS retrieval metadata:
 **Notes**:
 - `section_analysis`: Your complete section text in Markdown format
 - `retrieved_files`: Array of all files retrieved, with full metadata
+- **`data_source` MUST be exact MCP tool name**: `info_search_finance_db`, `info_search_stock_db`, `info_search_user_db`, or `info_search_web`
 - If a field is not applicable, use `null` or empty string
 - For `info_search_stock_db` queries (quantitative data), file_id may be "N/A" - still record the query and data source
+- **Example data_source values by use case**:
+  - Company research report → `info_search_finance_db`
+  - Historical revenue data → `info_search_stock_db`
+  - User's uploaded PDF → `info_search_user_db`
+  - Recent news article → `info_search_web`
 ```
 
 **Step 2: Update the old output format requirement**
@@ -309,9 +327,11 @@ After guideline 9 ("Cite sources"), add guideline 10:
 10. **Track retrieval metadata**: Always save complete file metadata to retrieval_metadata.json:
     - Every MCP tool query result must include file_id, title, publish_date, institution, company
     - Maintain task association (which task retrieved which files)
-    - Include data source (which MCP tool) and query string
+    - **Include exact data_source (MCP tool name)**: `info_search_finance_db`, `info_search_stock_db`, `info_search_user_db`, or `info_search_web`
+    - Include query string used for each retrieval
     - Generate summary statistics (total files per data source)
     - Enables traceability and data lineage tracking
+    - **DO NOT use generic values** - always specify exact MCP tool name for data_source field
 ```
 
 The existing guideline 10 should become guideline 11.
