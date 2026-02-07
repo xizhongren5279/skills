@@ -493,7 +493,20 @@ Structure the final report according to the research type:
 
 9. **Cite sources**: Include reference to data sources (report dates, analyst names, etc.)
 
-10. **Save generation logs**: Always save both the final report and a detailed generation log documenting:
+10. **Track retrieval metadata**: Save complete file metadata to `retrieval_metadata.json` for data lineage and traceability:
+    - Include all required fields: `file_id`, `title`, `publish_date`, `institution_name`, `company_name`, `section`, `data_source`, `query`
+    - Maintain task association: group metadata by task_id
+    - **CRITICAL - Specify exact MCP tool names** in `data_source` field (not generic values):
+      - `info_search_finance_db` - for financial database searches
+      - `info_search_stock_db` - for quantitative financial data
+      - `info_search_user_db` - for user-uploaded documents
+      - `info_search_web` - for web searches
+    - Always use exact tool names (e.g., `info_search_finance_db`), never use generic values like "database" or "金融数据库"
+    - Include the exact query string used for each retrieval
+    - Generate summary statistics: count files per task and per data source
+    - This enables complete data lineage tracking and result reproducibility
+
+11. **Save generation logs**: Always save both the final report and a detailed generation log documenting:
     - Plan structure
     - MCP queries executed
     - Key findings per wave
