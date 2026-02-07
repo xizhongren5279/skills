@@ -321,8 +321,30 @@ After all tasks complete:
 ```
 
 **5. Save outputs**:
-- Main report: `{topic}_{research_type}_YYYYMMDD_HHMMSS.md`
-- Generation log: `{topic}_生成日志_YYYYMMDD_HHMMSS.md` (includes JSON plan, wave execution details, task results)
+
+All generated files are saved to a unified output directory:
+
+```
+output/{topic}_{timestamp}/
+├── report.md                    # Main research report
+├── generation_log.md           # Execution log with wave details
+├── retrieval_metadata.json     # Query logs and data sources
+└── plan.json                   # Research plan structure
+```
+
+**File Specifications**:
+- `report.md`: Main research report following the format template
+- `generation_log.md`: Includes JSON plan, wave execution details, task results
+- `retrieval_metadata.json`: All query logs with timestamps, tools used, and result counts
+- `plan.json`: Original research plan in JSON format
+
+**Python Path Construction**:
+```python
+from datetime import datetime
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+output_dir = f"output/{topic}_{timestamp}"
+os.makedirs(output_dir, exist_ok=True)
+```
 
 ### Step 6: Generate Final Report
 
@@ -337,8 +359,8 @@ Structure the final report according to the research type:
 - Footer with generation metadata
 
 **Save output**:
-- Filename: `[Topic]_[ResearchType]_YYYYMMDD_HHMMSS.md`
-- Also save generation log: `[Topic]_生成日志_YYYYMMDD_HHMMSS.md`
+- All files saved to: `output/{topic}_{timestamp}/`
+- Confirm with message: "研究报告已保存至: output/{topic}_{timestamp}/"
 
 ## Important Guidelines
 
