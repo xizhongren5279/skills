@@ -13,13 +13,13 @@ This skill generates comprehensive one-page investment decision memos for listed
 
 **MUST READ before execution**:
 
-1. **`assets/公司一页纸的需求.md`**
+1. **`references/公司一页纸的需求.md`**
    - Defines the 5-section structure and output format requirements
    - Specifies analysis depth for each section
    - Contains table formats and data requirements
    - **Role**: Understanding WHAT to generate
 
-2. **`assets/RETRIEVAL_STRATEGY.md`**
+2. **`references/RETRIEVAL_STRATEGY.md`**
    - Contains ALL 18 MCP query templates with exact parameters
    - Specifies date_range, recall_num, doc_type for each query
    - Documents query optimization strategies
@@ -47,16 +47,28 @@ Users provide only the company name. The skill automatically:
 
 **Show progress**: "正在并行检索并分析所有5个section..."
 
+**CRITICAL FIRST STEP**: Get current system time and pass it to ALL subagents:
+```python
+from datetime import datetime
+current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+current_date = datetime.now().strftime("%Y-%m-%d")
+```
+
 **CRITICAL**: Spawn ALL 5 subagents in a SINGLE message. **Each subagent performs BOTH retrieval AND analysis before returning.**
 
 **Key Innovation**: Subagents不仅检索数据,还立即完成section分析,主工作流只需整合。
+
+**IMPORTANT**: Every subagent prompt MUST include the current system time at the beginning, so all time-based queries (e.g., "最近3个月", "未来1-3月") are accurately interpreted relative to this timestamp.
 
 ```python
 # Subagent 1: Section 1 - 公司近况 (1 query)
 Task(
     subagent_type="general-purpose",
     description="Analyze company updates",
-    prompt="""You are analyzing section 1 (公司近况) for [Company Name].
+    prompt=f"""You are analyzing section 1 (公司近况) for [Company Name].
+
+**CURRENT SYSTEM TIME**: {current_time} (Date: {current_date})
+**IMPORTANT**: All time-based queries must be relative to this timestamp.
 
 STEP 1 - Retrieve data:
 Read assets/RETRIEVAL_STRATEGY.md Section 1 for exact query template.
@@ -78,7 +90,10 @@ Return the complete markdown section as your final output."""
 Task(
     subagent_type="general-purpose",
     description="Analyze investment logic",
-    prompt="""You are analyzing section 2 (核心投资逻辑) for [Company Name].
+    prompt=f"""You are analyzing section 2 (核心投资逻辑) for [Company Name].
+
+**CURRENT SYSTEM TIME**: {current_time} (Date: {current_date})
+**IMPORTANT**: All time-based queries must be relative to this timestamp.
 
 STEP 1 - Retrieve data (5 parallel queries):
 Read assets/RETRIEVAL_STRATEGY.md Section 2 for exact query templates.
@@ -125,7 +140,10 @@ Return the complete markdown section as your final output."""
 Task(
     subagent_type="general-purpose",
     description="Analyze future catalysts",
-    prompt="""You are analyzing section 3 (未来事件与核心跟踪指标) for [Company Name].
+    prompt=f"""You are analyzing section 3 (未来事件与核心跟踪指标) for [Company Name].
+
+**CURRENT SYSTEM TIME**: {current_time} (Date: {current_date})
+**IMPORTANT**: All time-based queries (e.g., "未来1-3月", "未来3-6月") must be relative to this timestamp.
 
 STEP 1 - Retrieve data (3 parallel queries):
 Read assets/RETRIEVAL_STRATEGY.md Section 3 for exact query templates.
@@ -167,7 +185,10 @@ Return the complete markdown section as your final output."""
 Task(
     subagent_type="general-purpose",
     description="Analyze business breakdown",
-    prompt="""You are analyzing section 4 (业务拆分) for [Company Name].
+    prompt=f"""You are analyzing section 4 (业务拆分) for [Company Name].
+
+**CURRENT SYSTEM TIME**: {current_time} (Date: {current_date})
+**IMPORTANT**: All time-based queries must be relative to this timestamp.
 
 STEP 1 - Retrieve data (4 parallel queries):
 Read assets/RETRIEVAL_STRATEGY.md Section 4 for exact query templates.
@@ -214,7 +235,10 @@ Return the complete markdown section as your final output."""
 Task(
     subagent_type="general-purpose",
     description="Analyze financials valuation",
-    prompt="""You are analyzing section 5 (财务与估值快照) for [Company Name].
+    prompt=f"""You are analyzing section 5 (财务与估值快照) for [Company Name].
+
+**CURRENT SYSTEM TIME**: {current_time} (Date: {current_date})
+**IMPORTANT**: All time-based queries must be relative to this timestamp.
 
 STEP 1 - Retrieve data (5 parallel queries + fallback):
 Read assets/RETRIEVAL_STRATEGY.md Section 5 for exact query templates.
@@ -309,7 +333,7 @@ final_report = f"""# {company_name} 公司一页纸
 {section_5_analysis}
 
 ---
-*本报告由 Claude Code 自动生成，采用 v3.0 并行检索+分析架构*
+*本报告由 FinGPT Agent 自动生成，采用并行检索+分析架构*
 """
 ```
 
@@ -330,53 +354,33 @@ Inform user: "✅ 报告生成完成！已保存为 [Company Name]_公司一页�
 
 ---
 
-## Performance Comparison
 
-| Approach | Phase 1 | Phase 2 | Total Time |
-|----------|---------|---------|------------|
-| **v1.0 (Section内并行)** | 8.5 min (检索) + 3.5 min (分析) | 1 min | **13 min** |
-| **v2.0 (Sections并行)** | 3 min (检索) + 2.5 min (串行分析) | 1 min | **6.5 min** |
-| **v3.0 (检索+分析并行)** | 1.3-1.4 min (检索+分析并行) | <0.1 min | **1.3-1.4 min** |
-| **Improvement** | **8x faster** vs v1.0 | **5x faster** vs v2.0 | **9x faster** |
-
-### Why v3.0 is Fastest
-
-**v2.0问题**: Phase 1并行检索(3分钟) → Phase 2串行分析(2.5分钟) = 5.5分钟
-**v3.0优化**: Phase 1并行检索+分析(1.3分钟) → Phase 2整合(<0.1分钟) = 1.3分钟
-
-**关键差异**:
-- v2.0: 分析工作在Phase 2串行执行,成为瓶颈
-- v3.0: 分析工作在各subagent内部并行,与检索同步
-
-**实测数据** (2026-02-06):
-- 英伟达: Phase 1: 76.2秒 (1.3分钟), Total: 1.3分钟
-- 特斯拉: Phase 1: 84.8秒 (1.4分钟), Total: 1.4分钟
-
----
 
 ## Important Guidelines
 
 1. **Read reference documents first**: Always read both `公司一页纸的需求.md` and `RETRIEVAL_STRATEGY.md` before execution
 
-2. **Full parallelism is mandatory**: Always spawn ALL 5 subagents in a single message
+2. **Get current system time FIRST**: Before spawning subagents, obtain current system time using `datetime.now()` and pass it to ALL subagent prompts. This ensures all time-based queries are accurate.
 
-3. **Each subagent is self-contained**: Retrieve data → Analyze → Return markdown. No raw data exchange.
+3. **Full parallelism is mandatory**: Always spawn ALL 5 subagents in a single message
 
-4. **Exact query parameters**: Use exact query templates, date_range, recall_num from RETRIEVAL_STRATEGY.md
+4. **Each subagent is self-contained**: Retrieve data → Analyze → Return markdown. No raw data exchange. Each subagent receives current system time in its prompt.
 
-5. **Wait for completion**: Do not start Phase 2 until ALL 5 subagents return analyzed sections
+5. **Exact query parameters**: Use exact query templates, date_range, recall_num from RETRIEVAL_STRATEGY.md. All time references in queries are interpreted relative to the provided current system time.
 
-6. **Progress feedback**: Show clear progress indicators:
+6. **Wait for completion**: Do not start Phase 2 until ALL 5 subagents return analyzed sections
+
+7. **Progress feedback**: Show clear progress indicators:
    - "正在并行检索并分析所有5个section..." (Phase 1)
    - "正在整合最终报告..." (Phase 2)
 
-7. **Handle missing data gracefully**: Use "-" for missing table cells and delete fully empty rows
+8. **Handle missing data gracefully**: Use "-" for missing table cells and delete fully empty rows
 
-8. **Quantitative data required**: All investment logic, business analysis must include specific numbers
+9. **Quantitative data required**: All investment logic, business analysis must include specific numbers
 
-9. **Report language**: Entire report must be in Chinese
+10. **Report language**: Entire report must be in Chinese
 
-10. **Table requirements**:
+11. **Table requirements**:
     - Section 3: Each event table must have 5+ rows
     - Section 5.3: 国内券商在前, 国际投行在后
     - Use "-" for missing data, delete rows where all data is missing
@@ -395,16 +399,3 @@ Inform user: "✅ 报告生成完成！已保存为 [Company Name]_公司一页�
 | **Total** | **18 + 1 fallback** | **3 tool types** |
 
 ---
-
-## Summary
-
-v3.0 FULL PARALLEL workflow achieves maximum performance:
-
-✅ **Speed**: 9x faster overall (13min → 1.3min)
-✅ **Efficiency**: Both retrieval AND analysis parallelized
-✅ **Scalability**: All sections truly independent
-✅ **Quality**: Same high-quality analysis as before
-✅ **Simplicity**: Main workflow only does integration
-✅ **Documented**: Complete query templates preserved in RETRIEVAL_STRATEGY.md
-
-**Key Innovation**: Subagents完成检索+分析,主工作流只负责整合,实现真正的端到端并行。
