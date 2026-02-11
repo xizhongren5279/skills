@@ -21,3 +21,11 @@ def test_load_question_types(sample_excel_path):
     assert all('问题类型' in t for t in types)
     assert all('类型描述' in t for t in types)
     assert all('示例' in t for t in types)
+
+def test_file_not_found():
+    """Test error handling when Excel file doesn't exist."""
+    parser = QuestionTypeParser("nonexistent_file.xlsx")
+    with pytest.raises(FileNotFoundError) as exc_info:
+        parser.load_question_types()
+    assert "Excel file not found" in str(exc_info.value)
+    assert "nonexistent_file.xlsx" in str(exc_info.value)
