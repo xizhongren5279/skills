@@ -29,3 +29,32 @@ def test_file_not_found():
         parser.load_question_types()
     assert "Excel file not found" in str(exc_info.value)
     assert "nonexistent_file.xlsx" in str(exc_info.value)
+
+def test_match_question_type(sample_excel_path):
+    """Test keyword-based question type matching."""
+    parser = QuestionTypeParser(sample_excel_path)
+    parser.load_question_types()
+
+    # Test with keyword matching (no LLM)
+    user_query = "分析宁德时代的业务模式和竞争优势"
+    matched = parser.match_question_type(user_query, use_llm=False)
+
+    assert matched is not None
+    assert '问题类型' in matched
+    assert '类型描述' in matched
+    assert '示例' in matched
+    assert 'confidence_score' in matched
+    assert 0.0 <= matched['confidence_score'] <= 1.0
+
+def test_match_question_type_llm_mode(sample_excel_path):
+    """Test LLM-based question type matching mode."""
+    parser = QuestionTypeParser(sample_excel_path)
+    parser.load_question_types()
+
+    user_query = "分析宁德时代的业务模式"
+    result = parser.match_question_type(user_query, use_llm=True)
+
+    # In LLM mode, returns prompt for external execution
+    assert result is not None
+    assert '_matching_prompt' in result
+    assert '_needs_llm_execution' in result
