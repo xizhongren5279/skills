@@ -100,6 +100,11 @@ These thoughts mean you're about to violate the workflow:
 | **"I should re-query for accuracy"** | **Fresh data (<10 min) reuse is MORE accurate than re-querying.** |
 | **"All comparisons need full dataset retrieval"** | **Reuse Entity A from Turn 1, retrieve only new Entity B.** |
 | **"User asked financial question = invoke skill"** | **Check question type first: Extraction/Clarification vs New Research.** |
+| **"Question type matching takes too long"** | **Read Excel once per query. Caching happens automatically.** |
+| **"I'll use my own plan structure instead of template"** | **Matched workflow is prescriptive, not suggestive. Use it.** |
+| **"Low confidence (<0.6) but I'll proceed anyway"** | **Ask user to confirm or select type manually at <0.6.** |
+| **"Template doesn't fit this specific query"** | **Customize hints, not structure. Template order is fixed.** |
+| **"I'll skip matching because query is simple"** | **ALL queries must match. Even simple ones benefit from structure.** |
 
 **All of these mean: STOP. Start with Step 1.**
 
@@ -749,6 +754,11 @@ output/{topic}_{timestamp}/
 | **Not checking question type** | **Classify: Extraction/Clarification vs New Research before invoking.** |
 | **Ignoring data_strategy in plan** | **Include available_from_chat_history and duplicate_query_prevention.** |
 | **Not passing chat history to subagents** | **Include {available_data_from_previous_turns} in subagent prompt.** |
+| **Not reading Excel in Step 1.0** | **Load question types BEFORE creating plan** |
+| **Using custom plan structure instead of template** | **Use matched workflow as task template** |
+| **Proceeding with confidence <0.6 without confirmation** | **Ask user to confirm at low confidence** |
+| **Not including question_type_metadata in plan** | **Always record which type was matched** |
+| **Skipping workflow extraction** | **Extract reference_rules and reference_workflow from matched type** |
 
 ## Tool Usage Summary
 
