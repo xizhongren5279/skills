@@ -1,6 +1,6 @@
 ---
 name: financial-research
-description: Use for ANY financial research question including company analysis (deep-dives, quarterly reports, financial comparisons), industry research (competitive landscape, sector trends), quantitative analysis (financial metrics, stock data, performance comparisons), macro research (economic outlook, policy impact), and investment strategy. CRITICAL - Also use for ALL follow-up requests in multi-turn conversations that involve financial data, comparisons, or analysis - e.g., after discussing Company A's financials, user asks to "compare with Company B" / "对比一下公司B" or "analyze business metrics too" / "再看业务数据" or "what about gross margin?" / "毛利率呢?" - these follow-ups MUST trigger this skill. Each follow-up is a NEW skill invocation (not continuation of prior execution). Any mention of companies, stocks, industries, financial metrics, quarterly reports, or market analysis should invoke this skill, regardless of whether it's an initial question or a conversational follow-up. This includes ultra-short forms like "呢?", "那XX呢?", "对比一下Y".
+description: Professional financial research for companies, industries, quantitative analysis, and investment strategy. Handles multi-turn financial conversations requiring data retrieval and structured analysis.
 ---
 
 # Financial Research
@@ -159,55 +159,97 @@ When checking if data is "in Turn N-1", use semantic matching, not just literal 
 
 ## Research Process
 
+**CRITICAL WORKFLOW SEQUENCE (NEVER VIOLATE)**:
+
+```
+用户问题 → 匹配Question Type → 生成检索PLAN → 执行MCP搜索 → 合成报告
+    ↓            ↓                  ↓              ↓            ↓
+  Step 1.0    Step 1.0           Step 3        Step 4       Step 5-6
+```
+
+**违反此流程顺序 = 违反skill核心要求**
+
 ### Step 1: Understand the Request
 
 **REQUIRED ACTIONS**:
 
-**1.0 Question Type Matching (NEW - Structured Planning)**
+**1.0 Question Type Matching (MANDATORY FIRST STEP)**
 
-**CRITICAL**: This step happens BEFORE reading reference documents and BEFORE creating the plan.
+**⚠️ CRITICAL**: This step happens **BEFORE** everything else:
+- BEFORE reading reference documents
+- BEFORE creating the plan
+- BEFORE any MCP queries
 
-1. **Read Question Type Database**:
+**The core workflow is IMMUTABLE**:
+```
+1. User asks question (原始用户问题)
+2. Match to question type (匹配question_type)
+3. Generate search PLAN (生成检索PLAN)
+4. Execute MCP searches (用MCP搜索)
+5. Synthesize report
+```
+
+**Step 1.0 Execution Process**:
+
+1. **Load Question Type Database**:
    ```python
    from utils.question_type_parser import QuestionTypeParser
 
+   # CRITICAL: Read Excel EVERY time (workflows may be updated)
    parser = QuestionTypeParser('references/plan_for_question_type.xlsx')
-   parser.load_question_types()  # Loads all 26 question types
+   types = parser.load_question_types()  # Returns all 26 question types
    ```
 
-2. **Match User Query to Question Type**:
+2. **Semantic Matching via LLM**:
 
-   Generate LLM matching prompt:
+   **IMPORTANT**: Use semantic matching, NOT keyword matching.
+
+   Generate matching prompt:
    ```python
    workflow_result = parser.get_workflow_for_query(user_query, use_llm=True)
 
    if workflow_result.get('_needs_llm_execution'):
        matching_prompt = workflow_result['_matching_prompt']
-       # Execute matching_prompt with LLM to get matched_index
+       # Execute matching_prompt with LLM
    ```
 
-   LLM returns JSON:
-   ```json
+   **LLM Matching Prompt Structure**:
+   ```
+   给定用户问题和26种预定义的研究问题类型,选择最匹配的类型。
+
+   用户问题: {user_query}
+
+   可选问题类型:
+   1. 问题类型A: 描述A
+   2. 问题类型B: 描述B
+   ...
+   26. 问题类型Z: 描述Z
+
+   请返回JSON格式:
    {
-     "matched_index": 2,
-     "confidence_score": 0.85,
-     "reasoning": "用户问题询问公司研究,最匹配'如何做好公司研究'类型"
+     "matched_index": <1-26>,
+     "confidence_score": <0.0-1.0>,
+     "reasoning": "<为什么选择这个类型>"
    }
    ```
 
-3. **Extract Matched Workflow**:
-   ```python
-   # Get the matched type data
-   types = parser.load_question_types()
-   matched_type = types[matched_index - 1]  # Convert 1-indexed to 0-indexed
+   **Confidence Threshold Rules**:
+   - `confidence >= 0.8`: Proceed automatically
+   - `0.6 <= confidence < 0.8`: Announce match, proceed
+   - `confidence < 0.6`: **MUST use AskUserQuestion to confirm** (show top 3 matches)
 
-   # Extract workflow from matched type
+3. **Extract Matched Workflow Template**:
+   ```python
+   # Get the matched type data (1-indexed → 0-indexed)
+   matched_type = types[matched_index - 1]
+
+   # Extract workflow components
    workflow_data = parser.extract_workflow(matched_type)
 
-   # Result contains:
-   # - reference_rules: List of guiding principles
-   # - reference_workflow: List of workflow steps (prescriptive template)
-   # - full_example: Complete example from Excel
+   # workflow_data contains:
+   # - reference_rules: List[str] - Guiding principles
+   # - reference_workflow: List[str] - Workflow steps (PRESCRIPTIVE)
+   # - full_example: str - Complete example from Excel
    ```
 
 4. **Store Matched Workflow for Step 3**:
@@ -216,32 +258,42 @@ When checking if data is "in Turn N-1", use semantic matching, not just literal 
        'question_type': matched_type['问题类型'],
        'type_description': matched_type['类型描述'],
        'confidence_score': confidence_score,
+       'matched_index': matched_index,
        'reference_rules': workflow_data['reference_rules'],
        'reference_workflow': workflow_data['reference_workflow'],
        'full_example': matched_type['示例']
    }
 
-   # This will be used in Step 3 to generate structured plan
+   # Save to output dir immediately (for audit trail)
+   with open(f'{output_dir}/matched_workflow.json', 'w') as f:
+       json.dump(matched_workflow, f, ensure_ascii=False, indent=2)
    ```
 
 5. **Announce Matched Type to User**:
    ```
-   已识别问题类型: {question_type} (置信度: {confidence_score})
+   ✓ 已识别问题类型: {question_type} (置信度: {confidence_score:.2f})
 
-   将按照此类型的标准研究流程进行分析。
+   将按照此类型的标准研究流程({len(reference_workflow)}步)进行分析。
    ```
 
-**Why this step is mandatory**:
-- Ensures consistent, high-quality research plans
-- Applies proven workflows from the 26 question type templates
-- Reduces randomness and improves reproducibility
-- Leverages domain expertise encoded in Excel workflows
+**Why Step 1.0 is MANDATORY and FIRST**:
+- **Consistency**: Ensures all research follows proven templates
+- **Quality**: Applies 26 expert-designed workflows
+- **Traceability**: Documents which template was used
+- **Efficiency**: Pre-structured plans are faster to execute
 
-**Red Flags for Step 1.0 Violations**:
-- Skipping question type matching because "I know what to do"
-- Not reading the Excel file each time (workflows may be updated)
-- Proceeding with custom plan instead of using matched workflow
-- Low confidence match (<0.6) but not asking user to confirm
+**RED FLAGS - Step 1.0 Violations**:
+
+| Violation | Consequence |
+|-----------|-------------|
+| "I'll skip matching, the plan is obvious" | ❌ You lose template structure, lower quality |
+| "Keyword matching is faster than LLM" | ❌ Semantic matching is more accurate, REQUIRED |
+| "Low confidence (<0.6) but I'll proceed" | ❌ MUST ask user to confirm selection |
+| "I'll use my own plan structure" | ❌ Template workflow is PRESCRIPTIVE, not optional |
+| "This query doesn't fit any type" | ❌ Re-check all 26 types, or ask user to clarify |
+| "Excel file read is slow, I'll cache it" | ❌ Read EVERY time, workflows may be updated |
+
+**NEVER PROCEED TO STEP 2 WITHOUT COMPLETING STEP 1.0**
 
 **1.1 Check Chat History for Available Data (Multi-Turn Efficiency)** (formerly 1.0)
 
@@ -375,56 +427,120 @@ def check_chat_history_data(user_query, last_N_turns=3):
 | "Reading wastes time" | Wrong queries waste MORE time. |
 | "I'll check references if stuck" | Read first prevents getting stuck. |
 
-### Step 3: Create Research Plan
+### Step 3: Create Research Plan (Based on Matched Workflow)
 
-**REQUIRED OUTPUT**: Valid JSON plan structure (see below)
+**⚠️ CRITICAL**: This step MUST use the matched workflow from Step 1.0 as the PRESCRIPTIVE template.
+
+**IRON LAW**:
+```
+Plan.tasks MUST be derived from matched_workflow['reference_workflow']
+Plan.tasks order MUST follow template order
+Plan.tasks structure is FIXED by template, only hints are customizable
+```
+
+**REQUIRED OUTPUT**: Valid JSON plan structure
 
 **MANDATORY REQUIREMENTS**:
 1. MUST generate complete JSON plan
-2. **MUST use matched question type's REFERENCE WORKFLOW as template** (from Step 1.0)
+2. **MUST use matched question type's REFERENCE WORKFLOW as prescriptive template** (from Step 1.0)
 3. MUST save plan to `{output_dir}/plan.json`
 4. MUST validate structure before Step 4
-5. MUST show plan to user before execution
-6. **MUST get system time using datetime.now() and include in plan** (current_date, current_year, current_quarter)
+5. **MUST get system time using datetime.now() and include in plan** (current_date, current_year, current_quarter)
+6. **Proceed directly to execution - NO user confirmation required**
 
-**NEW: Using Matched Workflow Template**
+**Step 3 Execution Process**:
 
-The plan structure MUST follow the `reference_workflow` from the matched question type:
+**3.1 Load Matched Workflow** (from Step 1.0):
+```python
+# This was created in Step 1.0
+with open(f'{output_dir}/matched_workflow.json', 'r') as f:
+    matched_workflow = json.load(f)
 
-1. **Map Workflow Steps to Tasks**:
-   ```python
-   # matched_workflow from Step 1.0 contains:
-   # - reference_workflow: ["步骤1: 描述", "步骤2: 描述", ...]
+# matched_workflow contains:
+# - question_type: str
+# - reference_rules: List[str]
+# - reference_workflow: List[str]  ← PRESCRIPTIVE template
+# - confidence_score: float
+```
 
-   tasks = []
-   for idx, step_description in enumerate(matched_workflow['reference_workflow']):
-       task = {
-           "id": idx + 1,
-           "description": step_description,  # Use workflow step as task description
-           "dependencies": [],  # Determine based on workflow order
-           "hints": {
-               # Extract hints from step description or use defaults
-           }
-       }
-       tasks.append(task)
-   ```
+**3.2 Map Workflow Steps to Tasks** (PRESCRIPTIVE):
+```python
+tasks = []
 
-2. **Apply Reference Rules as Constraints**:
-   ```python
-   # matched_workflow['reference_rules'] contains guiding principles
-   # Add these as planning constraints in the plan metadata
+# CRITICAL: Each workflow step becomes a task
+# Task order follows template order (do NOT reorder)
+for idx, step_description in enumerate(matched_workflow['reference_workflow']):
+    task = {
+        "id": idx + 1,
+        "description": extract_task_title(step_description),  # Short title
+        "template_step": step_description,  # Full original workflow step text
+        "dependencies": infer_dependencies(idx, total_steps),  # Usually sequential
+        "hints": {
+            # Customize based on user query (Step 3.3)
+        }
+    }
+    tasks.append(task)
 
-   plan['planning_constraints'] = {
-       'question_type': matched_workflow['question_type'],
-       'reference_rules': matched_workflow['reference_rules'],
-       'template_source': 'plan_for_question_type.xlsx'
-   }
-   ```
+# Example:
+# reference_workflow = [
+#   "阶段1: 明确研究框架与核心议题",
+#   "阶段2: 多维度信息搜集与处理",
+#   "阶段3: 深度分析与建模预测"
+# ]
+#
+# → tasks = [
+#   {id: 1, description: "明确研究框架与核心议题", template_step: "阶段1: ...", dependencies: []},
+#   {id: 2, description: "多维度信息搜集与处理", template_step: "阶段2: ...", dependencies: [1]},
+#   {id: 3, description: "深度分析与建模预测", template_step: "阶段3: ...", dependencies: [2]}
+# ]
+```
 
-3. **Customize Task Hints Based on User Query**:
-   - While task descriptions come from the template, customize the `hints` section
-   - Map user's specific entities/time periods into the template structure
-   - Preserve template workflow order and task breakdown
+**3.3 Customize Task Hints** (ONLY customizable part):
+```python
+# For EACH task, customize hints based on user's specific query
+for task in tasks:
+    task['hints'] = {
+        "suggested_tools": extract_tool_suggestions(task['template_step']),
+        "time_context": infer_time_from_query(user_query, current_quarter),  # e.g., "2024年Q3"
+        "customization": f"针对{entity}的{task['description']}"  # Entity-specific hint
+    }
+
+# Example for "宁德时代深度研究报告":
+# task 1 hints: {
+#   "suggested_tools": ["info_search_finance_db", "info_search_stock_db"],
+#   "time_context": "2025年Q3 (最新披露季度)",
+#   "customization": "针对宁德时代的明确研究框架与核心议题"
+# }
+```
+
+**3.4 Apply Reference Rules as Constraints**:
+```python
+plan['planning_constraints'] = {
+    'reference_rules': matched_workflow['reference_rules'],
+    'workflow_template': matched_workflow['reference_workflow'],
+    'matched_question_type': matched_workflow['question_type'],
+    'template_source': 'plan_for_question_type.xlsx'
+}
+
+# These rules guide subagent execution in Step 4
+```
+
+**WHY Template is PRESCRIPTIVE, Not Suggestive**:
+- **Consistency**: All "深度研究报告" use same task structure
+- **Quality**: Tasks are designed by domain experts
+- **Completeness**: Template ensures no steps are missed
+- **Reproducibility**: Same query type → same task structure
+
+**What You CAN Customize**:
+- ✅ Task `hints` (entity names, time periods, specific focus)
+- ✅ Task `dependencies` (if parallel execution is possible)
+- ✅ `data_strategy` (chat history reuse)
+
+**What You CANNOT Customize**:
+- ❌ Number of tasks (must match template step count)
+- ❌ Task order (must follow template order)
+- ❌ Task descriptions (use template step text)
+- ❌ Core workflow logic (template defines this)
 
 **JSON Structure** (Enhanced with Question Type Metadata):
 ```json
@@ -490,7 +606,7 @@ The plan structure MUST follow the `reference_workflow` from the matched questio
 **DO NOT**:
 - ❌ Skip JSON and do narrative description
 - ❌ Make plan "in your head" without writing it
-- ❌ Start execution without user seeing plan
+- ❌ Wait for user confirmation before execution (proceed directly)
 - ❌ Proceed with invalid JSON structure
 
 **Red Flags for Step 3 Violations**:
@@ -517,31 +633,50 @@ assert is_acyclic(plan['tasks'])
 
 ### Step 4: Execute Research Plan
 
+**⚠️ CRITICAL - PARALLEL EXECUTION MANDATORY**:
+```
+并行执行 = 节约50%+时间
+顺序执行 = 违反skill要求
+MUST use Task tool for ALL tasks
+```
+
+**WHY PARALLEL EXECUTION IS MANDATORY**:
+- ✅ **Time Savings**: 3 independent tasks in parallel = ~5 minutes vs sequential = ~15 minutes
+- ✅ **Efficiency**: Each subagent operates independently without blocking
+- ✅ **Scalability**: Can execute 5-10 tasks simultaneously
+- ❌ **Sequential Execution**: Violates core skill requirement and wastes user time
+
 **MANDATORY TOOL**: Use `Task` tool with `subagent_type="general-purpose"`
 
 **REQUIRED EXECUTION PATTERN**:
 1. Parse plan into execution waves (tasks with satisfied dependencies)
-2. For EACH wave, spawn ALL tasks in parallel using Task tool in ONE message
+2. **FOR EACH WAVE: Spawn ALL tasks in parallel using Task tool in ONE message**
+   - Example: Wave 1 has Tasks 1,2,3 → Send ONE message with THREE Task tool calls
+   - DO NOT send 3 separate messages, DO NOT execute tasks sequentially
 3. Wait for wave completion before proceeding to next wave
 4. Collect task outputs (each returns JSON with `section_analysis` and `retrieved_files`)
 
 **DO NOT**:
-- ❌ Execute MCP queries yourself
-- ❌ Run tasks sequentially when they can be parallel
+- ❌ Execute MCP queries yourself (MUST use Task tool)
+- ❌ Run tasks sequentially when they can be parallel (time waste)
+- ❌ Send multiple messages for parallel tasks (use ONE message)
 - ❌ Skip Task tool and do inline execution
 - ❌ Forget to pass task context to subagents
 
 **Red Flags for Step 4 Violations**:
 - Calling mcp__ashare-mcp-research tools directly in main conversation
-- Running tasks one at a time when they have no dependencies
+- **Running tasks one at a time when they have no dependencies (时间浪费!)**
+- **Sending multiple messages instead of ONE message with parallel tasks**
 - Thinking "Task tool overhead isn't worth it"
 
 | Excuse | Reality |
 |--------|---------|
-| "I'm faster than Task tool" | You're sequential. Task tool is parallel. |
-| "Simple research doesn't need subagents" | Skill triggered = use Task tool. |
-| "Task tool is for complex cases" | It's for ALL cases in this skill. |
-| "I'll parallelize manually" | Task tool handles waves correctly. |
+| "I'm faster than Task tool" | You're sequential (15min). Task tool is parallel (5min). |
+| "Simple research doesn't need subagents" | Skill triggered = use Task tool for ALL tasks. |
+| "Task tool is for complex cases" | It's for ALL cases. Parallel = faster. |
+| "I'll parallelize manually" | Impossible. Only Task tool enables true parallelism. |
+| "Parallel execution is optional" | **MANDATORY. Sequential = violates core requirement.** |
+| "I'll send tasks in separate messages" | **WRONG. ONE message with all parallel tasks.** |
 
 **Subagent Prompt Template** (passed to Task tool):
 ```markdown

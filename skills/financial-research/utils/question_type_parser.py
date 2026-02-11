@@ -35,25 +35,20 @@ class QuestionTypeParser:
         # Use to_dict('records') for better performance instead of iterrows()
         return self._df[['问题类型', '类型描述', '问题', '示例']].to_dict('records')
 
-    def match_question_type(self, user_query: str, use_llm: bool = True) -> dict | None:
+    def match_question_type(self, user_query: str) -> dict:
         """
-        Match user query to best question type.
+        Match user query to best question type using LLM semantic matching.
 
         Args:
             user_query: User's financial research question
-            use_llm: If True, use LLM for semantic matching. If False, use simple heuristics.
 
         Returns:
-            Dictionary with matched type data and confidence_score
+            Dictionary with matching prompt for LLM execution
         """
         # Ensure data is loaded
         self.load_question_types()
 
-        if not use_llm:
-            # Simple fallback: keyword matching
-            return self._keyword_match(user_query)
-
-        # Build matching prompt
+        # Build matching prompt for LLM semantic matching
         types_summary = []
         for idx, row in self._df.iterrows():
             types_summary.append(f"{idx+1}. {row['问题类型']}: {row['类型描述']}")
@@ -80,42 +75,6 @@ class QuestionTypeParser:
         }
 
         return result
-
-    def _keyword_match(self, user_query: str) -> dict:
-        """Fallback keyword-based matching."""
-        # Simple heuristic matching
-        query_lower = user_query.lower()
-
-        matched_idx = 0  # Default to first type
-        found_keyword_match = False
-
-        # Basic keyword matching logic
-        if '估值' in query_lower or 'pe' in query_lower or 'pb' in query_lower:
-            matched_idx = 1  # 如何做好公司估值分析
-            found_keyword_match = True
-        elif '行业' in query_lower or '竞争' in query_lower:
-            matched_idx = 3  # 如何做好行业研究
-            found_keyword_match = True
-        elif '财报' in query_lower or '业绩' in query_lower:
-            matched_idx = 5  # 如何做好公司年报的业绩点评
-            found_keyword_match = True
-
-        # Add bounds checking
-        if matched_idx >= len(self._df):
-            matched_idx = 0  # Fallback to first row
-
-        # Adjust confidence based on match quality
-        confidence = 0.8 if found_keyword_match else 0.5
-
-        matched_row = self._df.iloc[matched_idx]
-        return {
-            '问题类型': matched_row['问题类型'],
-            '类型描述': matched_row['类型描述'],
-            '问题': matched_row['问题'],
-            '示例': matched_row['示例'],
-            'confidence_score': confidence,
-            'matched_index': matched_idx
-        }
 
     def extract_workflow(self, matched_type: dict) -> dict:
         """
@@ -175,19 +134,18 @@ class QuestionTypeParser:
             'reference_workflow': workflow
         }
 
-    def get_workflow_for_query(self, user_query: str, use_llm: bool = True) -> dict:
+    def get_workflow_for_query(self, user_query: str) -> dict:
         """
-        End-to-end: match question type and extract workflow.
+        End-to-end: match question type and extract workflow using LLM semantic matching.
 
         Args:
             user_query: User's research question
-            use_llm: Whether to use LLM for matching
 
         Returns:
             Dictionary with question_type, confidence_score, reference_rules, reference_workflow
         """
-        # Match question type
-        matched = self.match_question_type(user_query, use_llm=use_llm)
+        # Match question type (returns LLM prompt for external execution)
+        matched = self.match_question_type(user_query)
 
         if matched is None or matched.get('_needs_llm_execution'):
             return matched  # Return LLM prompt for external execution

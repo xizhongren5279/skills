@@ -13,7 +13,7 @@ This skill generates comprehensive one-page investment decision memos for listed
 
 **MUST READ before execution**:
 
-1. **`references/公司一页纸的需求.md`**
+1. **`references/COMPANY_ONE_PAGE_INPUT.md`**
    - Defines the 5-section structure and output format requirements
    - Specifies analysis depth for each section
    - Contains table formats and data requirements
