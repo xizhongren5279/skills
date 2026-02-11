@@ -74,6 +74,7 @@ def test_extract_workflow_from_example(sample_excel_path):
     assert 'reference_rules' in workflow
     assert 'reference_workflow' in workflow
     assert isinstance(workflow['reference_workflow'], list)
+    assert isinstance(workflow['reference_rules'], list)
 
 def test_get_workflow_for_query(sample_excel_path):
     """Test end-to-end workflow: query -> match -> extract workflow."""
@@ -87,3 +88,8 @@ def test_get_workflow_for_query(sample_excel_path):
     assert 'confidence_score' in workflow
     assert 'reference_rules' in workflow
     assert 'reference_workflow' in workflow
+    assert 'type_description' in workflow
+    assert 'matched_index' in workflow
+    assert 'full_example' in workflow
+    assert isinstance(workflow['reference_rules'], list)
+    assert isinstance(workflow['reference_workflow'], list)
