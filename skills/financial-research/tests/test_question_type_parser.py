@@ -58,3 +58,32 @@ def test_match_question_type_llm_mode(sample_excel_path):
     assert result is not None
     assert '_matching_prompt' in result
     assert '_needs_llm_execution' in result
+
+def test_extract_workflow_from_example(sample_excel_path):
+    """Test extracting workflow from matched type's example field."""
+    parser = QuestionTypeParser(sample_excel_path)
+    parser.load_question_types()
+
+    # Get a matched type (use keyword matching for test)
+    matched = parser.match_question_type("公司估值分析", use_llm=False)
+
+    # Extract workflow from the example field
+    workflow = parser.extract_workflow(matched)
+
+    assert workflow is not None
+    assert 'reference_rules' in workflow
+    assert 'reference_workflow' in workflow
+    assert isinstance(workflow['reference_workflow'], list)
+
+def test_get_workflow_for_query(sample_excel_path):
+    """Test end-to-end workflow: query -> match -> extract workflow."""
+    parser = QuestionTypeParser(sample_excel_path)
+
+    # End-to-end: query -> match -> extract workflow
+    workflow = parser.get_workflow_for_query("如何评估比亚迪的估值水平?", use_llm=False)
+
+    assert workflow is not None
+    assert 'question_type' in workflow
+    assert 'confidence_score' in workflow
+    assert 'reference_rules' in workflow
+    assert 'reference_workflow' in workflow

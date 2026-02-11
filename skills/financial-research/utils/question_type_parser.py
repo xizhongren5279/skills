@@ -1,6 +1,8 @@
 # utils/question_type_parser.py
 import pandas as pd
 from pathlib import Path
+import json
+import re
 
 class QuestionTypeParser:
     def __init__(self, excel_path: str):
@@ -113,4 +115,93 @@ class QuestionTypeParser:
             '示例': matched_row['示例'],
             'confidence_score': confidence,
             'matched_index': matched_idx
+        }
+
+    def extract_workflow(self, matched_type: dict) -> dict:
+        """
+        Extract REFERENCE RULES and REFERENCE WORKFLOW from matched type's example.
+
+        Args:
+            matched_type: Dictionary containing matched question type data
+
+        Returns:
+            Dictionary with 'reference_rules' and 'reference_workflow' keys
+        """
+        example_text = matched_type.get('示例', '')
+
+        if not example_text:
+            return {
+                'reference_rules': [],
+                'reference_workflow': []
+            }
+
+        # Try to parse as JSON if it looks like JSON
+        if example_text.strip().startswith('{'):
+            try:
+                parsed = json.loads(example_text)
+                return {
+                    'reference_rules': parsed.get('REFERENCE RULES', []),
+                    'reference_workflow': parsed.get('REFERENCE WORKFLOW', [])
+                }
+            except json.JSONDecodeError:
+                pass
+
+        # Fallback: extract from text structure
+        rules = []
+        workflow = []
+
+        # Look for "REFERENCE RULES" section
+        rules_match = re.search(r'REFERENCE RULES[:\s]*(.*?)(?:REFERENCE WORKFLOW|$)',
+                               example_text, re.DOTALL | re.IGNORECASE)
+        if rules_match:
+            rules_text = rules_match.group(1).strip()
+            # Split by numbered items or bullet points
+            rules = re.findall(r'(?:^|\n)\s*[\d\-\*]+[\.\)]\s*(.+?)(?=\n\s*[\d\-\*]+[\.\)]|\n\n|$)',
+                              rules_text, re.DOTALL)
+            rules = [r.strip() for r in rules if r.strip()]
+
+        # Look for "REFERENCE WORKFLOW" section
+        workflow_match = re.search(r'REFERENCE WORKFLOW[:\s]*(.*?)$',
+                                   example_text, re.DOTALL | re.IGNORECASE)
+        if workflow_match:
+            workflow_text = workflow_match.group(1).strip()
+            # Split by numbered items
+            workflow = re.findall(r'(?:^|\n)\s*[\d\-\*]+[\.\)]\s*(.+?)(?=\n\s*[\d\-\*]+[\.\)]|\n\n|$)',
+                                 workflow_text, re.DOTALL)
+            workflow = [w.strip() for w in workflow if w.strip()]
+
+        return {
+            'reference_rules': rules,
+            'reference_workflow': workflow
+        }
+
+    def get_workflow_for_query(self, user_query: str, use_llm: bool = True) -> dict:
+        """
+        End-to-end: match question type and extract workflow.
+
+        Args:
+            user_query: User's research question
+            use_llm: Whether to use LLM for matching
+
+        Returns:
+            Dictionary with question_type, confidence_score, reference_rules, reference_workflow
+        """
+        # Match question type
+        matched = self.match_question_type(user_query, use_llm=use_llm)
+
+        if matched is None or matched.get('_needs_llm_execution'):
+            return matched  # Return LLM prompt for external execution
+
+        # Extract workflow
+        workflow_data = self.extract_workflow(matched)
+
+        # Combine results
+        return {
+            'question_type': matched['问题类型'],
+            'type_description': matched['类型描述'],
+            'confidence_score': matched['confidence_score'],
+            'matched_index': matched.get('matched_index'),
+            'reference_rules': workflow_data['reference_rules'],
+            'reference_workflow': workflow_data['reference_workflow'],
+            'full_example': matched['示例']
         }
