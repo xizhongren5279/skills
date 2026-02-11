@@ -44,8 +44,8 @@ class QuestionTypeParser:
         Returns:
             Dictionary with matched type data and confidence_score
         """
-        if self._df is None:
-            self.load_question_types()
+        # Ensure data is loaded
+        self.load_question_types()
 
         if not use_llm:
             # Simple fallback: keyword matching
@@ -85,15 +85,25 @@ class QuestionTypeParser:
         query_lower = user_query.lower()
 
         matched_idx = 0  # Default to first type
-        confidence = 0.5
+        found_keyword_match = False
 
         # Basic keyword matching logic
         if '估值' in query_lower or 'pe' in query_lower or 'pb' in query_lower:
             matched_idx = 1  # 如何做好公司估值分析
+            found_keyword_match = True
         elif '行业' in query_lower or '竞争' in query_lower:
             matched_idx = 3  # 如何做好行业研究
+            found_keyword_match = True
         elif '财报' in query_lower or '业绩' in query_lower:
             matched_idx = 5  # 如何做好公司年报的业绩点评
+            found_keyword_match = True
+
+        # Add bounds checking
+        if matched_idx >= len(self._df):
+            matched_idx = 0  # Fallback to first row
+
+        # Adjust confidence based on match quality
+        confidence = 0.8 if found_keyword_match else 0.5
 
         matched_row = self._df.iloc[matched_idx]
         return {
