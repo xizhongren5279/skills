@@ -17,6 +17,7 @@ def test_load_question_types(sample_excel_path):
 
     assert isinstance(types, list)
     assert len(types) == 26  # Excel has 26 question types
+    assert all('问题' in t for t in types)
     assert all('问题类型' in t for t in types)
     assert all('类型描述' in t for t in types)
     assert all('示例' in t for t in types)
