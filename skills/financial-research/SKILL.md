@@ -756,6 +756,12 @@ Return JSON:
     ]
   }
 }
+
+**CRITICAL: Section Analysis Length Requirement**
+- Your section_analysis should be 30-40% of the total retrieved context length
+- Example: If you retrieved 3,000 words of content → section_analysis should be 900-1,200 words
+- DO NOT write overly brief summaries - synthesize comprehensively
+- Validate: count words in all retrieved documents, ensure your analysis meets the 30-40% threshold
 ```
 
 ### Step 5: Synthesize and Analyze
@@ -770,6 +776,13 @@ Return JSON:
 2. Build master metadata structure
 3. Assemble final report with all sections
 4. Validate completeness
+
+**REPORT LENGTH REQUIREMENT**:
+- **CRITICAL**: Final report should NOT be too short
+- **Target word count**: 30-40% of total retrieved context length
+- Example: If retrieved documents total 10,000 words → report should be 3,000-4,000 words
+- This ensures comprehensive synthesis rather than superficial summary
+- Validate: `len(report_text) / len(all_retrieved_context) should be between 0.3 and 0.4`
 
 **DO NOT**:
 - ❌ Skip metadata aggregation
@@ -868,6 +881,7 @@ output/{topic}_{timestamp}/
 | **"Comparison requires retrieving both entities"** | **NO. Retrieve only missing entity. Reuse available data from chat history.** |
 | **"All financial questions invoke skill"** | **NO. Extraction/Clarification can be answered directly from chat history.** |
 | **"Chat history might be inaccurate"** | **Chat history from Turn N-1 is authoritative source. Trust it.** |
+| **"Brief summary is sufficient"** | **Report must be 30-40% of context length. Comprehensive synthesis required.** |
 
 ## Common Mistakes
 
@@ -894,6 +908,7 @@ output/{topic}_{timestamp}/
 | **Proceeding with confidence <0.6 without confirmation** | **Ask user to confirm at low confidence** |
 | **Not including question_type_metadata in plan** | **Always record which type was matched** |
 | **Skipping workflow extraction** | **Extract reference_rules and reference_workflow from matched type** |
+| **Writing overly brief reports** | **Report should be 30-40% of retrieved context length, not superficial summaries** |
 
 ## Tool Usage Summary
 
