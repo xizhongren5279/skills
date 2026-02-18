@@ -24,48 +24,11 @@ skill-name/
 
 This three-level system minimizes context bloat while providing deep capabilities when needed.
 
-### Key Categories
+### Skill Categories
 
-**Document Processing Skills:**
-- `docx/` - Word document creation, editing, tracked changes, redlining
-- `pptx/` - PowerPoint slide manipulation, rearrangement, thumbnails
-- `pdf/` - PDF form filling, text extraction, bounding box validation
-- `xlsx/` - Excel spreadsheet recalculation
+Skills live in `skills/` and fall into five groups: document processing (`xlsx`, `docx`, `pptx`, `pdf`), financial (`financial-research`, `company-one-page`, `company-due-diligence`, `financial-report-reviewer`), development workflow superpowers (`brainstorming`, `writing-plans`, `systematic-debugging`, etc.), developer tools (`skill-creator`, `mcp-builder`, `webapp-testing`, `web-artifacts-builder`), and creative/visual (`algorithmic-art`, `canvas-design`, `slack-gif-creator`, etc.). Run `ls skills/` for the full list.
 
-**Financial Skills:**
-- `financial-research/` - Deep-dive company/industry/macro/strategy/quantitative research
-- `company-one-page/` - Standardized one-page company summaries
-- `company-due-diligence/` - Due diligence research workflow
-- `financial-report-reviewer/` - PDF report analysis and extraction
-
-**Development Workflow Skills** (superpowers):
-- `brainstorming/` - Pre-creative work exploration
-- `dispatching-parallel-agents/` - 2+ independent tasks without shared state
-- `executing-plans/` - Written implementation plans with review checkpoints
-- `finishing-a-development-branch/` - Post-implementation decisions (merge/PR/cleanup)
-- `receiving-code-review/` - Technical review of feedback before implementation
-- `requesting-code-review/` - Verification before merging
-- `subagent-driven-development/` - Implementation plans with independent tasks
-- `systematic-debugging/` - Bug investigation before proposing fixes
-- `test-driven-development/` - Test-first implementation
-- `using-git-worktrees/` - Isolated feature work
-- `using-superpowers/` - Finding and using skills
-- `verification-before-completion/` - Evidence before assertions
-- `writing-plans/` - Multi-step task planning before code
-- `writing-skills/` - Creating/editing/verifying skills
-
-**Developer Tools:**
-- `skill-creator/` - Meta-skill for creating new skills
-- `mcp-builder/` - MCP server construction
-- `webapp-testing/` - Playwright-based testing
-- `web-artifacts-builder/` - HTML/React artifact generation
-
-**Creative/Visual:**
-- `algorithmic-art/` - Generative artwork
-- `brand-guidelines/` - Brand asset management
-- `canvas-design/` - Canvas-based visuals
-- `slack-gif-creator/` - Animated GIF generation
-- `theme-factory/` - Theme styling
+**Marketplace bundles** (`.claude-plugin/marketplace.json`) only include `document-skills` and `example-skills`. Financial skills and superpowers are standalone — they are NOT in any marketplace bundle.
 
 ## Common Development Commands
 
@@ -79,42 +42,42 @@ python3 skills/skill-creator/scripts/init_skill.py <skill-name> --path <output-d
 python3 skills/skill-creator/scripts/init_skill.py my-new-skill --path skills/
 ```
 
-The init script creates:
-- SKILL.md with proper YAML frontmatter and TODO placeholders
-- Example `scripts/`, `references/`, and `assets/` directories with sample files
+The init script creates SKILL.md with proper YAML frontmatter and TODO placeholders, plus example `scripts/`, `references/`, and `assets/` directories.
 
 ### Packaging/Validating Skills
 
 ```bash
-# Package a skill into distributable .skill file (validates automatically)
-python3 skills/skill-creator/scripts/package_skill.py <path/to/skill-folder> [output-directory]
+# Validate skill structure only
+python3 skills/skill-creator/scripts/quick_validate.py <path/to/skill-folder>
 
-# Example
-python3 skills/skill-creator/scripts/package_skill.py skills/my-skill ./dist
+# Package into distributable .skill file (ZIP archive, validates automatically)
+python3 skills/skill-creator/scripts/package_skill.py <path/to/skill-folder> [output-directory]
 ```
 
-Packaging automatically validates:
-- YAML frontmatter format and required fields
-- Skill naming conventions and directory structure
-- Description completeness
-- File organization
+Validation checks: YAML frontmatter format/fields, naming conventions, description completeness, file organization.
 
-### Running Python Scripts
+### Running Scripts
 
-Most scripts are standalone and can be run directly:
+Most scripts are standalone:
 ```bash
 python3 skills/<skill-name>/scripts/<script>.py [args]
+node skills/<skill-name>/scripts/<script>.js [args]
 ```
 
-### Testing MCP Tools
+### MCP Tools (financial-research)
 
-The financial-research skill integrates MCP tools for data retrieval:
+The financial-research skill uses MCP tools invoked through the skill workflow, not directly:
 - `info_search_finance_db` - Research reports, news, announcements
 - `info_search_stock_db` - Quantitative financial data
 - `info_search_user_db` - User-uploaded documents
 - `info_search_web` - Web search fallback
 
-These are invoked through the skill workflow, not directly.
+## Development Infrastructure
+
+- **No test framework**: No pytest config, no test directories, no CI/CD pipelines
+- **No linting/formatting**: No ESLint, Prettier, flake8, or similar configured
+- **No root package.json**: The root `node_modules/` was installed manually and contains `pptxgenjs`, `playwright`, `sharp`, `jszip`, `image-size`
+- **Multi-IDE support**: `.agents/`, `.cursor/`, `.codebuddy/`, `.qoder/`, `.trae/`, `.windsurf/` directories contain skill symlinks for various AI coding tools
 
 ## Architecture Patterns
 
@@ -249,13 +212,18 @@ The `.claude-plugin/marketplace.json` configures skill collections:
 - `document-skills` - xlsx, docx, pptx, pdf
 - `example-skills` - algorithmic-art, brand-guidelines, canvas-design, etc.
 
+Financial skills, superpowers, and `remotion-best-practices` are NOT bundled — they exist as standalone skills outside marketplace config.
+
 ## Dependencies
 
-Python scripts typically require:
-- `pandas` - Excel processing (question type parser)
-- `aiohttp` - Async HTTP (company-due-diligence)
-- `langchain-core`, `langgraph` - LangChain integration
-- `loguru` - Logging
-- `openpyxl` - Excel file reading (implicit via pandas)
+No repository-wide requirements.txt or package.json — dependencies are skill-specific.
 
-No repository-wide requirements.txt - dependencies are skill-specific.
+**Python** (varies by skill): `pandas`, `openpyxl`, `aiohttp`, `langchain-core`, `langgraph`, `loguru`, `pillow`, `imageio`, `numpy`
+
+**Node.js** (root `node_modules/`, no package.json): `pptxgenjs`, `playwright`, `sharp`, `jszip`, `image-size`
+
+## Key Resources
+
+- `skills/writing-skills/references/anthropic-best-practices.md` (45KB) - Comprehensive skill authoring best practices
+- `skills/writing-skills/references/testing-skills-with-subagents.md` - Testing methodology for skills
+- `skills/financial-research/references/plan_for_question_type.xlsx` - 26 research type templates (the database driving question type matching)
