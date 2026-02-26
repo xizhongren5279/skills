@@ -41,82 +41,84 @@ info_search_finance_db (primary, always start here for qualitative)
 
 ## Parallel Execution Rules
 
+All retrieval calls are executed via `Task` tool subagents (`subagent_type="general-purpose"`), NOT as direct MCP calls in the main conversation.
+
 ### Dependency Check Algorithm
 
-Before each retrieval round, for all planned tool calls check:
-**"Does Call B's parameters depend on Call A's output?"**
+Before each retrieval round, for all planned retrieval tasks check:
+**"Does Task B's parameters depend on Task A's output?"**
 
-- **NO (independent)** → MUST execute in parallel (same message)
-- **YES (dependent)** → Execute serially (wait for prior result)
+- **NO (independent)** → MUST spawn as parallel Task subagents (same message, multiple Task tool calls)
+- **YES (dependent)** → Execute serially (wait for prior Task result)
 
 ### Parallel Patterns
 
 **Pattern A: Entity Comparison**
 User: "对比阿里和腾讯的PE和2023年净利润"
 ```
-Round 1 (all parallel):
-  info_search_stock_db(query="阿里巴巴 PE")
-  info_search_stock_db(query="腾讯控股 PE")
-  info_search_stock_db(query="阿里巴巴 2023年净利润")
-  info_search_stock_db(query="腾讯控股 2023年净利润")
+Round 1 (4 Task subagents spawned in ONE message, all parallel):
+  Task 1 → info_search_stock_db(query="阿里巴巴 PE")
+  Task 2 → info_search_stock_db(query="腾讯控股 PE")
+  Task 3 → info_search_stock_db(query="阿里巴巴 2023年净利润")
+  Task 4 → info_search_stock_db(query="腾讯控股 2023年净利润")
 ```
 
 **Pattern B: Multi-dimensional Evidence**
 User: "分析特斯拉的股价表现和最近的负面新闻"
 ```
-Round 1 (parallel, cross-tool):
-  info_search_stock_db(query="特斯拉 近一个月 股价走势")
-  info_search_finance_db(query="特斯拉 负面新闻 安全事故 召回", doc_type="news")
+Round 1 (2 Task subagents spawned in ONE message, parallel, cross-tool):
+  Task 1 → info_search_stock_db(query="特斯拉 近一个月 股价走势")
+  Task 2 → info_search_finance_db(query="特斯拉 负面新闻 安全事故 召回", doc_type="news")
 ```
 
 **Pattern C: Serial Dependency (The Exception)**
 User: "查宁德时代最大供应商的最新财报"
 ```
-Round 1: info_search_finance_db(query="宁德时代 第一大供应商 名称")
-  → Wait for result: "XX公司"
-Round 2: info_search_finance_db(query="XX公司 最新财报")
+Round 1 (1 Task subagent): Task 1 → info_search_finance_db(query="宁德时代 第一大供应商 名称")
+  → Wait for Task 1 result: "XX公司"
+Round 2 (1 Task subagent): Task 2 → info_search_finance_db(query="XX公司 最新财报")
 ```
 
 **When first hop fails** (no clear intermediate answer):
 ```
-Round 1: info_search_finance_db(query="宁德时代 第一大供应商 名称")
+Round 1: Task 1 → info_search_finance_db(query="宁德时代 第一大供应商 名称")
   → Result: channel strategy reports, no specific name
-Round 1 retry: info_search_finance_db(query="宁德时代 前五大供应商 年报披露", date_range="all")
+Round 1 retry: Task 2 → info_search_finance_db(query="宁德时代 前五大供应商 年报披露", date_range="all")
   → Still unclear?
-Round 2 fallback: info_search_web(query="宁德时代最大供应商是谁")
+Round 2 fallback: Task 3 → info_search_web(query="宁德时代最大供应商是谁")
   → Still no answer? → Inform user: "数据库中未找到该信息" + provide related context found
 ```
 
 **Pattern D: Compound Question (Industry + Companies)**
 User: "光伏行业是否到底了？隆基和通威值得买吗？"
 ```
-Round 1 (all parallel):
-  info_search_finance_db(query="光伏行业 周期底部 产能过剩 供需", doc_type="report")
-  info_search_finance_db(query="隆基绿能 投资价值 分析", doc_type="report")
-  info_search_finance_db(query="通威股份 投资价值 分析", doc_type="report")
+Round 1 (3 Task subagents spawned in ONE message, all parallel):
+  Task 1 → info_search_finance_db(query="光伏行业 周期底部 产能过剩 供需", doc_type="report")
+  Task 2 → info_search_finance_db(query="隆基绿能 投资价值 分析", doc_type="report")
+  Task 3 → info_search_finance_db(query="通威股份 投资价值 分析", doc_type="report")
 ```
-Note: Industry query and each company query are independent → all parallel.
+Note: Industry query and each company query are independent → all parallel Task subagents.
 
 **Pattern E: Macro-Company Intersection**
 User: "美联储降息对中国房地产龙头有什么影响？"
 ```
-Round 1 (parallel, split macro from sector):
-  info_search_finance_db(query="美联储降息 新兴市场 资金流向 利率传导 影响")
-  info_search_finance_db(query="中国房地产龙头 保利发展 万科 销售 融资成本")
+Round 1 (2 Task subagents spawned in ONE message, parallel, split macro from sector):
+  Task 1 → info_search_finance_db(query="美联储降息 新兴市场 资金流向 利率传导 影响")
+  Task 2 → info_search_finance_db(query="中国房地产龙头 保利发展 万科 销售 融资成本")
 ```
 NEVER combine "美联储降息" and "中国房地产" in a single query — results will be off-topic.
 
 **Pattern F: Cross-Market Comparison**
 User: "对比腾讯和Meta的PE和市值"
 ```
-Round 1 (parallel):
-  info_search_stock_db(query="腾讯控股 2025年 PE和市值")
-  info_search_stock_db(query="Meta Platforms 2025年 PE和市值")
+Round 1 (2 Task subagents spawned in ONE message, parallel):
+  Task 1 → info_search_stock_db(query="腾讯控股 2025年 PE和市值")
+  Task 2 → info_search_stock_db(query="Meta Platforms 2025年 PE和市值")
 ```
 If one entity has missing metrics (e.g., Tencent PE not returned):
 ```
-Round 2 (fallback):
-  info_search_finance_db(query="腾讯控股 估值分析 PE 市盈率", doc_type="report")
+Round 2 (1 Task subagent, fallback):
+  Task 3 → info_search_finance_db(query="腾讯控股 估值分析 PE 市盈率", doc_type="report")
 ```
 Always note currency differences in the answer (HKD vs USD).
 
